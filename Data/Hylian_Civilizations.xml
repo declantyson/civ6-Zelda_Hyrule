@@ -282,41 +282,34 @@
 	</RequirementArguments>
 
 	<CityNames>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Phaistos"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Malia"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Kato Zakros"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Galatas"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Tylissos"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Hagia Triada"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Amnisos"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Kydonia"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Chania"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Agia Triada"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Gournia"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Pyrgos"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Vasiliki"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Fournou Korfi"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Pseira"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Mount Juktas"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Arkalochori"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Karfi"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Akrotiri"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Zominthos"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Heraklion"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Mochlos"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Myrtos"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Palekastro"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Kea"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Thera"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Rodos"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Melos"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Kithira"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Kasteli"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Arkades"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Dreros"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Cortyn"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Lato"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Lyktos"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Hyrule Castle"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Kakariko"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Ordon"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Faron"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Snowpeak"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Great Bay"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Ikana Canyon"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Woodfall"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Romani"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Clock Town"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Eldin"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Lanayru"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Skyloft"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Theive's Town"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Mabe"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Lynna City"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Horon"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Subrosia"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Windfall"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Dragon Roost"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Outset"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Forest Haven"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Old Kasuto"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="New Kasuto"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Aboda"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Anouki"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Papuchia"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Papuchia"/>
 	</CityNames>
 	<StartBiasTerrains>
 		<Row CivilizationType="CIVILIZATION_HYLIAN" TerrainType="TERRAIN_COAST" Tier="2"/>
