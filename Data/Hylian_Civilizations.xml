@@ -309,17 +309,19 @@
 		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Aboda"/>
 		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Anouki"/>
 		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Papuchia"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" CityName="Papuchia"/>
 	</CityNames>
 	<StartBiasTerrains>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" TerrainType="TERRAIN_COAST" Tier="2"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" TerrainType="TERRAIN_PLAINS_HILLS" Tier="4"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" TerrainType="TERRAIN_GRASS_HILLS" Tier="4"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" TerrainType="TERRAIN_PLAINS" Tier="5"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" TerrainType="TERRAIN_GRASS" Tier="5"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" TerrainType="TERRAIN_PLAINS" Tier="2"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" TerrainType="TERRAIN_GRASS" Tier="2"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" TerrainType="TERRAIN_PLAINS_HILLS" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" TerrainType="TERRAIN_GRASS_HILLS" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" TerrainType="TERRAIN_COAST" Tier="5"/>
 	</StartBiasTerrains>
 	<StartBiasResources>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" ResourceType="RESOURCE_WHALES" Tier="4"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" ResourceType="RESOURCE_JADE" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" ResourceType="RESOURCE_GYPSUM" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" ResourceType="RESOURCE_DIAMONDS" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" ResourceType="RESOURCE_SILVER" Tier="3"/>
 		<Row CivilizationType="CIVILIZATION_HYLIAN" ResourceType="RESOURCE_PEARLS" Tier="4"/>
 	</StartBiasResources>
 </GameInfo>
