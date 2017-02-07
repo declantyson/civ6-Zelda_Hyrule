@@ -10,6 +10,8 @@
 	<LeaderTraits>
 		<Row LeaderType="LEADER_ZELDA" TraitType="TRAIT_LEADER_KINGS_RHYTON"/>
 	</LeaderTraits>
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_ZELDA" AgendaType="AGENDA_DEVOUT"/>
 	<Traits>
 		<Row TraitType="TRAIT_LEADER_KINGS_RHYTON" Name="LOC_TRAIT_LEADER_KINGS_RHYTON_NAME" Description="LOC_TRAIT_LEADER_KINGS_RHYTON_DESCRIPTION"/>
 	</Traits>
