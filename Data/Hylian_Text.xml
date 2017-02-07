@@ -15,11 +15,11 @@
       <Text>Hylian</Text>
     </Row>
    <!--Traits -->
-   <Row Tag="LOC_TRAIT_CIVILIZATION_THALASSOCRACY_NAME" Language="en_US">
-      <Text>Thalassocracy</Text>
+   <Row Tag="LOC_TRAIT_CIVILIZATION_SACRED_STONES_NAME" Language="en_US">
+      <Text>Sacred Stones</Text>
     </Row>
-    <Row Tag="LOC_TRAIT_CIVILIZATION_THALASSOCRACY_DESCRIPTION" Language="en_US">
-      <Text>Water tiles receive +1 [ICON_Production][NEWLINE]Fishing boats receive:[NEWLINE] +1 [ICON_Culture] for Pearls and Whales[NEWLINE] +1 [ICON_Gold] for Crabs (with Square Rigging)[NEWLINE] +1 [ICON_Food] for Fish (with Sanitation)</Text>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_SACRED_STONES_DESCRIPTION" Language="en_US">
+        <Text>Precious metal resources (Jade, Gypsum, Diamonds, Silver, Pearls) grant +3 [ICON_Faith].</Text>
     </Row>
   
     <Row Tag="LOC_TRAIT_LEADER_KINGS_RHYTON_NAME" Language="en_US">

@@ -2,7 +2,7 @@
 <GameInfo>
 	<Types>
 		<Row Type="CIVILIZATION_HYLIAN" Kind="KIND_CIVILIZATION"/>
-		<Row Type="TRAIT_CIVILIZATION_THALASSOCRACY" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_SACRED_STONES" Kind="KIND_TRAIT" />
 	</Types>
 	<Civilizations>
 		<Row CivilizationType="CIVILIZATION_HYLIAN" Name="LOC_CIVILIZATION_HYLIAN_NAME" Description="LOC_CIVILIZATION_HYLIAN_DESCRIPTION" Adjective="LOC_CIVILIZATION_HYLIAN_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="3" Ethnicity="ETHNICITY_EURO"/>
@@ -11,274 +11,63 @@
 		<Row CivilizationType="CIVILIZATION_HYLIAN" LeaderType="LEADER_ZELDA" CapitalName="Hyrule"/>
 	</CivilizationLeaders>
 	<Traits>
-		<Row TraitType="TRAIT_CIVILIZATION_THALASSOCRACY" Name="LOC_TRAIT_CIVILIZATION_THALASSOCRACY_NAME" Description="LOC_TRAIT_CIVILIZATION_THALASSOCRACY_DESCRIPTION" />
+		<Row TraitType="TRAIT_CIVILIZATION_SACRED_STONES" Name="LOC_TRAIT_CIVILIZATION_SACRED_STONES_NAME" Description="LOC_TRAIT_CIVILIZATION_SACRED_STONES_DESCRIPTION" />
 	</Traits>
 	<CivilizationTraits>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" TraitType="TRAIT_CIVILIZATION_THALASSOCRACY"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" TraitType="TRAIT_CIVILIZATION_SACRED_STONES"/>
 		<Row CivilizationType="CIVILIZATION_HYLIAN" TraitType="TRAIT_CIVILIZATION_BUILDING_MAGAZINE"/>
 	</CivilizationTraits>
 	
 
 	<TraitModifiers>
-		<Row TraitType="TRAIT_CIVILIZATION_THALASSOCRACY" ModifierId="TRAIT_HYLIAN_WATER_PRODUCTION" />
-		<Row TraitType="TRAIT_CIVILIZATION_THALASSOCRACY" ModifierId="TRAIT_HYLIAN_CRABS_GOLD" />
-		<Row TraitType="TRAIT_CIVILIZATION_THALASSOCRACY" ModifierId="TRAIT_HYLIAN_FISH_FOOD" />
-		<Row TraitType="TRAIT_CIVILIZATION_THALASSOCRACY" ModifierId="TRAIT_HYLIAN_FISH_NO_FOOD_FOR_PLASTICS" /> <!-- Don't give additional food w/ plastics -->
-		<Row TraitType="TRAIT_CIVILIZATION_THALASSOCRACY" ModifierId="TRAIT_HYLIAN_WHALES_CULTURE" />
-		<Row TraitType="TRAIT_CIVILIZATION_THALASSOCRACY" ModifierId="TRAIT_HYLIAN_PEARLS_CULTURE" />
+		<Row TraitType="TRAIT_CIVILIZATION_SACRED_STONES" ModifierId="TRAIT_HYLIAN_JADE_FAITH" />
 	</TraitModifiers>
 
 	<Modifiers>
-		<Row ModifierId="TRAIT_HYLIAN_WATER_PRODUCTION" ModifierType="MODIFIER_PLAYER_ADJUST_PLOT_YIELD" RunOnce="0" Permanent="0" SubjectRequirementSetId="PLOT_IS_WATER_HYLIAN" />
-		<Row ModifierId="TRAIT_HYLIAN_CRABS_GOLD" ModifierType="MODIFIER_PLAYER_ADJUST_PLOT_YIELD" RunOnce="0" Permanent="0" OwnerRequirementSetId="PLAYER_HAS_SQUARE_RIGGING_TECH" SubjectRequirementSetId="PLOT_HAS_HARVESTED_CRABS" />
-		<Row ModifierId="TRAIT_HYLIAN_FISH_FOOD" ModifierType="MODIFIER_PLAYER_ADJUST_PLOT_YIELD" RunOnce="0" Permanent="0" OwnerRequirementSetId="PLAYER_HAS_SANITATION_TECH" SubjectRequirementSetId="PLOT_HAS_HARVESTED_FISH" />
-		<Row ModifierId="TRAIT_HYLIAN_FISH_NO_FOOD_FOR_PLASTICS" ModifierType="MODIFIER_PLAYER_ADJUST_PLOT_YIELD" RunOnce="0" Permanent="0" OwnerRequirementSetId="PLAYER_HAS_PLASTICS_TECH" SubjectRequirementSetId="PLOT_HAS_HARVESTED_FISH" />
-		<Row ModifierId="TRAIT_HYLIAN_WHALES_CULTURE" ModifierType="MODIFIER_PLAYER_ADJUST_PLOT_YIELD" RunOnce="0" Permanent="0" SubjectRequirementSetId="PLOT_HAS_HARVESTED_WHALES" />
-		<Row ModifierId="TRAIT_HYLIAN_PEARLS_CULTURE" ModifierType="MODIFIER_PLAYER_ADJUST_PLOT_YIELD" RunOnce="0" Permanent="0" SubjectRequirementSetId="PLOT_HAS_HARVESTED_PEARLS" />
+		<Row ModifierId="TRAIT_HYLIAN_JADE_FAITH" ModifierType="MODIFIER_PLAYER_ADJUST_PLOT_YIELD" RunOnce="0" Permanent="0" SubjectRequirementSetId="PLOT_HAS_HARVESTED_JADE" />
 	</Modifiers>
 
 	<ModifierArguments>
-		<Row ModifierId="TRAIT_HYLIAN_WATER_PRODUCTION" Name="YieldType" Value="YIELD_PRODUCTION" />
-		<Row ModifierId="TRAIT_HYLIAN_WATER_PRODUCTION" Name="Amount" Value="1" />
-		
-		<Row ModifierId="TRAIT_HYLIAN_CRABS_GOLD" Name="YieldType" Value="YIELD_GOLD" />
-		<Row ModifierId="TRAIT_HYLIAN_CRABS_GOLD" Name="Amount" Value="1" />
-		
-		<Row ModifierId="TRAIT_HYLIAN_FISH_FOOD" Name="YieldType" Value="YIELD_FOOD" />
-		<Row ModifierId="TRAIT_HYLIAN_FISH_FOOD" Name="Amount" Value="1" />
-		
-		<Row ModifierId="TRAIT_HYLIAN_FISH_NO_FOOD_FOR_PLASTICS" Name="YieldType" Value="YIELD_FOOD" />
-		<Row ModifierId="TRAIT_HYLIAN_FISH_NO_FOOD_FOR_PLASTICS" Name="Amount" Value="-1" />
-		
-		<Row ModifierId="TRAIT_HYLIAN_WHALES_CULTURE" Name="YieldType" Value="YIELD_CULTURE" />
-		<Row ModifierId="TRAIT_HYLIAN_WHALES_CULTURE" Name="Amount" Value="1" />
-
-		<Row ModifierId="TRAIT_HYLIAN_PEARLS_CULTURE" Name="YieldType" Value="YIELD_CULTURE" />
-		<Row ModifierId="TRAIT_HYLIAN_PEARLS_CULTURE" Name="Amount" Value="1" />
+		<Row ModifierId="TRAIT_HYLIAN_JADE_FAITH" Name="YieldType" Value="YIELD_FAITH" />
+		<Row ModifierId="TRAIT_HYLIAN_JADE_FAITH" Name="Amount" Value="3" />
 	</ModifierArguments>
 
 	<RequirementSets>
-		<!-- Water Production -->
+		<!-- Jade -->
 		<Row>
-			<RequirementSetId>PLOT_IS_WATER_HYLIAN</RequirementSetId>
-			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
-		</Row>		
-
-		<!-- Crabs -->
-		<Row>
-			<RequirementSetId>PLOT_HAS_HARVESTED_CRABS</RequirementSetId>
-			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
-		</Row>
-		<Row>
-			<RequirementSetId>PLAYER_HAS_SQUARE_RIGGING_TECH</RequirementSetId>
-			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
-		</Row>
-
-		<!-- Fish -->
-		<Row>
-			<RequirementSetId>PLOT_HAS_HARVESTED_FISH</RequirementSetId>
-			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
-		</Row>
-		<Row>
-			<RequirementSetId>PLAYER_HAS_SANITATION_TECH</RequirementSetId>
-			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
-		</Row>
-
-		<!-- Plastics remove bonus -->
-		<Row>
-			<RequirementSetId>PLAYER_HAS_PLASTICS_TECH</RequirementSetId>
-			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
-		</Row>
-
-		<!-- Whales -->
-		<Row>
-			<RequirementSetId>PLOT_HAS_HARVESTED_WHALES</RequirementSetId>
-			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
-		</Row>
-
-		<!-- Pearls -->
-		<Row>
-			<RequirementSetId>PLOT_HAS_HARVESTED_PEARLS</RequirementSetId>
+			<RequirementSetId>PLOT_HAS_HARVESTED_JADE</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
 
 	<RequirementSetRequirements>
-		<!-- Water Production -->
+		<!-- Jade -->
 		<Row>
-			<RequirementSetId>PLOT_IS_WATER_HYLIAN</RequirementSetId>
-			<RequirementId>REQUIRES_COAST_HYLIAN</RequirementId>
+			<RequirementSetId>PLOT_HAS_HARVESTED_JADE</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_MINE</RequirementId>
 		</Row>
 		<Row>
-			<RequirementSetId>PLOT_IS_WATER_HYLIAN</RequirementSetId>
-			<RequirementId>REQUIRES_OCEAN_HYLIAN</RequirementId>
-		</Row>
-
-		<!-- Crabs-->
-		<Row>
-			<RequirementSetId>PLOT_HAS_HARVESTED_CRABS</RequirementSetId>
-			<RequirementId>REQUIRES_PLOT_HAS_FISHINGBOATS</RequirementId>
-		</Row>
-		<Row>
-			<RequirementSetId>PLOT_HAS_HARVESTED_CRABS</RequirementSetId>
-			<RequirementId>REQUIRES_PLOT_HAS_CRABS_HYLIAN</RequirementId>
-		</Row>
-		<Row>
-			<RequirementSetId>PLAYER_HAS_SQUARE_RIGGING_TECH</RequirementSetId>
-			<RequirementId>REQUIRES_TECHNOLOGY_SQUARE_RIGGING_HYLIAN</RequirementId>
-		</Row>
-
-		<!-- Fish (bonus) -->
-		<Row>
-			<RequirementSetId>PLOT_HAS_HARVESTED_FISH</RequirementSetId>
-			<RequirementId>REQUIRES_PLOT_HAS_FISHINGBOATS</RequirementId>
-		</Row>
-		<Row>
-			<RequirementSetId>PLOT_HAS_HARVESTED_FISH</RequirementSetId>
-			<RequirementId>REQUIRES_PLOT_HAS_FISH_HYLIAN</RequirementId>
-		</Row>
-		<Row>
-			<RequirementSetId>PLAYER_HAS_SANITATION_TECH</RequirementSetId>
-			<RequirementId>REQUIRES_TECHNOLOGY_SANITATION_HYLIAN</RequirementId>
-		</Row>
-
-		<!-- Fish (remove bonus) -->
-		<Row>
-			<RequirementSetId>PLAYER_HAS_PLASTICS_TECH</RequirementSetId>
-			<RequirementId>REQUIRES_TECHNOLOGY_PLASTICS_HYLIAN</RequirementId>
-		</Row>
-
-		<!-- Whales -->
-		<Row>
-			<RequirementSetId>PLOT_HAS_HARVESTED_WHALES</RequirementSetId>
-			<RequirementId>REQUIRES_PLOT_HAS_FISHINGBOATS</RequirementId>
-		</Row>
-		<Row>
-			<RequirementSetId>PLOT_HAS_HARVESTED_WHALES</RequirementSetId>
-			<RequirementId>REQUIRES_PLOT_HAS_WHALES_HYLIAN</RequirementId>
-		</Row>
-
-		<!-- Pearls -->
-		<Row>
-			<RequirementSetId>PLOT_HAS_HARVESTED_PEARLS</RequirementSetId>
-			<RequirementId>REQUIRES_PLOT_HAS_FISHINGBOATS</RequirementId>
-		</Row>
-		<Row>
-			<RequirementSetId>PLOT_HAS_HARVESTED_PEARLS</RequirementSetId>
-			<RequirementId>REQUIRES_PLOT_HAS_PEARLS_HYLIAN</RequirementId>
+			<RequirementSetId>PLOT_HAS_HARVESTED_JADE</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_JADE_HYLIAN</RequirementId>
 		</Row>
 
 	</RequirementSetRequirements>
 
 	<Requirements>
-		<!-- Water Production -->
+		<!-- Jade -->
 		<Row>
-			<RequirementId>REQUIRES_COAST_HYLIAN</RequirementId>
-			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
-		</Row>
-		<Row>
-			<RequirementId>REQUIRES_OCEAN_HYLIAN</RequirementId>
-			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
-		</Row>
-		
-
-		<!-- Crabs Bonus -->
-		<Row>
-			<RequirementId>REQUIRES_PLOT_HAS_CRABS_HYLIAN</RequirementId>
-			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
-		</Row>
-		<Row>
-			<RequirementId>REQUIRES_TECHNOLOGY_SQUARE_RIGGING_HYLIAN</RequirementId>
-			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
-		</Row>
-
-		<!-- Fish Bonus -->
-		<Row>
-			<RequirementId>REQUIRES_PLOT_HAS_FISH_HYLIAN</RequirementId>
-			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
-		</Row>
-		<Row>
-			<RequirementId>REQUIRES_TECHNOLOGY_SANITATION_HYLIAN</RequirementId>
-			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
-		</Row>
-
-		<!-- Fish Remove Bonus -->
-		<Row>
-			<RequirementId>REQUIRES_TECHNOLOGY_PLASTICS_HYLIAN</RequirementId>
-			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
-		</Row>
-
-		<!-- Whales -->
-		<Row>
-			<RequirementId>REQUIRES_PLOT_HAS_WHALES_HYLIAN</RequirementId>
-			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
-		</Row>
-
-		<!-- Pearls -->
-		<Row>
-			<RequirementId>REQUIRES_PLOT_HAS_PEARLS_HYLIAN</RequirementId>
+			<RequirementId>REQUIRES_PLOT_HAS_JADE_HYLIAN</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
 		</Row>
 	</Requirements>
 
 	<RequirementArguments>
-		<!-- Water Production -->
+		<!-- Jade -->
 		<Row>
-			<RequirementId>REQUIRES_COAST_HYLIAN</RequirementId>
-			<Name>TerrainType</Name>
-			<Value>TERRAIN_COAST</Value>
-		</Row>
-		<Row>
-			<RequirementId>REQUIRES_OCEAN_HYLIAN</RequirementId>
-			<Name>TerrainType</Name>
-			<Value>TERRAIN_OCEAN</Value>
-		</Row>
-
-		<!-- Crabs -->
-		<Row>
-			<RequirementId>REQUIRES_PLOT_HAS_CRABS_HYLIAN</RequirementId>
+			<RequirementId>REQUIRES_PLOT_HAS_JADE_HYLIAN</RequirementId>
 			<Name>ResourceType</Name>
-			<Value>RESOURCE_CRABS</Value>
+			<Value>RESOURCE_JADE</Value>
 		</Row>
-		<Row>
-			<RequirementId>REQUIRES_TECHNOLOGY_SQUARE_RIGGING_HYLIAN</RequirementId>
-			<Name>TechnologyType</Name>
-			<Value>TECH_SQUARE_RIGGING</Value>
-		</Row>
-
-		<!-- Fish -->
-		<Row>
-			<RequirementId>REQUIRES_PLOT_HAS_FISH_HYLIAN</RequirementId>
-			<Name>ResourceType</Name>
-			<Value>RESOURCE_FISH</Value>
-		</Row>
-		<Row>
-			<RequirementId>REQUIRES_TECHNOLOGY_SANITATION_HYLIAN</RequirementId>
-			<Name>TechnologyType</Name>
-			<Value>TECH_SANITATION</Value>
-		</Row>
-
-		<!-- Plastics remove bonus -->
-		<Row>
-			<RequirementId>REQUIRES_TECHNOLOGY_PLASTICS_HYLIAN</RequirementId>
-			<Name>TechnologyType</Name>
-			<Value>TECH_PLASTICS</Value>
-		</Row>
-
-		<!-- Whales -->
-		<Row>
-			<RequirementId>REQUIRES_PLOT_HAS_WHALES_HYLIAN</RequirementId>
-			<Name>ResourceType</Name>
-			<Value>RESOURCE_WHALES</Value>
-		</Row>
-
-		<!-- Pearls -->
-		<Row>
-			<RequirementId>REQUIRES_PLOT_HAS_PEARLS_HYLIAN</RequirementId>
-			<Name>ResourceType</Name>
-			<Value>RESOURCE_PEARLS</Value>
-		</Row>
-
 	</RequirementArguments>
 
 	<CityNames>
