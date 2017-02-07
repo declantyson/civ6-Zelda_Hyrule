@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+  <!--Civilizations/Leaders -->
+    <Row Tag="LOC_CIVILIZATION_HYLIAN_NAME" Language="en_US">
+      <Text>Hylian</Text>
+    </Row>
+   <Row Tag="LOC_CIVILIZATION_HYLIAN_DESCRIPTION" Language="en_US">
+      <Text>Hylian Civilization</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_MINOS_NAME" Language="en_US">
+      <Text>King Minos</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_HYLIAN_ADJECTIVE" Language="en_US">
+      <Text>Hylian</Text>
+    </Row>
+   <!--Traits -->
+   <Row Tag="LOC_TRAIT_CIVILIZATION_THALASSOCRACY_NAME" Language="en_US">
+      <Text>Thalassocracy</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_THALASSOCRACY_DESCRIPTION" Language="en_US">
+      <Text>Water tiles receive +1 [ICON_Production][NEWLINE]Fishing boats receive:[NEWLINE] +1 [ICON_Culture] for Pearls and Whales[NEWLINE] +1 [ICON_Gold] for Crabs (with Square Rigging)[NEWLINE] +1 [ICON_Food] for Fish (with Sanitation)</Text>
+    </Row>
+  
+    <Row Tag="LOC_TRAIT_LEADER_KINGS_RHYTON_NAME" Language="en_US">
+      <Text>The King's Rhyton</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_KINGS_RHYTON_DESCRIPTION" Language="en_US">
+      <Text>Naval combat units gain +20 [ICON_Strength] Combat vs. all embarked units, and +10 [ICON_Strength] vs. Barbarian naval units.</Text>
+    </Row>
+
+    <!-- Buildings -->
+     <Row Tag="LOC_BUILDING_MAGAZINE_NAME" Language="en_US">
+      <Text>Magazine</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_MAGAZINE_DESCRIPTION" Language="en_US">
+      <Text>Provides +1 [ICON_Housing] Housing and +1 [ICON_TradeRoute] Trade Route. Domestic trade routes originating from the city receive +1 [ICON_Food].</Text>
+    </Row>
+
+    <!-- Technologies -->
+    <Row Tag="LOC_TECH_SQUARE_RIGGING_DESCRIPTION_HYLIAN" Language="en_US">
+      <Text>+1 Gold to Fishing Boats on Crab resources</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SANITATION_DESCRIPTION_HYLIAN" Language="en_US">
+      <Text>+1 Food to Fishing Boats on Fish resources</Text>
+    </Row>
+  <!-- Units -->
+  <Row Tag="LOC_UNIT_ARGO_NAME" Language="en_US">
+    <Text>Argo</Text>
+  </Row>
+  <Row Tag="LOC_UNIT_ARGO_DESCRIPTION" Language="en_US">
+    <Text>Ancient era naval scouting unit that can freely enter opponent territory. Can only operate on Coastal waters until Cartography is researched.</Text>
+  </Row>
+  
+  </LocalizedText>
+</GameData>

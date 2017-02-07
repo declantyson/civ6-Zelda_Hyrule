@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_HYRULE_PRIMARY</Type>
+			<Red>0.831</Red>
+			<Green>0.792</Green>
+			<Blue>0.564</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_HYRULE_SECONDARY</Type>
+			<Red>0.564</Red>
+			<Green>0.831</Green>
+			<Blue>0.658</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+	</Colors>
+</GameInfo>

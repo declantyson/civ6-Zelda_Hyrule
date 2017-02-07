@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="LEADER_MINOS" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_KINGS_RHYTON" Kind="KIND_TRAIT"/>
+	</Types>
+	<Leaders>
+		<Row LeaderType="LEADER_MINOS" Name="LOC_LEADER_MINOS_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+	</Leaders>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_MINOS" TraitType="TRAIT_LEADER_KINGS_RHYTON"/>
+	</LeaderTraits>
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_KINGS_RHYTON" Name="LOC_TRAIT_LEADER_KINGS_RHYTON_NAME" Description="LOC_TRAIT_LEADER_KINGS_RHYTON_DESCRIPTION"/>
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_KINGS_RHYTON" ModifierId="TRAIT_HYLIAN_BONUS_VS_EMBARKED_COAST"/>
+		<Row TraitType="TRAIT_LEADER_KINGS_RHYTON" ModifierId="TRAIT_HYLIAN_BONUS_VS_EMBARKED_OCEAN"/>
+		<Row TraitType="TRAIT_LEADER_KINGS_RHYTON" ModifierId="TRAIT_HYLIAN_ANTIPIRACY"/>
+	</TraitModifiers>
+
+	<Modifiers>
+	<!-- Bonus vs. Embarked -->
+		<!-- Coast -->
+		<Row>
+			<ModifierId>TRAIT_HYLIAN_BONUS_VS_EMBARKED_COAST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>REQUIREMENTS_HYLIAN_COMBAT_SHIPS_ONLY</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HYLIAN_BONUS_VS_EMBARKED_COAST</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<!-- REQUIREMENTS_UNIT_LAND_DOMAIN and on coast -->
+			<SubjectRequirementSetId>HYLIAN_ENEMY_EMBARKED_ON_COAST</SubjectRequirementSetId>
+		</Row>
+		<!-- Ocean -->
+		<Row>
+			<ModifierId>TRAIT_HYLIAN_BONUS_VS_EMBARKED_OCEAN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>REQUIREMENTS_HYLIAN_COMBAT_SHIPS_ONLY</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HYLIAN_BONUS_VS_EMBARKED_OCEAN</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<!-- REQUIREMENTS_UNIT_LAND_DOMAIN and on ocean -->
+			<SubjectRequirementSetId>HYLIAN_ENEMY_EMBARKED_ON_OCEAN</SubjectRequirementSetId>
+		</Row>
+
+	<!-- Bonus vs. Barbarian ships -->
+		<Row>
+			<ModifierId>TRAIT_HYLIAN_ANTIPIRACY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>REQUIREMENTS_HYLIAN_COMBAT_SHIPS_ONLY</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HYLIAN_NAVAL_BONUS_VS_BARB_SHIPS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>HYLIAN_ENEMY_IS_NAVAL_BARB</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+	<!-- Bonus vs. Embarked -->
+		<!-- Coast -->
+		<Row>
+			<ModifierId>TRAIT_HYLIAN_BONUS_VS_EMBARKED_COAST</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>HYLIAN_BONUS_VS_EMBARKED_COAST</Value>
+		</Row>
+		<Row>
+			<ModifierId>HYLIAN_BONUS_VS_EMBARKED_COAST</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<!-- Ocean -->
+		<Row>
+			<ModifierId>TRAIT_HYLIAN_BONUS_VS_EMBARKED_OCEAN</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>HYLIAN_BONUS_VS_EMBARKED_OCEAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>HYLIAN_BONUS_VS_EMBARKED_OCEAN</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+	<!-- Bonus vs. Barbarian ships -->
+		<Row>
+			<ModifierId>TRAIT_HYLIAN_ANTIPIRACY</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>HYLIAN_NAVAL_BONUS_VS_BARB_SHIPS</Value>
+		</Row>
+		<Row>
+			<ModifierId>HYLIAN_NAVAL_BONUS_VS_BARB_SHIPS</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+	</ModifierArguments>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>REQUIREMENTS_HYLIAN_COMBAT_SHIPS_ONLY</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>HYLIAN_ENEMY_EMBARKED_ON_COAST</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>HYLIAN_ENEMY_EMBARKED_ON_OCEAN</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>HYLIAN_ENEMY_IS_NAVAL_BARB</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+
+		<Row>
+			<RequirementSetId>REQUIREMENTS_HYLIAN_COMBAT_SHIPS_ONLY</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_SEA_DOMAIN</RequirementId>
+		</Row>
+		<!-- Exclude UU Argo (custom class: "naval scout") -->
+		<Row>
+			<RequirementSetId>REQUIREMENTS_HYLIAN_COMBAT_SHIPS_ONLY</RequirementSetId>
+			<RequirementId>REQUIRES_NON_NAVAL_SCOUT</RequirementId>
+		</Row>
+
+		<Row>
+			<RequirementSetId>HYLIAN_ENEMY_EMBARKED_ON_COAST</RequirementSetId>
+			<RequirementId>REQUIRES_HYLIAN_OPPONENT_UNIT_IS_LAND</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HYLIAN_ENEMY_EMBARKED_ON_COAST</RequirementSetId>
+			<RequirementId>REQUIRES_TERRAIN_COAST</RequirementId>
+		</Row>
+
+		<Row>
+			<RequirementSetId>HYLIAN_ENEMY_EMBARKED_ON_OCEAN</RequirementSetId>
+			<RequirementId>REQUIRES_HYLIAN_OPPONENT_UNIT_IS_LAND</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HYLIAN_ENEMY_EMBARKED_ON_OCEAN</RequirementSetId>
+			<RequirementId>REQUIRES_TERRAIN_OCEAN</RequirementId>
+		</Row>
+
+		<Row>
+			<RequirementSetId>HYLIAN_ENEMY_IS_NAVAL_BARB</RequirementSetId>
+			<RequirementId>REQUIRES_HYLIAN_OPPONENT_UNIT_IS_NAVAL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HYLIAN_ENEMY_IS_NAVAL_BARB</RequirementSetId>
+			<RequirementId>REQUIRES_HYLIAN_OPPONENT_UNIT_IS_BARB</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_NON_NAVAL_SCOUT</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_TAG_MATCHES</RequirementType>
+			<Inverse>1</Inverse>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HYLIAN_OPPONENT_UNIT_IS_LAND</RequirementId>
+			<RequirementType>REQUIREMENT_OPPONENT_UNIT_DOMAIN_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HYLIAN_OPPONENT_UNIT_IS_NAVAL</RequirementId>
+			<RequirementType>REQUIREMENT_OPPONENT_UNIT_DOMAIN_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HYLIAN_OPPONENT_UNIT_IS_BARB</RequirementId>
+			<RequirementType>REQUIREMENT_OPPONENT_IS_BARBARIAN</RequirementType>
+		</Row>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_NON_NAVAL_SCOUT</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_NAVAL_SCOUT</Value>
+		</Row>
+		
+		<Row>
+			<RequirementId>REQUIRES_HYLIAN_OPPONENT_UNIT_IS_LAND</RequirementId>
+			<Name>UnitDomain</Name>
+			<Value>DOMAIN_LAND</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HYLIAN_OPPONENT_UNIT_IS_NAVAL</RequirementId>
+			<Name>UnitDomain</Name>
+			<Value>DOMAIN_SEA</Value>
+		</Row>
+	</RequirementArguments>
+
+
+	<ModifierStrings>
+		<Row ModifierId="HYLIAN_NAVAL_BONUS_VS_BARB_SHIPS" Context="Preview" Text="LOC_HYLIAN_NAVAL_BONUS_VS_BARB_SHIPS_DESCRIPTION"/>
+		<Row ModifierId="HYLIAN_BONUS_VS_EMBARKED_COAST" Context="Preview" Text="LOC_HYLIAN_BONUS_VS_EMBARKED_DESCRIPTION"/>
+		<Row ModifierId="HYLIAN_BONUS_VS_EMBARKED_OCEAN" Context="Preview" Text="LOC_HYLIAN_BONUS_VS_EMBARKED_DESCRIPTION"/>
+	</ModifierStrings>
+	
+	<!--<AiListTypes>
+		<Row ListType="WataCivics"/>
+		<Row ListType="WataTechs"/>
+		<Row ListType="WataWonders"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="WataWonders" LeaderType="TRAIT_LEADER_VIPERS_DEN" System="Buildings"/>
+		<Row ListType="WataTechs" LeaderType="TRAIT_LEADER_VIPERS_DEN" System="Technologies"/>
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="WataWonders" Item="BUILDING_BOLSHOI_THEATRE"/>
+		<Row ListType="WataWonders" Item="BUILDING_CHICHEN_ITZA"/>
+		<Row ListType="WataTechs" Item="TECH_MACHINERY"/>
+		<Row ListType="WataTechs" Item="TECH_IRON_WORKING"/>
+	</AiFavoredItems>-->
+
+</GameInfo>

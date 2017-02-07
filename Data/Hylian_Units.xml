@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="UNIT_ARGO" Kind="KIND_UNIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_ARGO" Kind="KIND_TRAIT" />
+		<Row Type="ABILITY_NAVAL_ENTER_FOREIGN_LANDS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_BONUS_VS_EMBARKED" Kind="KIND_ABILITY"/>
+		<Row Type="PROMOTION_CLASS_HYLIAN_NAVAL_RECON" Kind="KIND_PROMOTION_CLASS"/>
+		<Row Type="PROMOTION_HYLIAN_ANTIPIRACY" Kind="KIND_PROMOTION"/> <!-- +COMBAT VS. BARB -->
+	</Types>
+
+	<Tags>
+		<Row Tag="CLASS_NAVAL_SCOUT" Vocabulary="ABILITY_CLASS" />
+	</Tags>
+
+	<TypeTags>
+		<Row Type="UNIT_ARGO" Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="UNIT_ARGO" Tag="CLASS_NAVAL_SCOUT" />
+		<Row Type="ABILITY_NAVAL_ENTER_FOREIGN_LANDS" Tag="CLASS_NAVAL_SCOUT"/>
+	</TypeTags>
+
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_ARGO" Name="LOC_TRAIT_CIVILIZATION_UNIT_ARGO_NAME"/>
+	</Traits>
+
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" TraitType="TRAIT_CIVILIZATION_UNIT_ARGO"/>
+	</CivilizationTraits>
+
+	<Units>
+		<Row UnitType="UNIT_ARGO" BaseMoves="4" Cost="50" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="false" Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_UNIT_ARGO_NAME" Description="LOC_UNIT_ARGO_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PromotionClass="PROMOTION_CLASS_HYLIAN_NAVAL_RECON" Maintenance="1" Combat="15" PrereqTech="TECH_SAILING" MandatoryObsoleteTech="TECH_STEAM_POWER" TraitType="TRAIT_CIVILIZATION_UNIT_ARGO"/>
+	</Units>
+
+	<UnitAiInfos>
+		<Row UnitType="UNIT_ARGO" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_ARGO" AiType="UNITTYPE_NAVAL"/>
+	</UnitAiInfos>
+
+
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_NAVAL_ENTER_FOREIGN_LANDS" Name="LOC_ABILITY_NAVAL_ENTER_FOREIGN_LANDS_NAME" Description="LOC_ABILITY_NAVAL_ENTER_FOREIGN_LANDS_DESCRIPTION"/>
+	</UnitAbilities>
+
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_NAVAL_ENTER_FOREIGN_LANDS</UnitAbilityType>
+			<ModifierId>MOD_ENTER_FOREIGN_LANDS</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>	
+
+	<UnitPromotionClasses>
+		<Row PromotionClassType="PROMOTION_CLASS_HYLIAN_NAVAL_RECON" Name="LOC_PROMOTION_CLASS_HYLIAN_NAVAL_RECON_NAME"/>
+	</UnitPromotionClasses>
+
+	<UnitPromotions>
+		<!--Naval Recon-->
+		<Row UnitPromotionType="PROMOTION_HYLIAN_ANTIPIRACY" Name="LOC_PROMOTION_HYLIAN_ANTIPIRACY_NAME" Description="LOC_PROMOTION_HYLIAN_ANTIPIRACY_DESCRIPTION" Level="1" Column="1" Specialization="" PromotionClass="PROMOTION_CLASS_HYLIAN_NAVAL_RECON"/>
+		<Row UnitPromotionType="PROMOTION_HYLIAN_SAFE_HARBOR" Name="LOC_PROMOTION_HYLIAN_SAFE_HARBOR_NAME" Description="LOC_PROMOTION_HYLIAN_SAFE_HARBOR_DESCRIPTION" Level="1" Column="3" Specialization="" PromotionClass="PROMOTION_CLASS_HYLIAN_NAVAL_RECON"/> <!-- AUXILIARY SHIPS -->
+		<Row UnitPromotionType="PROMOTION_HYLIAN_REINFORCED_ADVANCE" Name="LOC_PROMOTION_HYLIAN_REINFORCED_ADVANCE_NAME" Description="LOC_PROMOTION_HYLIAN_REINFORCED_ADVANCE_DESCRIPTION" Level="2" Column="1" Specialization="" PromotionClass="PROMOTION_CLASS_HYLIAN_NAVAL_RECON"/><!-- EMPLACEMENT -->
+		<Row UnitPromotionType="PROMOTION_HYLIAN_OCEAN_HARVEST" Name="LOC_PROMOTION_HYLIAN_OCEAN_HARVEST_NAME" Description="LOC_PROMOTION_HYLIAN_OCEAN_HARVEST_DESCRIPTION" Level="2" Column="3" Specialization="" PromotionClass="PROMOTION_CLASS_HYLIAN_NAVAL_RECON"/> <!-- DEPREDATION -->
+		<Row UnitPromotionType="PROMOTION_HYLIAN_TACKING" Name="LOC_PROMOTION_HYLIAN_TACKING_NAME" Description="LOC_PROMOTION_HYLIAN_TACKING_DESCRIPTION" Level="3" Column="1" Specialization="" PromotionClass="PROMOTION_CLASS_HYLIAN_NAVAL_RECON"/> <!-- CREW WEAPONS -->
+		<Row UnitPromotionType="PROMOTION_HYLIAN_SILENT_SAILS" Name="LOC_PROMOTION_HYLIAN_SILENT_SAILS_NAME" Description="LOC_PROMOTION_HYLIAN_SILENT_SAILS_DESCRIPTION" Level="3" Column="3" Specialization="" PromotionClass="PROMOTION_CLASS_HYLIAN_NAVAL_RECON"/> <!-- CAMOUFLAGE -->
+		<Row UnitPromotionType="PROMOTION_HYLIAN_HYLIAN_OARSMEN" Name="LOC_PROMOTION_HYLIAN_HYLIAN_OARSMEN_NAME" Description="LOC_PROMOTION_HYLIAN_HYLIAN_OARSMEN_DESCRIPTION" Level="4" Column="2" Specialization="" PromotionClass="PROMOTION_CLASS_HYLIAN_NAVAL_RECON"/> <!-- SWIFT KEEL -->
+
+	</UnitPromotions>
+
+	<UnitPromotionPrereqs>
+		<!--Recon-->
+		<Row UnitPromotion="PROMOTION_HYLIAN_REINFORCED_ADVANCE" PrereqUnitPromotion="PROMOTION_HYLIAN_ANTIPIRACY"/>
+		<Row UnitPromotion="PROMOTION_HYLIAN_OCEAN_HARVEST" PrereqUnitPromotion="PROMOTION_HYLIAN_SAFE_HARBOR"/>
+		<Row UnitPromotion="PROMOTION_HYLIAN_TACKING" PrereqUnitPromotion="PROMOTION_HYLIAN_REINFORCED_ADVANCE"/>
+		<Row UnitPromotion="PROMOTION_HYLIAN_TACKING" PrereqUnitPromotion="PROMOTION_HYLIAN_OCEAN_HARVEST"/>
+		<Row UnitPromotion="PROMOTION_HYLIAN_SILENT_SAILS" PrereqUnitPromotion="PROMOTION_HYLIAN_REINFORCED_ADVANCE"/>
+		<Row UnitPromotion="PROMOTION_HYLIAN_SILENT_SAILS" PrereqUnitPromotion="PROMOTION_HYLIAN_OCEAN_HARVEST"/>
+		<Row UnitPromotion="PROMOTION_HYLIAN_HYLIAN_OARSMEN" PrereqUnitPromotion="PROMOTION_HYLIAN_TACKING"/>
+		<Row UnitPromotion="PROMOTION_HYLIAN_HYLIAN_OARSMEN" PrereqUnitPromotion="PROMOTION_HYLIAN_SILENT_SAILS"/>
+	</UnitPromotionPrereqs>
+
+	<UnitPromotionModifiers>
+		<Row>
+			<UnitPromotionType>PROMOTION_HYLIAN_ANTIPIRACY</UnitPromotionType>
+			<ModifierId>PROMOTION_HYLIAN_ANTIPIRACY_BONUS</ModifierId>
+		</Row>
+
+		<Row>
+			<UnitPromotionType>PROMOTION_HYLIAN_SAFE_HARBOR</UnitPromotionType>
+			<ModifierId>AUXILIARY_SHIPS_NEUTRAL_TERRITORY_HEAL</ModifierId> <!-- Pre-existing -->
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_HYLIAN_SAFE_HARBOR</UnitPromotionType>
+			<ModifierId>AUXILIARY_SHIPS_ENEMY_TERRITORY_HEAL</ModifierId> <!-- Pre-existing -->
+		</Row>
+
+		<Row>
+			<UnitPromotionType>PROMOTION_HYLIAN_REINFORCED_ADVANCE</UnitPromotionType>
+			<ModifierId>PROMOTION_HYLIAN_REINFORCED_ADVANCE_DEFENSE_BONUS</ModifierId>
+		</Row>
+
+		<Row>
+			<UnitPromotionType>PROMOTION_HYLIAN_OCEAN_HARVEST</UnitPromotionType>
+			<ModifierId>DEPREDATION_BONUS_ADVANCED_PILLAGING</ModifierId> <!-- Pre-existing -->
+		</Row>
+
+		<Row>
+			<UnitPromotionType>PROMOTION_HYLIAN_TACKING</UnitPromotionType>
+			<ModifierId>CREW_WEAPONS_DEFENSE_BONUS</ModifierId> <!-- Pre-existing -->
+		</Row>
+
+		<Row>
+			<UnitPromotionType>PROMOTION_HYLIAN_SILENT_SAILS</UnitPromotionType>
+			<ModifierId>CAMOUFLAGE_STEALTH</ModifierId> <!-- Pre-existing -->
+		</Row>
+
+		<Row>
+			<UnitPromotionType>PROMOTION_HYLIAN_HYLIAN_OARSMEN</UnitPromotionType>
+			<ModifierId>SWIFT_KEEL_BONUS_MOVEMENT</ModifierId> <!-- Pre-existing -->
+		</Row>
+	</UnitPromotionModifiers>
+	
+	<Modifiers>
+		<Row>
+			<ModifierId>PROMOTION_HYLIAN_ANTIPIRACY_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_BARBARIAN_COMBAT</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>PROMOTION_HYLIAN_REINFORCED_ADVANCE_DEFENSE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>EMPLACEMENT_REQUIREMENTS</SubjectRequirementSetId> <!-- Pre-existing -->
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>PROMOTION_HYLIAN_ANTIPIRACY_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>PROMOTION_HYLIAN_REINFORCED_ADVANCE_DEFENSE_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+	</ModifierArguments>
+</GameInfo>

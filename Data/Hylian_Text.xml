@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+  <!--Civilizations/Leaders -->
+    <Row Tag="LOC_CIVILIZATION_HYLIAN_NAME" Language="en_US">
+      <Text>Hylian</Text>
+    </Row>
+   <Row Tag="LOC_CIVILIZATION_HYLIAN_DESCRIPTION" Language="en_US">
+      <Text>Hylian Civilization</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_MINOS_NAME" Language="en_US">
+      <Text>King Minos</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_HYLIAN_ADJECTIVE" Language="en_US">
+      <Text>Hylian</Text>
+    </Row>
+   <!--Traits -->
+   <Row Tag="LOC_TRAIT_CIVILIZATION_THALASSOCRACY_NAME" Language="en_US">
+      <Text>Thalassocracy</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_THALASSOCRACY_DESCRIPTION" Language="en_US">
+      <Text>Water tiles receive +1 [ICON_Production][NEWLINE]Fishing boats receive:[NEWLINE] +1 [ICON_Culture] for Pearls and Whales[NEWLINE] +1 [ICON_Gold] for Crabs (with Square Rigging)[NEWLINE] +1 [ICON_Food] for Fish (with Sanitation)</Text>
+    </Row>
+  
+    <Row Tag="LOC_TRAIT_LEADER_KINGS_RHYTON_NAME" Language="en_US">
+      <Text>The King's Rhyton</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_KINGS_RHYTON_DESCRIPTION" Language="en_US">
+      <Text>Naval combat units gain +20 [ICON_Strength] Combat vs. all embarked units, and +10 [ICON_Strength] vs. Barbarian naval units.</Text>
+    </Row>
+
+    <Row Tag="LOC_HYLIAN_NAVAL_BONUS_VS_BARB_SHIPS_DESCRIPTION" Language="en_US">
+      <Text>+10 vs. Barbarian ships</Text>
+    </Row>
+    <Row Tag="LOC_HYLIAN_BONUS_VS_EMBARKED_DESCRIPTION" Language="en_US">
+      <Text>+20 vs. Embarked units</Text>
+    </Row>
+    
+
+    <!-- Buildings -->
+    <Row Tag="LOC_BUILDING_MAGAZINE_NAME" Language="en_US">
+      <Text>Magazine</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_MAGAZINE_DESCRIPTION" Language="en_US">
+      <Text>Provides +1 [ICON_Housing] Housing and +1 [ICON_TradeRoute] Trade Route. Domestic trade routes originating from the city receive +1 [ICON_Food].</Text>
+    </Row>
+
+    <!-- Technologies -->
+    <Row Tag="LOC_TECH_SQUARE_RIGGING_DESCRIPTION_HYLIAN" Language="en_US">
+      <Text>+1 Gold to Fishing Boats on Crab resources</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SANITATION_HYLIAN" Language="en_US">
+      <Text>+1 Food to Fishing Boats on Fish resources</Text>
+    </Row>
+
+    <!-- Units -->
+    <Row Tag="LOC_UNIT_ARGO_NAME" Language="en_US">
+      <Text>Argo</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ARGO_DESCRIPTION" Language="en_US">
+      <Text>Ancient era naval scouting unit that can freely enter opponent territory. Can only operate in Coastal waters until Cartography is researched.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_HYLIAN_NAVAL_RECON_NAME" Language="en_US">
+      <Text>Naval Scout</Text>
+    </Row>
+    
+
+    <!-- Promotions -->
+    <Row Tag="LOC_PROMOTION_HYLIAN_ANTIPIRACY_NAME" Language="en_US">
+      <Text>Anti-Piracy</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HYLIAN_ANTIPIRACY_DESCRIPTION" Language="en_US">
+      <Text>+7 [ICON_Strength] Combat vs. Barbarians</Text>
+    </Row>
+
+    <Row Tag="LOC_PROMOTION_HYLIAN_SAFE_HARBOR_NAME" Language="en_US">
+      <Text>Safe Harbor</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HYLIAN_SAFE_HARBOR_DESCRIPTION" Language="en_US">
+      <Text>Heal outside of friendly territory</Text>
+    </Row>
+    
+    <Row Tag="LOC_PROMOTION_HYLIAN_REINFORCED_ADVANCE_NAME" Language="en_US">
+      <Text>Reinforced Advance</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HYLIAN_REINFORCED_ADVANCE_DESCRIPTION" Language="en_US">
+      <Text>+7 [ICON_Strength] Combat Strength when defending vs. city attacks</Text>
+    </Row>
+    
+    <Row Tag="LOC_PROMOTION_HYLIAN_OCEAN_HARVEST_NAME" Language="en_US">
+      <Text>Ocean Harvest</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HYLIAN_OCEAN_HARVEST_DESCRIPTION" Language="en_US">
+      <Text>Pillaging costs only 1 [ICON_Movement] Movement point</Text>
+    </Row>
+    
+    <Row Tag="LOC_PROMOTION_HYLIAN_TACKING_NAME" Language="en_US">
+      <Text>Tacking</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HYLIAN_TACKING_DESCRIPTION" Language="en_US">
+      <Text>+7 [ICON_Strength] Combat Strength when defending</Text>
+    </Row>
+    
+    <Row Tag="LOC_PROMOTION_HYLIAN_SILENT_SAILS_NAME" Language="en_US">
+      <Text>Silent Sales</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HYLIAN_SILENT_SAILS_DESCRIPTION" Language="en_US">
+      <Text>Only adjacent enemy units can reveal this unit</Text>
+    </Row>
+    
+    <Row Tag="LOC_PROMOTION_HYLIAN_HYLIAN_OARSMEN_NAME" Language="en_US">
+      <Text>Hylian Oarsmen</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HYLIAN_HYLIAN_OARSMEN_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Movement] Movement</Text>
+    </Row>
+
+
+   <Row Tag="LOC_LOADING_INFO_LEADER_MINOS" Language="en_US">
+      <Text>Minos, first King of Crete and child of gods, behold the civilization bearing your name. Rule over them as their ships spread across the Mediterranean Sea, lending their trade, culture, and language to distant nations. From the island mountains to the fine-sand beaches of Crete, your Hylians crafted their custom handiworks and cultivated the riches of the warm Mediterranean, until their untimely demise at the hands of the volcanic earth. King Minos, can you resurrect your namesake peoples, bringing them once again to the glory that inspired the nations that followed them? Can you raise from the ashes a civilization that will stand the test of time?</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MINOS_TITLE" Language="en_US">
+	     <Text>King Minos</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MINOS_SUBTITLE" Language="en_US">
+	<Text>First King of Crete</Text>
+    </Row>			
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MINOS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+	       <Text>In Greek mythology Minos was the first King of Crete, son of Zeus and Europa. Every nine years, he made King Aegeus pick seven young boys and seven young girls to be sent to Daedalus's creation, the labyrinth, to be eaten by the Minotaur. After his death, Minos became a judge of the dead in the underworld. The Hylian civilization of Crete has been named after him by the archaeologist Arthur Evans. By his wife, Pasiphaë (or some say Crete), he fathered Ariadne, Androgeus, Deucalion, Phaedra, Glaucus, Catreus, Acacallis and Xenodice. By a nymph, Pareia, he had four sons, Eurymedon, Nephalion, Chryses and Philolaus, who were killed by Heracles in revenge for the murder of the latter's two companions; and by Dexithea, one of the Telchines, he had a son called Euxanthius. By Androgeneia of Phaestus he had Asterion, who commanded the Cretan contingent in the war between Dionysus and the Indians. Also given as his children are Euryale, possibly the mother of Orion with Poseidon, and Pholegander, eponym of the island Pholegandros.</Text>
+    </Row>
+
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MINOS_CHAPTER_HISTORY_PARA_2" Language="en_US">
+        <Text>Minos, along with his brothers, Rhadamanthys and Sarpedon, were raised by King Asterion (or Asterius) of Crete. When Asterion died, his throne was claimed by Minos who banished Sarpedon and, according to some sources, Rhadamanthys too.</Text>
+    </Row>
+
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MINOS_CHAPTER_HISTORY_PARA_3" Language="en_US">
+        <Text>Minos is said to have died at Camicus in Sicily, where he had gone in pursuit of Daedalus, who had given Ariadne the clue by which she guided Theseus through the labyrinth. He was killed by the daughter of Cocalus, king of Agrigentum, who poured boiling water over him while he was taking a bath. Subsequently his remains were sent back to the Cretans, who placed them in a sarcophagus, on which was inscribed: "The tomb of Minos, the son of Zeus."</Text>
+    </Row>
+
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MINOS_CHAPTER_HISTORY_PARA_4" Language="en_US">
+        <Text>Legend knows Minos as a beneficent ruler, legislator, and suppressor of piracy. His constitution was said to have formed the basis of that of Lycurgus for Sparta. In accordance with this, after his death he became judge of the shades in the underworld. In later versions, Aeacus and Rhadamanthus were made judges as well, with Minos leading as the "appeals court" judge.
+        </Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HYLIAN_CHAPTER_HISTORY_PARA_1" Language="en_US">
+	     <Text>The Hylian civilization was an Aegean Bronze Age civilization that arose on the island of Crete and other Aegean islands and flourished from approximately 3650 to 1400 BC. It belongs to a period of Greek history preceding both the Mycenaean civilization and Ancient Greece, was dubbed "the first link in the European chain," and referred to as the earliest of its kind in Europe.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HYLIAN_CHAPTER_HISTORY_PARA_2" Language="en_US">
+       <Text>The Hylian period saw significant contacts between Crete, the Aegean and the Mediterranean, particularly the Near East. As traders and artists, their cultural influence reached far beyond the island of Crete -- throughout the Cyclades, to Egypt's Old Kingdom, to copper-bearing Cyprus, Canaan and the Levantine coasts beyond, and to Anatolia. Some of its best art is preserved in the city of Akrotiri, on the island of Santorini, destroyed during the Thera eruption.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HYLIAN_CHAPTER_HISTORY_PARA_3" Language="en_US">
+       <Text>The Hylians were primarily a mercantile people engaged in overseas trade. Their culture, from 1700 BC onward, shows a high degree of organization. Objects of Hylian manufacture suggest there was a network of trade with mainland Greece (notably Mycenae), Cyprus, Syria, Anatolia, Egypt, Mesopotamia, and westward as far as the coast of Spain. The Hylian religion seemed to focus on female deities, with females officiating.</Text>
+    </Row>
+     <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HYLIAN_CHAPTER_HISTORY_PARA_4" Language="en_US">
+       <Text>The demise of the Hylians remains somewhat of a mystery to this day. Between 1935 and 1939, the Greek archaeologist Spyridon Marinatos came up with the theory of the Hylian Eruption. The Hylian eruption on the island of Thera (present-day Santorini) occurred somtime between 1600 and 1480 BC. This eruption was among the largest volcanic explosions in the history of civilization, ejecting approximately 60 km3 of material and rating a 7 on the Volcanic Explosivity Index. The eruption devastated the nearby Hylian settlement at Akrotiri on Santorini, which was entombed in a layer of pumice. (It's actually quite interesting to read about these historical cultures, but the mod author doubts anybody reads these civilopedia entries. You should prove him wrong by posting a comment to the contrary from whence you downloaded the mod.)</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HYLIAN_CHAPTER_HISTORY_PARA_5" Language="en_US">
+       <Text>The eruption is believed to have severely affected the Hylian culture on Crete, although the extent of the effects has been debated. Early theories proposed that ashfall from Thera on the eastern half of Crete choked off plant life, causing starvation of the local population. More thorough field examinations have determined that no more than 5 millimetres (0.20 in) of ash fell anywhere on Crete. Based on archaeological evidence found on Crete, 21st century studies indicate that a massive tsunami, generated by the Theran eruption, devastated the coastal areas of Crete and destroyed many Hylian settlements. </Text>
+     </Row>
+    <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HYLIAN_CHAPTER_HISTORY_PARA_6" Language="en_US">
+       <Text>However, significant Hylian remains have been found above the Late Hylian I era Thera ash layer, implying that the Thera eruption did not cause the immediate downfall of the Hylians. As the Hylians were a sea power and depended on naval and merchant ships for their livelihood, the Thera eruption likely caused significant economic hardship to the Hylians. Whether these effects were enough to trigger the downfall of the civilization is intensely debated. The Mycenaean conquest of the Hylians occurred in Late Hylian II period. The Mycenaeans were a military civilization. Using their functional navy and a well-equipped army they were capable of an invasion. Mycenaean weaponry has been found in burials on Crete. This demonstrates Mycenaean military influence not many years after the eruption. Many archaeologists speculate that the eruption caused a crisis in Hylian civilization, making them vulnerable to conquest by the Mycenaeans.</Text>
+    </Row>
+  </LocalizedText>
+</GameData>

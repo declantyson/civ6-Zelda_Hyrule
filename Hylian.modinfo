@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="1p2jmpoo-d84m-0007-z123-98712345c8d1" version="0001">
+	<Properties>
+		<Name>LOC_MOD_TITLE</Name>
+		<Teaser>LOC_MOD_TEASER</Teaser>
+		<Description>LOC_MOD_DESCRIPTION</Description>
+		<Authors>LOC_MOD_AUTHORS</Authors>
+		<SpecialThanks>LOC_MOD_SPECIAL_THANKS</SpecialThanks>
+	</Properties>
+	<Components>
+		<UpdateDatabase id="HYLIAN_COMPONENT">
+			<Items>
+				<File>Data/Hylian_Buildings.xml</File>
+				<File>Data/Hylian_Civilizations.xml</File>
+				<File>Data/Hylian_Colours.xml</File>
+				<File>Data/Hylian_Gossip.xml</File>
+				<File>Data/Hylian_Leaders.xml</File>
+				<File>Data/Hylian_PlayerColours.xml</File>
+				<File>Data/Hylian_Units.xml</File>
+			</Items>
+		</UpdateDatabase>
+		<LocalizedText id="HYLIAN_TEXT">
+			<Items>
+				<File>Data/Hylian_Text.xml</File>
+			</Items>
+		</LocalizedText>
+		
+		<ModArt id="HYLIAN_MODART">
+            <Items>
+                <File>Hylian.dep</File>
+            </Items>
+        </ModArt>
+
+        <ImportFiles id="HYLIAN_ICON_FILES">
+			<Items>
+				<!-- Civ Icons -->
+				<File>Art/Icons/Hylian_Atlas256.dds</File>
+				<File>Art/Icons/Hylian_Atlas80.dds</File>
+				<File>Art/Icons/Hylian_Atlas64.dds</File>
+				<File>Art/Icons/Hylian_Atlas50.dds</File>
+				<File>Art/Icons/Hylian_Atlas48.dds</File>
+				<File>Art/Icons/Hylian_Atlas45.dds</File>
+				<File>Art/Icons/Hylian_Atlas36.dds</File>
+
+				<!-- UnitFlag Icons -->
+				<File>Art/Icons/Argo22.dds</File>
+				<File>Art/Icons/Argo32.dds</File>
+				<File>Art/Icons/Argo50.dds</File>
+				<File>Art/Icons/Argo80.dds</File>
+
+				<!-- Unit Icons -->
+				<File>Art/Icons/argo2_Units32.dds</File>
+				<File>Art/Icons/argo2_Units38.dds</File>
+				<File>Art/Icons/argo2_Units50.dds</File>
+				<File>Art/Icons/argo2_Units80.dds</File>
+				<File>Art/Icons/argo2_Units256.dds</File>
+
+				<!-- Building Icons -->
+				<File>Art/Icons/Magazine32.dds</File>
+				<File>Art/Icons/Magazine38.dds</File>
+				<File>Art/Icons/Magazine50.dds</File>
+				<File>Art/Icons/Magazine80.dds</File>
+				<File>Art/Icons/Magazine128.dds</File>
+				<File>Art/Icons/Magazine256.dds</File>	
+
+				<!-- Leader Icons -->
+				<File>Art/Icons/Minos256.dds</File>
+				<File>Art/Icons/Minos80.dds</File>
+				<File>Art/Icons/Minos64.dds</File>
+				<File>Art/Icons/Minos55.dds</File>
+				<File>Art/Icons/Minos45.dds</File>
+			</Items>
+		</ImportFiles>
+		<Icons id="HYLIAN_ICONS">
+            <Items>
+                <File>Data/Icons/Hylian_Icons_Buildings.xml</File>
+				<File>Data/Icons/Hylian_Icons_Civilizations.xml</File>
+				<File>Data/Icons/Hylian_Icons_Leaders.xml</File>
+				<File>Data/Icons/Hylian_Icons_UnitFlags.xml</File>
+				<File>Data/Icons/Hylian_Icons_UnitPortraits.xml</File>
+				<File>Data/Icons/Hylian_Icons_Units.xml</File>
+            </Items>
+        </Icons>
+	</Components>
+	<Settings>
+		<Custom id="HYLIAN_SETTING">
+			<Items>
+				<File>Data/Hylian_Config.xml</File>
+			</Items>
+		</Custom>
+		<LocalizedText id="HYLIAN_SETTING_TEXT">
+			<Items>
+				<File>Data/Hylian_Config_Text.xml</File>
+			</Items>
+		</LocalizedText>
+	</Settings>
+	<LocalizedText>
+		<Text id="LOC_MOD_TITLE">
+			<en_US>The Kingdom of Hyrule</en_US>
+		</Text>
+		<Text id="LOC_MOD_TEASER">
+			<en_US>Play as Princess Zelda and take command of the Kingdom of Hyrule</en_US>
+		</Text>
+		<Text id="LOC_MOD_DESCRIPTION">
+			<en_US>A religious domination civilization</en_US>
+		</Text>
+		<Text id="LOC_MOD_AUTHORS">
+			<en_US>decster584</en_US>
+		</Text>
+		<Text id="LOC_MOD_SPECIAL_THANKS">
+		    slicelonger for unknowingly teaching me how to get started.
+		</Text>
+	</LocalizedText>
+	<Files>			
+		<File>Hylian.dep</File>
+		<File>Data/Hylian_Buildings.xml</File>
+		<File>Data/Hylian_Config.xml</File>
+		<File>Data/Hylian_Config_Text.xml</File>
+		<File>Data/Hylian_Civilizations.xml</File>
+		<File>Data/Hylian_Colours.xml</File>
+		<File>Data/Hylian_Gossip.xml</File>
+		<File>Data/Hylian_Leaders.xml</File>
+		<File>Data/Hylian_PlayerColours.xml</File>
+		<File>Data/Hylian_Text.xml</File>
+		<File>Data/Hylian_Units.xml</File>
+		
+		
+		<File>Data/Icons/Hylian_Icons_Leaders.xml</File>
+		<File>Data/Icons/Hylian_Icons_Buildings.xml</File>
+		<File>Data/Icons/Hylian_Icons_Civilizations.xml</File>
+		<File>Data/Icons/Hylian_Icons_Units.xml</File>
+		<File>Data/Icons/Hylian_Icons_UnitFlags.xml</File>
+		<File>Data/Icons/Hylian_Icons_UnitPortraits.xml</File>
+		
+		<File>Art/Icons/Hylian_Atlas256.dds</File>
+		<File>Art/Icons/Hylian_Atlas80.dds</File>
+		<File>Art/Icons/Hylian_Atlas64.dds</File>
+		<File>Art/Icons/Hylian_Atlas50.dds</File>
+		<File>Art/Icons/Hylian_Atlas48.dds</File>
+		<File>Art/Icons/Hylian_Atlas45.dds</File>
+		<File>Art/Icons/Hylian_Atlas36.dds</File>
+		<File>Art/Icons/Argo22.dds</File>
+		<File>Art/Icons/Argo32.dds</File>
+		<File>Art/Icons/Argo50.dds</File>
+		<File>Art/Icons/Argo80.dds</File>
+		<File>Art/Icons/argo2_Units32.dds</File>
+		<File>Art/Icons/argo2_Units38.dds</File>
+		<File>Art/Icons/argo2_Units50.dds</File>
+		<File>Art/Icons/argo2_Units80.dds</File>
+		<File>Art/Icons/argo2_Units256.dds</File>
+		<File>Art/Icons/Magazine32.dds</File>
+		<File>Art/Icons/Magazine38.dds</File>
+		<File>Art/Icons/Magazine50.dds</File>
+		<File>Art/Icons/Magazine80.dds</File>
+		<File>Art/Icons/Magazine128.dds</File>
+		<File>Art/Icons/Magazine256.dds</File>		
+		<File>Art/Icons/Minos256.dds</File>
+		<File>Art/Icons/Minos80.dds</File>
+		<File>Art/Icons/Minos64.dds</File>
+		<File>Art/Icons/Minos55.dds</File>
+		<File>Art/Icons/Minos45.dds</File>
+	</Files>
+</Mod>

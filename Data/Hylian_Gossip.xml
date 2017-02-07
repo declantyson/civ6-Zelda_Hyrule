@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_FEMALE_7" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_FEMALE_8" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_FEMALE_9" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_FEMALE_10" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_MODERN_FEMALE_4" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_MODERN_FEMALE_5" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_MODERN_FEMALE_6" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_MODERN_FEMALE_7" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_MODERN_FEMALE_8" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_MODERN_FEMALE_9" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" CitizenName="LOC_CITIZEN_KONGO_MODERN_FEMALE_10" Female="true" Modern="true"/>
+	</CivilizationCitizenNames>
+</GameInfo>
