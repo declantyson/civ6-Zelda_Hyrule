@@ -8,8 +8,8 @@
    <Row Tag="LOC_CIVILIZATION_HYLIAN_DESCRIPTION" Language="en_US">
       <Text>Hylian Civilization</Text>
     </Row>
-    <Row Tag="LOC_LEADER_MINOS_NAME" Language="en_US">
-      <Text>King Minos</Text>
+    <Row Tag="LOC_LEADER_ZELDA_NAME" Language="en_US">
+      <Text>Princess Zelda</Text>
     </Row>
     <Row Tag="LOC_CIVILIZATION_HYLIAN_ADJECTIVE" Language="en_US">
       <Text>Hylian</Text>

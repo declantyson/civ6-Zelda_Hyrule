@@ -2,16 +2,16 @@
 <GameInfo>
 
 	<IconTextureAtlases>
-		<Row Name="ICON_ATLAS_MINOS" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="Minos45.dds"/> <!-- ?? -->
-	    <Row Name="ICON_ATLAS_MINOS" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="Minos45.dds"/> 	<!-- Primary ingame -->
-	    <Row Name="ICON_ATLAS_MINOS" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="Minos45.dds"/> <!-- Civilopedia link from Civ page -->
-	    <Row Name="ICON_ATLAS_MINOS" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="Minos55.dds"/> <!-- Civ summary (click on leader icon ingame) -->
-	    <Row Name="ICON_ATLAS_MINOS" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="Minos64.dds"/> <!-- ?? -->
-	    <Row Name="ICON_ATLAS_MINOS" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="Minos80.dds"/> <!-- ?? -->
-	    <Row Name="ICON_ATLAS_MINOS" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Minos256.dds"/>  <!-- Large Civilopedia -->
+		<Row Name="ICON_ATLAS_ZELDA" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="Minos45.dds"/> <!-- ?? -->
+	    <Row Name="ICON_ATLAS_ZELDA" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="Minos45.dds"/> 	<!-- Primary ingame -->
+	    <Row Name="ICON_ATLAS_ZELDA" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="Minos45.dds"/> <!-- Civilopedia link from Civ page -->
+	    <Row Name="ICON_ATLAS_ZELDA" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="Minos55.dds"/> <!-- Civ summary (click on leader icon ingame) -->
+	    <Row Name="ICON_ATLAS_ZELDA" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="Minos64.dds"/> <!-- ?? -->
+	    <Row Name="ICON_ATLAS_ZELDA" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="Minos80.dds"/> <!-- ?? -->
+	    <Row Name="ICON_ATLAS_ZELDA" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Minos256.dds"/>  <!-- Large Civilopedia -->
 	</IconTextureAtlases>
 
 	<IconDefinitions>
-		<Row Name="ICON_LEADER_MINOS" Atlas="ICON_ATLAS_MINOS" Index="0"/>
+		<Row Name="ICON_LEADER_ZELDA" Atlas="ICON_ATLAS_ZELDA" Index="0"/>
 	</IconDefinitions>
 </GameInfo>

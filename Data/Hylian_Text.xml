@@ -8,8 +8,8 @@
    <Row Tag="LOC_CIVILIZATION_HYLIAN_DESCRIPTION" Language="en_US">
       <Text>Hylian Civilization</Text>
     </Row>
-    <Row Tag="LOC_LEADER_MINOS_NAME" Language="en_US">
-      <Text>King Minos</Text>
+    <Row Tag="LOC_LEADER_ZELDA_NAME" Language="en_US">
+      <Text>Princess Zelda</Text>
     </Row>
     <Row Tag="LOC_CIVILIZATION_HYLIAN_ADJECTIVE" Language="en_US">
       <Text>Hylian</Text>
@@ -116,48 +116,35 @@
     </Row>
 
 
-   <Row Tag="LOC_LOADING_INFO_LEADER_MINOS" Language="en_US">
-      <Text>Minos, first King of Crete and child of gods, behold the civilization bearing your name. Rule over them as their ships spread across the Mediterranean Sea, lending their trade, culture, and language to distant nations. From the island mountains to the fine-sand beaches of Crete, your Hylians crafted their custom handiworks and cultivated the riches of the warm Mediterranean, until their untimely demise at the hands of the volcanic earth. King Minos, can you resurrect your namesake peoples, bringing them once again to the glory that inspired the nations that followed them? Can you raise from the ashes a civilization that will stand the test of time?</Text>
+   <Row Tag="LOC_LOADING_INFO_LEADER_ZELDA" Language="en_US">
+      <Text>O, wise Princess Zelda, throughout the ages you have defied evil and bore the burdens of your ancestors without complaint or struggle. Your wisdom has been passed down to you by the Gods, and those same Gods have entrusted you with your nation's fate. They want you to carry forward the power, courage and wisdom that they bestowed upon their chosen prophets and pass it down to the people, all whilst protecting them from the dangers of greed and corruption. Will you accept, Princess Zelda? Will you allow Hyrule to become a civilization that stands the test of time?</Text>
     </Row>
-    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MINOS_TITLE" Language="en_US">
-	     <Text>King Minos</Text>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZELDA_TITLE" Language="en_US">
+	     <Text>Princess Zelda</Text>
     </Row>
-    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MINOS_SUBTITLE" Language="en_US">
-	<Text>First King of Crete</Text>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZELDA_SUBTITLE" Language="en_US">
+	<Text>The wise princess</Text>
     </Row>			
-    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MINOS_CHAPTER_HISTORY_PARA_1" Language="en_US">
-	       <Text>In Greek mythology Minos was the first King of Crete, son of Zeus and Europa. Every nine years, he made King Aegeus pick seven young boys and seven young girls to be sent to Daedalus's creation, the labyrinth, to be eaten by the Minotaur. After his death, Minos became a judge of the dead in the underworld. The Hylian civilization of Crete has been named after him by the archaeologist Arthur Evans. By his wife, Pasiphaë (or some say Crete), he fathered Ariadne, Androgeus, Deucalion, Phaedra, Glaucus, Catreus, Acacallis and Xenodice. By a nymph, Pareia, he had four sons, Eurymedon, Nephalion, Chryses and Philolaus, who were killed by Heracles in revenge for the murder of the latter's two companions; and by Dexithea, one of the Telchines, he had a son called Euxanthius. By Androgeneia of Phaestus he had Asterion, who commanded the Cretan contingent in the war between Dionysus and the Indians. Also given as his children are Euryale, possibly the mother of Orion with Poseidon, and Pholegander, eponym of the island Pholegandros.</Text>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZELDA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+	       <Text>Throughout Hyrule's history there have been an untold number of princesses with the name Zelda. Typically they have all had some significant part to play in defending the realm from the power of evildoers, either by command or often even leading armies into battle herself. The name Zelda has been long associated with the wisest people in all the land.</Text>
     </Row>
 
-    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MINOS_CHAPTER_HISTORY_PARA_2" Language="en_US">
-        <Text>Minos, along with his brothers, Rhadamanthys and Sarpedon, were raised by King Asterion (or Asterius) of Crete. When Asterion died, his throne was claimed by Minos who banished Sarpedon and, according to some sources, Rhadamanthys too.</Text>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZELDA_CHAPTER_HISTORY_PARA_2" Language="en_US">
+        <Text>A kind and benevolent royal, the princess is unafraid to interact with the common people, often forming long-lasting relationships with Sheikah and her royal guard that prove important in moving the realm forward. As such, she is seen as a keen diplomat.</Text>
     </Row>
 
-    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MINOS_CHAPTER_HISTORY_PARA_3" Language="en_US">
-        <Text>Minos is said to have died at Camicus in Sicily, where he had gone in pursuit of Daedalus, who had given Ariadne the clue by which she guided Theseus through the labyrinth. He was killed by the daughter of Cocalus, king of Agrigentum, who poured boiling water over him while he was taking a bath. Subsequently his remains were sent back to the Cretans, who placed them in a sarcophagus, on which was inscribed: "The tomb of Minos, the son of Zeus."</Text>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZELDA_CHAPTER_HISTORY_PARA_3" Language="en_US">
+        <Text>Zelda holds the Triforce of Wisdom, a piece of the legendary Triforce thatis said to grant wishes to those who hold all three pieces. She protects it in secret so that it does not fall into the wrong hands.</Text>
     </Row>
 
-    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MINOS_CHAPTER_HISTORY_PARA_4" Language="en_US">
-        <Text>Legend knows Minos as a beneficent ruler, legislator, and suppressor of piracy. His constitution was said to have formed the basis of that of Lycurgus for Sparta. In accordance with this, after his death he became judge of the shades in the underworld. In later versions, Aeacus and Rhadamanthus were made judges as well, with Minos leading as the "appeals court" judge.
-        </Text>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZELDA_CHAPTER_HISTORY_PARA_4" Language="en_US">
+        <Text>.</Text>
     </Row>
     <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HYLIAN_CHAPTER_HISTORY_PARA_1" Language="en_US">
-	     <Text>The Hylian civilization was an Aegean Bronze Age civilization that arose on the island of Crete and other Aegean islands and flourished from approximately 3650 to 1400 BC. It belongs to a period of Greek history preceding both the Mycenaean civilization and Ancient Greece, was dubbed "the first link in the European chain," and referred to as the earliest of its kind in Europe.</Text>
+	     <Text>The Hylian race is the majority civilization in Hyrule. They believe themselves to be put in Hyrule by the Goddesses themselves and as such are a very religious and proud people. They tell tales of the world being forged by Din, Farore and Nayru, and tales of the legendary Triforce.</Text>
     </Row>
     <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HYLIAN_CHAPTER_HISTORY_PARA_2" Language="en_US">
-       <Text>The Hylian period saw significant contacts between Crete, the Aegean and the Mediterranean, particularly the Near East. As traders and artists, their cultural influence reached far beyond the island of Crete -- throughout the Cyclades, to Egypt's Old Kingdom, to copper-bearing Cyprus, Canaan and the Levantine coasts beyond, and to Anatolia. Some of its best art is preserved in the city of Akrotiri, on the island of Santorini, destroyed during the Thera eruption.</Text>
-    </Row>
-    <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HYLIAN_CHAPTER_HISTORY_PARA_3" Language="en_US">
-       <Text>The Hylians were primarily a mercantile people engaged in overseas trade. Their culture, from 1700 BC onward, shows a high degree of organization. Objects of Hylian manufacture suggest there was a network of trade with mainland Greece (notably Mycenae), Cyprus, Syria, Anatolia, Egypt, Mesopotamia, and westward as far as the coast of Spain. The Hylian religion seemed to focus on female deities, with females officiating.</Text>
-    </Row>
-     <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HYLIAN_CHAPTER_HISTORY_PARA_4" Language="en_US">
-       <Text>The demise of the Hylians remains somewhat of a mystery to this day. Between 1935 and 1939, the Greek archaeologist Spyridon Marinatos came up with the theory of the Hylian Eruption. The Hylian eruption on the island of Thera (present-day Santorini) occurred somtime between 1600 and 1480 BC. This eruption was among the largest volcanic explosions in the history of civilization, ejecting approximately 60 km3 of material and rating a 7 on the Volcanic Explosivity Index. The eruption devastated the nearby Hylian settlement at Akrotiri on Santorini, which was entombed in a layer of pumice. (It's actually quite interesting to read about these historical cultures, but the mod author doubts anybody reads these civilopedia entries. You should prove him wrong by posting a comment to the contrary from whence you downloaded the mod.)</Text>
-    </Row>
-    <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HYLIAN_CHAPTER_HISTORY_PARA_5" Language="en_US">
-       <Text>The eruption is believed to have severely affected the Hylian culture on Crete, although the extent of the effects has been debated. Early theories proposed that ashfall from Thera on the eastern half of Crete choked off plant life, causing starvation of the local population. More thorough field examinations have determined that no more than 5 millimetres (0.20 in) of ash fell anywhere on Crete. Based on archaeological evidence found on Crete, 21st century studies indicate that a massive tsunami, generated by the Theran eruption, devastated the coastal areas of Crete and destroyed many Hylian settlements. </Text>
-     </Row>
-    <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HYLIAN_CHAPTER_HISTORY_PARA_6" Language="en_US">
-       <Text>However, significant Hylian remains have been found above the Late Hylian I era Thera ash layer, implying that the Thera eruption did not cause the immediate downfall of the Hylians. As the Hylians were a sea power and depended on naval and merchant ships for their livelihood, the Thera eruption likely caused significant economic hardship to the Hylians. Whether these effects were enough to trigger the downfall of the civilization is intensely debated. The Mycenaean conquest of the Hylians occurred in Late Hylian II period. The Mycenaeans were a military civilization. Using their functional navy and a well-equipped army they were capable of an invasion. Mycenaean weaponry has been found in burials on Crete. This demonstrates Mycenaean military influence not many years after the eruption. Many archaeologists speculate that the eruption caused a crisis in Hylian civilization, making them vulnerable to conquest by the Mycenaeans.</Text>
-    </Row>
+       <Text>Hyrule has frequently been under assault by evildoers, most frequently and notably the immortal, evil theif-king Ganon. Using the power bestowed upon to them by the Godesses, and the efforts of Princess Zelda and her royal guard, including a boy garbed in green, they have often - although not always - managed to repel these invasions.</Text>
+  </Row>
   </LocalizedText>
 </GameData>

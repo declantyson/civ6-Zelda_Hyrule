@@ -8,7 +8,7 @@
 		<Row CivilizationType="CIVILIZATION_HYLIAN" Name="LOC_CIVILIZATION_HYLIAN_NAME" Description="LOC_CIVILIZATION_HYLIAN_DESCRIPTION" Adjective="LOC_CIVILIZATION_HYLIAN_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="3" Ethnicity="ETHNICITY_EURO"/>
 	</Civilizations>
 	<CivilizationLeaders>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" LeaderType="LEADER_MINOS" CapitalName="Knossos"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" LeaderType="LEADER_ZELDA" CapitalName="Hyrule"/>
 	</CivilizationLeaders>
 	<Traits>
 		<Row TraitType="TRAIT_CIVILIZATION_THALASSOCRACY" Name="LOC_TRAIT_CIVILIZATION_THALASSOCRACY_NAME" Description="LOC_TRAIT_CIVILIZATION_THALASSOCRACY_DESCRIPTION" />

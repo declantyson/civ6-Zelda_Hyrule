@@ -2,11 +2,11 @@
 <GameInfo>
 	<PlayerColors>
 			<Row>
-				<Type>LEADER_MINOS</Type>
+				<Type>LEADER_ZELDA</Type>
 				<Usage>Unique</Usage>
 				<PrimaryColor>COLOR_PLAYER_HYRULE_PRIMARY</PrimaryColor>
 				<SecondaryColor>COLOR_PLAYER_HYRULE_SECONDARY</SecondaryColor>
-				<TextColor>COLOR_PLAYER_BLACK_TEXT</TextColor>
+				<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
 			</Row>
 	</PlayerColors>
 </GameInfo>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameInfo>
 	<Types>
-		<Row Type="LEADER_MINOS" Kind="KIND_LEADER"/>
+		<Row Type="LEADER_ZELDA" Kind="KIND_LEADER"/>
 		<Row Type="TRAIT_LEADER_KINGS_RHYTON" Kind="KIND_TRAIT"/>
 	</Types>
 	<Leaders>
-		<Row LeaderType="LEADER_MINOS" Name="LOC_LEADER_MINOS_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+		<Row LeaderType="LEADER_ZELDA" Name="LOC_LEADER_ZELDA_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
 	</Leaders>
 	<LeaderTraits>
-		<Row LeaderType="LEADER_MINOS" TraitType="TRAIT_LEADER_KINGS_RHYTON"/>
+		<Row LeaderType="LEADER_ZELDA" TraitType="TRAIT_LEADER_KINGS_RHYTON"/>
 	</LeaderTraits>
 	<Traits>
 		<Row TraitType="TRAIT_LEADER_KINGS_RHYTON" Name="LOC_TRAIT_LEADER_KINGS_RHYTON_NAME" Description="LOC_TRAIT_LEADER_KINGS_RHYTON_DESCRIPTION"/>
