@@ -64,11 +64,11 @@
 				<File>Art/Icons/Magazine256.dds</File>	
 
 				<!-- Leader Icons -->
-				<File>Art/Icons/Minos256.dds</File>
-				<File>Art/Icons/Minos80.dds</File>
-				<File>Art/Icons/Minos64.dds</File>
-				<File>Art/Icons/Minos55.dds</File>
-				<File>Art/Icons/Minos45.dds</File>
+				<File>Art/Icons/Zelda256.dds</File>
+				<File>Art/Icons/Zelda80.dds</File>
+				<File>Art/Icons/Zelda64.dds</File>
+				<File>Art/Icons/Zelda55.dds</File>
+				<File>Art/Icons/Zelda45.dds</File>
 			</Items>
 		</ImportFiles>
 		<Icons id="HYLIAN_ICONS">
@@ -154,10 +154,10 @@
 		<File>Art/Icons/Magazine80.dds</File>
 		<File>Art/Icons/Magazine128.dds</File>
 		<File>Art/Icons/Magazine256.dds</File>		
-		<File>Art/Icons/Minos256.dds</File>
-		<File>Art/Icons/Minos80.dds</File>
-		<File>Art/Icons/Minos64.dds</File>
-		<File>Art/Icons/Minos55.dds</File>
-		<File>Art/Icons/Minos45.dds</File>
+		<File>Art/Icons/Zelda256.dds</File>
+		<File>Art/Icons/Zelda80.dds</File>
+		<File>Art/Icons/Zelda64.dds</File>
+		<File>Art/Icons/Zelda55.dds</File>
+		<File>Art/Icons/Zelda45.dds</File>
 	</Files>
 </Mod>
