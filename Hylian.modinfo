@@ -8,8 +8,15 @@
 		<SpecialThanks>LOC_MOD_SPECIAL_THANKS</SpecialThanks>
 	</Properties>
 	<Components>
+	    <ImportFiles id="GCO_IMPORT">
+            <Items>
+                <File>Art/dom_blank.dds</File>
+                <File>Art/Loading.dds</File>
+            </Items>
+        </ImportFiles>
 		<UpdateDatabase id="HYLIAN_COMPONENT">
 			<Items>
+			    <File>Data/Hylian_LoadingInfo.xml</File>
 				<File>Data/Hylian_Buildings.xml</File>
 				<File>Data/Hylian_Civilizations.xml</File>
 				<File>Data/Hylian_Colours.xml</File>
@@ -108,7 +115,7 @@
 			<en_US>decster584</en_US>
 		</Text>
 		<Text id="LOC_MOD_SPECIAL_THANKS">
-		    slicelonger for unknowingly teaching me how to get started.
+		    slicelonger for unknowingly teaching me how to get started. Gedemon for coming up with a way to edit the leader screens.
 		</Text>
 	</LocalizedText>
 	<Files>			
@@ -124,7 +131,9 @@
 		<File>Data/Hylian_Text.xml</File>
 		<File>Data/Hylian_Units.xml</File>
 		
-		
+        <File>InGame/GCOInGame.lua</File>
+        <File>InGame/GCOInGame.xml</File>
+
 		<File>Data/Icons/Hylian_Icons_Leaders.xml</File>
 		<File>Data/Icons/Hylian_Icons_Buildings.xml</File>
 		<File>Data/Icons/Hylian_Icons_Civilizations.xml</File>

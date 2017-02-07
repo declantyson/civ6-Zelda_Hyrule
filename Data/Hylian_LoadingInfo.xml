@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+  <LoadingInfo>
+		<!-- BackgroundImage = top left / ForegroundImage = right -->
+		<Row LeaderType="LEADER_AMERICA" ForegroundImage="dom_blank.dds" BackgroundImage="Loading.dds" EraText="G.C.O." PlayDawnOfManAudio="0"/>
+	</LoadingInfo>
+</GameInfo>
+
+
+
+
+
+
+
+
+
