@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="1p2jmpoo-d84m-0007-z123-98712345c8d3" version="00016">
+<Mod id="1p2jmpoo-d84m-0007-z123-98712345c8d3" version="00018">
 	<Properties>
 		<Name>LOC_MOD_TITLE</Name>
 		<Teaser>LOC_MOD_TEASER</Teaser>
@@ -8,7 +8,7 @@
 		<SpecialThanks>LOC_MOD_SPECIAL_THANKS</SpecialThanks>
 	</Properties>
 	<Components>
-		<ImportFiles id="GCO_IMPORT">
+		<ImportFiles id="HYLIAN_IMPORT">
 	            <Items>
 	                <File>Art/dom_blank.dds</File>
 	                <File>Art/Loading.dds</File>
@@ -19,7 +19,7 @@
 				<Context>InGame</Context>
 			</Properties>
 			<Items>
-				<File>InGame/GCOInGame.xml</File>
+				<File>InGame/Hylian_InGame.xml</File>
 			</Items>
 		</UserInterface>
 		<UpdateDatabase id="HYLIAN_COMPONENT">
@@ -115,7 +115,7 @@
 	</Settings>
 	<LocalizedText>
 		<Text id="LOC_MOD_TITLE">
-			<en_US>The Kingdom of Hyrule 0.0.0.16</en_US>
+			<en_US>The Kingdom of Hyrule 0.0.0.18</en_US>
 		</Text>
 		<Text id="LOC_MOD_TEASER">
 			<en_US>Play as Princess Zelda and take command of the Kingdom of Hyrule</en_US>
@@ -142,9 +142,11 @@
 		<File>Data/Hylian_PlayerColours.xml</File>
 		<File>Data/Hylian_Text.xml</File>
 		<File>Data/Hylian_Units.xml</File>
-		
-	        <File>InGame/GCOInGame.lua</File>
-	        <File>InGame/GCOInGame.xml</File>
+		<File>Data/Hylian_LoadingInfo.xml</File>
+		<File>Data/Hylian_DiplomacyInfo.xml</File>
+
+        <File>InGame/Hylian_InGame.lua</File>
+        <File>InGame/Hylain_InGame.xml</File>
 
 		<File>Data/Icons/Hylian_Icons_Leaders.xml</File>
 		<File>Data/Icons/Hylian_Icons_Buildings.xml</File>
@@ -180,5 +182,8 @@
 		<File>Art/Icons/Zelda64.dds</File>
 		<File>Art/Icons/Zelda55.dds</File>
 		<File>Art/Icons/Zelda45.dds</File>
+
+		<File>Art/Loading.dds</File>
+		<File>Art/dom_blank.dds</File>
 	</Files>
 </Mod>
