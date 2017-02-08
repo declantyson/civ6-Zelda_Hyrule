@@ -114,7 +114,9 @@
     <Row Tag="LOC_PROMOTION_HYLIAN_HYLIAN_OARSMEN_DESCRIPTION" Language="en_US">
       <Text>+1 [ICON_Movement] Movement</Text>
     </Row>
-
+    <Row Tag="LOC_ZELDA_DOM_TEXT" Language="en_US">
+          <Text>This is but one of the legends of which the people speak...[NEWLINE]Long ago, there existed a kingdom where a golden power lay hidden. It was a prosperous land blessed with green forests, tall mountains, and peace.[NEWLINE]But one day, a man of great evil found the golden power and took it for himself. With its strength at his command, he spread darkness across the kingdom. But then, when all hope had died, and the hour of doom seemed at hand...[NEWLINE]...a young boy clothed in green appeared as if from nowhere. Wielding the blade of evil's bane, he sealed the dark one away and gave the land light.</Text>
+    </Row>
 
    <Row Tag="LOC_LOADING_INFO_LEADER_ZELDA" Language="en_US">
       <Text>O, wise Princess Zelda, throughout the ages you have defied evil and bore the burdens of your ancestors without complaint or struggle. Your wisdom has been passed down to you by the Gods, and those same Gods have entrusted you with your nation's fate. They want you to carry forward the power, courage and wisdom that they bestowed upon their chosen prophets and pass it down to the people, all whilst protecting them from the dangers of greed and corruption. Will you accept, Princess Zelda? Will you allow Hyrule to become a civilization that stands the test of time?</Text>
@@ -123,7 +125,7 @@
 	     <Text>Princess Zelda</Text>
     </Row>
     <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZELDA_SUBTITLE" Language="en_US">
-	<Text>The wise princess</Text>
+	    <Text>The wise princess</Text>
     </Row>			
     <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZELDA_CHAPTER_HISTORY_PARA_1" Language="en_US">
 	       <Text>Throughout Hyrule's history there have been an untold number of princesses with the name Zelda. Typically they have all had some significant part to play in defending the realm from the power of evildoers, either by command or often even leading armies into battle herself. The name Zelda has been long associated with the wisest people in all the land.</Text>
