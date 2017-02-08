@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="1p2jmpoo-d84m-0007-z123-98712345c8d3" version="00019">
+<Mod id="1p2jmpoo-d84m-0007-z123-98712345c8d3" version="00021">
 	<Properties>
 		<Name>LOC_MOD_TITLE</Name>
 		<Teaser>LOC_MOD_TEASER</Teaser>
@@ -49,8 +49,9 @@
         <ImportFiles id="HYLIAN_ICON_FILES">
 			<Items>
 			   	 <!-- Loading art -->
-			   	<File>Art/dom_blank.dds</File>
-                		<File>Art/Loading.dds</File>
+                <File>Art/Zelda_Diplomacy_Background.dds</File>
+                <File>Art/Zelda_Loading_Background.dds</File>
+                <File>Art/dom_blank.dds</File>
 
 				<!-- Civ Icons -->
 				<File>Art/Icons/Hylian_Atlas256.dds</File>
@@ -115,7 +116,7 @@
 	</Settings>
 	<LocalizedText>
 		<Text id="LOC_MOD_TITLE">
-			<en_US>The Kingdom of Hyrule 0.0.0.19</en_US>
+			<en_US>The Kingdom of Hyrule 0.0.0.21</en_US>
 		</Text>
 		<Text id="LOC_MOD_TEASER">
 			<en_US>Play as Princess Zelda and take command of the Kingdom of Hyrule</en_US>
@@ -183,7 +184,8 @@
 		<File>Art/Icons/Zelda55.dds</File>
 		<File>Art/Icons/Zelda45.dds</File>
 
-		<File>Art/Loading.dds</File>
+		<File>Art/Zelda_Diplomacy_Background.dds</File>
+		<File>Art/Zelda_Loading_Background.dds</File>
 		<File>Art/dom_blank.dds</File>
 	</Files>
 </Mod>
