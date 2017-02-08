@@ -17,25 +17,68 @@
 		<Row CivilizationType="CIVILIZATION_HYLIAN" TraitType="TRAIT_CIVILIZATION_SACRED_STONES"/>
 		<Row CivilizationType="CIVILIZATION_HYLIAN" TraitType="TRAIT_CIVILIZATION_BUILDING_MAGAZINE"/>
 	</CivilizationTraits>
-	
+
 
 	<TraitModifiers>
 		<Row TraitType="TRAIT_CIVILIZATION_SACRED_STONES" ModifierId="TRAIT_HYLIAN_JADE_FAITH" />
+		<Row TraitType="TRAIT_CIVILIZATION_SACRED_STONES" ModifierId="TRAIT_HYLIAN_DIAMONDS_FAITH" />
+		<Row TraitType="TRAIT_CIVILIZATION_SACRED_STONES" ModifierId="TRAIT_HYLIAN_PEARLS_FAITH" />
+		<Row TraitType="TRAIT_CIVILIZATION_SACRED_STONES" ModifierId="TRAIT_HYLIAN_GYPSUM_FAITH" />
 	</TraitModifiers>
 
 	<Modifiers>
 		<Row ModifierId="TRAIT_HYLIAN_JADE_FAITH" ModifierType="MODIFIER_PLAYER_ADJUST_PLOT_YIELD" RunOnce="0" Permanent="0" SubjectRequirementSetId="PLOT_HAS_HARVESTED_JADE" />
+		<Row ModifierId="TRAIT_HYLIAN_DIAMONDS_FAITH" ModifierType="MODIFIER_PLAYER_ADJUST_PLOT_YIELD" RunOnce="0" Permanent="0" SubjectRequirementSetId="PLOT_HAS_HARVESTED_DIAMONDS" />
+		<Row ModifierId="TRAIT_HYLIAN_PEARLS_FAITH" ModifierType="MODIFIER_PLAYER_ADJUST_PLOT_YIELD" RunOnce="0" Permanent="0" SubjectRequirementSetId="PLOT_HAS_HARVESTED_PEARLS" />
+		<Row ModifierId="TRAIT_HYLIAN_GYPSUM_FAITH" ModifierType="MODIFIER_PLAYER_ADJUST_PLOT_YIELD" RunOnce="0" Permanent="0" SubjectRequirementSetId="PLOT_HAS_HARVESTED_GYPSUM" />
+		<Row ModifierId="TRAIT_HYLIAN_SILVER_FAITH" ModifierType="MODIFIER_PLAYER_ADJUST_PLOT_YIELD" RunOnce="0" Permanent="0" SubjectRequirementSetId="PLOT_HAS_HARVESTED_SILVER" />
 	</Modifiers>
 
 	<ModifierArguments>
 		<Row ModifierId="TRAIT_HYLIAN_JADE_FAITH" Name="YieldType" Value="YIELD_FAITH" />
 		<Row ModifierId="TRAIT_HYLIAN_JADE_FAITH" Name="Amount" Value="3" />
+
+		<Row ModifierId="TRAIT_HYLIAN_DIAMONDS_FAITH" Name="YieldType" Value="YIELD_FAITH" />
+		<Row ModifierId="TRAIT_HYLIAN_DIAMONDS_FAITH" Name="Amount" Value="3" />
+
+		<Row ModifierId="TRAIT_HYLIAN_PEARLS_FAITH" Name="YieldType" Value="YIELD_FAITH" />
+		<Row ModifierId="TRAIT_HYLIAN_PEARLS_FAITH" Name="Amount" Value="3" />
+
+		<Row ModifierId="TRAIT_HYLIAN_GYPSUM_FAITH" Name="YieldType" Value="YIELD_FAITH" />
+		<Row ModifierId="TRAIT_HYLIAN_GYPSUM_FAITH" Name="Amount" Value="3" />
+
+		<Row ModifierId="TRAIT_HYLIAN_SILVER_FAITH" Name="YieldType" Value="YIELD_FAITH" />
+		<Row ModifierId="TRAIT_HYLIAN_SILVER_FAITH" Name="Amount" Value="3" />
 	</ModifierArguments>
 
 	<RequirementSets>
 		<!-- Jade -->
 		<Row>
 			<RequirementSetId>PLOT_HAS_HARVESTED_JADE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+
+		<!-- Diamonds -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_HARVESTED_DIAMONDS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+
+		<!-- Pearls -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_HARVESTED_PEARLS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+
+		<!-- Gypsum -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_HARVESTED_GYPSUM</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+
+		<!-- Silver -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_HARVESTED_SILVER</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
@@ -51,12 +94,76 @@
 			<RequirementId>REQUIRES_PLOT_HAS_JADE_HYLIAN</RequirementId>
 		</Row>
 
+		<!-- Diamonds -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_HARVESTED_DIAMONDS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_MINE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_HARVESTED_DIAMONDS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_DIAMONDS_HYLIAN</RequirementId>
+		</Row>
+
+		<!-- Pearls -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_HARVESTED_PEARLS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_FISHINGBOATS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_HARVESTED_PEARLS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_PEARLS_HYLIAN</RequirementId>
+		</Row>
+
+		<!-- Gypsum -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_HARVESTED_GYPSUM</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_MINE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_HARVESTED_GYPSUM</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_GYPSUM_HYLIAN</RequirementId>
+		</Row>
+
+		<!-- Silver -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_HARVESTED_SILVER</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_MINE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_HARVESTED_SILVER</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_SILVER_HYLIAN</RequirementId>
+		</Row>
+
 	</RequirementSetRequirements>
 
 	<Requirements>
 		<!-- Jade -->
 		<Row>
 			<RequirementId>REQUIRES_PLOT_HAS_JADE_HYLIAN</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+
+		<!-- Diamonds -->
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_DIAMONDS_HYLIAN</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+
+		<!-- Pearls -->
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_PEARLS_HYLIAN</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+
+		<!-- Gypsum-->
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_GYPSUM_HYLIAN</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+
+		<!-- Silver -->
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_SILVER_HYLIAN</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
 		</Row>
 	</Requirements>
@@ -67,6 +174,34 @@
 			<RequirementId>REQUIRES_PLOT_HAS_JADE_HYLIAN</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_JADE</Value>
+		</Row>
+
+		<!-- Diamonds -->
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_DIAMONDS_HYLIAN</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_DIAMONDS</Value>
+		</Row>
+
+		<!-- Pearls -->
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_PEARLS_HYLIAN</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_PEARLS</Value>
+		</Row>
+
+		<!-- Gypsum-->
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_GYPSUM_HYLIAN</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_GYPSUM</Value>
+		</Row>
+
+		<!-- Silver -->
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_SILVER_HYLIAN</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_SILVER</Value>
 		</Row>
 	</RequirementArguments>
 
