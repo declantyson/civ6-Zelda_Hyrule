@@ -15,15 +15,15 @@
 	</Traits>
 	<CivilizationTraits>
 		<Row CivilizationType="CIVILIZATION_HYLIAN" TraitType="TRAIT_CIVILIZATION_SACRED_STONES"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" TraitType="TRAIT_CIVILIZATION_BUILDING_MAGAZINE"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_FAIRY_FOUNTAIN"/>
 	</CivilizationTraits>
-
 
 	<TraitModifiers>
 		<Row TraitType="TRAIT_CIVILIZATION_SACRED_STONES" ModifierId="TRAIT_HYLIAN_JADE_FAITH" />
 		<Row TraitType="TRAIT_CIVILIZATION_SACRED_STONES" ModifierId="TRAIT_HYLIAN_DIAMONDS_FAITH" />
 		<Row TraitType="TRAIT_CIVILIZATION_SACRED_STONES" ModifierId="TRAIT_HYLIAN_PEARLS_FAITH" />
 		<Row TraitType="TRAIT_CIVILIZATION_SACRED_STONES" ModifierId="TRAIT_HYLIAN_GYPSUM_FAITH" />
+		<Row TraitType="TRAIT_CIVILIZATION_SACRED_STONES" ModifierId="TRAIT_HYLIAN_SILVER_FAITH" />
 	</TraitModifiers>
 
 	<Modifiers>
@@ -246,6 +246,6 @@
 		<Row CivilizationType="CIVILIZATION_HYLIAN" ResourceType="RESOURCE_GYPSUM" Tier="3"/>
 		<Row CivilizationType="CIVILIZATION_HYLIAN" ResourceType="RESOURCE_DIAMONDS" Tier="3"/>
 		<Row CivilizationType="CIVILIZATION_HYLIAN" ResourceType="RESOURCE_SILVER" Tier="3"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" ResourceType="RESOURCE_PEARLS" Tier="4"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" ResourceType="RESOURCE_PEARLS" Tier="3"/>
 	</StartBiasResources>
 </GameInfo>

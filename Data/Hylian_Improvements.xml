@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+    <Types>
+        <Row Type="IMPROVEMENT_FAIRY_FOUNTAIN" Kind="KIND_IMPROVEMENT"/>
+        <Row Type="ABILITY_IMPROVEMENT_FAIRY_FOUNTAIN_HEAL" Kind="KIND_ABILITY"/>
+    </Types>
+
+    <TypeTags>
+        <Row Type="ABILITY_IMPROVEMENT_FAIRY_FOUNTAIN_HEAL" Tag="CLASS_RECON"/>
+        <Row Type="ABILITY_IMPROVEMENT_FAIRY_FOUNTAIN_HEAL" Tag="CLASS_MELEE"/>
+        <Row Type="ABILITY_IMPROVEMENT_FAIRY_FOUNTAIN_HEAL" Tag="CLASS_RANGED"/>
+        <Row Type="ABILITY_IMPROVEMENT_FAIRY_FOUNTAIN_HEAL" Tag="CLASS_ANTI_CAVALRY"/>
+        <Row Type="ABILITY_IMPROVEMENT_FAIRY_FOUNTAIN_HEAL" Tag="CLASS_SIEGE"/>
+        <Row Type="ABILITY_IMPROVEMENT_FAIRY_FOUNTAIN_HEAL" Tag="CLASS_HEAVY_CAVALRY"/>
+        <Row Type="ABILITY_IMPROVEMENT_FAIRY_FOUNTAIN_HEAL" Tag="CLASS_HEAVY_CHARIOT"/>
+        <Row Type="ABILITY_IMPROVEMENT_FAIRY_FOUNTAIN_HEAL" Tag="CLASS_LIGHT_CAVALRY"/>
+        <Row Type="ABILITY_IMPROVEMENT_FAIRY_FOUNTAIN_HEAL" Tag="CLASS_RANGED_CAVALRY"/>
+    </TypeTags>
+
+    <Improvements>
+        <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" Name="LOC_IMPROVEMENT_FAIRY_FOUNTAIN_NAME" Description="LOC_IMPROVEMENT_FAIRY_FOUNTAIN_DESCRIPTION" Icon="ICON_IMPROVEMENT_CHATEAU" PlunderType="PLUNDER_CULTURE" PlunderAmount="25" Buildable="true" Housing="0" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_FAIRY_FOUNTAIN"/>
+    </Improvements>
+
+    <Improvement_Adjacencies>
+        <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" YieldChangeId="FAIRY_FOUNTAIN_CULTURE_MOUNTAIN"/>
+    </Improvement_Adjacencies>
+
+    <Improvement_ValidFeatures>
+        <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" FeatureType="FEATURE_FOREST"/>
+        <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" FeatureType="FEATURE_JUNGLE"/>
+        <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" FeatureType="FEATURE_FLOODPLAINS"/>
+        <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" FeatureType="FEATURE_RIVER"/>
+        <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" FeatureType="FEATURE_MARSH"/>
+        <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" FeatureType="FEATURE_OASIS"/>
+    </Improvement_ValidFeatures>
+
+    <Improvement_ValidTerrains>
+        <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" TerrainType="TERRAIN_DESERT"/>
+        <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" TerrainType="TERRAIN_TUNDRA"/>
+        <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" TerrainType="TERRAIN_PLAINS"/>
+        <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" TerrainType="TERRAIN_GRASS"/>
+        <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" TerrainType="TERRAIN_SNOW"/>
+        <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" TerrainType="TERRAIN_DESERT_HILLS"/>
+        <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+        <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" TerrainType="TERRAIN_PLAINS_HILLS"/>
+        <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" TerrainType="TERRAIN_GRASS_HILLS"/>
+        <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" TerrainType="TERRAIN_SNOW_HILLS"/>
+    </Improvement_ValidTerrains>
+
+    <Improvement_ValidBuildUnits>
+        <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" UnitType="UNIT_BUILDER"/>
+    </Improvement_ValidBuildUnits>
+
+    <Improvement_YieldChanges>
+        <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" YieldType="YIELD_CULTURE" YieldChange="1"/>
+    </Improvement_YieldChanges>
+
+    <Adjacency_YieldChanges>
+        <Row ID="FAIRY_FOUNTAIN_CULTURE_MOUNTAIN" Description="Improve culture yield by 1 when next to mountain" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_MOUNTAIN"/>
+    </Adjacency_YieldChanges>
+
+    <UnitAbilities>
+        <Row UnitAbilityType="ABILITY_IMPROVEMENT_FAIRY_FOUNTAIN_HEAL" Name="LOC_IMPROVEMENT_FAIRY_FOUNTAIN_NAME" Description="LOC_IMPROVEMENT_FAIRY_FOUNTAIN_DESCRIPTION" Inactive="0"/>
+    </UnitAbilities>
+
+    <UnitAbilityModifiers>
+        <Row UnitAbilityType="ABILITY_IMPROVEMENT_FAIRY_FOUNTAIN_HEAL" ModifierId="FAIRY_FOUNTAIN_BONUS_HEAL"/>
+    </UnitAbilityModifiers>
+
+    <Modifiers>
+        <Row ModifierId="FAIRY_FOUNTAIN_BONUS_HEAL" ModifierType="MODIFIER_PLAYER_UNIT_ADJUST_HEAL_PER_TURN" RunOnce="0" Permanent="0" SubjectRequirementSetId="IMPROVEMENT_IS_FAIRY_FOUNTAIN" />
+    </Modifiers>
+
+    <ModifierArguments>
+        <Row ModifierId="FAIRY_FOUNTAIN_BONUS_HEAL" Name="Type" Value="ALL" />
+        <Row ModifierId="FAIRY_FOUNTAIN_BONUS_HEAL" Name="Amount" Value="20" />
+    </ModifierArguments>
+
+    <RequirementSets>
+        <Row>
+            <RequirementSetId>IMPROVEMENT_IS_FAIRY_FOUNTAIN</RequirementSetId>
+            <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+        </Row>
+    </RequirementSets>
+
+    <RequirementSetRequirements>
+        <Row>
+            <RequirementSetId>IMPROVEMENT_IS_FAIRY_FOUNTAIN</RequirementSetId>
+            <RequirementId>REQUIRES_PLOT_HAS_FAIRY_FOUNTAIN</RequirementId>
+        </Row>
+    </RequirementSetRequirements>
+
+    <Requirements>
+        <Row>
+            <RequirementId>REQUIRES_PLOT_HAS_FAIRY_FOUNTAIN</RequirementId>
+            <RequirementType>REQUIRES_PLOT_IMPROVEMENT_TYPE_MATCHES</RequirementType>
+        </Row>
+    </Requirements>
+
+    <RequirementArguments>
+        <Row>
+            <RequirementId>REQUIRES_PLOT_HAS_FAIRYFOUNTAIN</RequirementId>
+            <Name>ImprovementType</Name>
+            <Value>IMPROVEMENT_FAIRY_FOUNTAIN</Value>
+        </Row>
+    </RequirementArguments>
+</GameInfo>

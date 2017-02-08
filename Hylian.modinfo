@@ -24,8 +24,8 @@
 		</UserInterface>
 		<UpdateDatabase id="HYLIAN_COMPONENT">
 			<Items>
-			    	<File>Data/Hylian_LoadingInfo.xml</File>
-				<File>Data/Hylian_Buildings.xml</File>
+                <File>Data/Hylian_LoadingInfo.xml</File>
+				<!--<File>Data/Hylian_Buildings.xml</File>-->
 				<File>Data/Hylian_Civilizations.xml</File>
 				<File>Data/Hylian_Colours.xml</File>
 				<File>Data/Hylian_Gossip.xml</File>
@@ -92,7 +92,7 @@
 		</ImportFiles>
 		<Icons id="HYLIAN_ICONS">
             <Items>
-                <File>Data/Icons/Hylian_Icons_Buildings.xml</File>
+                <!--<File>Data/Icons/Hylian_Icons_Buildings.xml</File>-->
 				<File>Data/Icons/Hylian_Icons_Civilizations.xml</File>
 				<File>Data/Icons/Hylian_Icons_Leaders.xml</File>
 				<File>Data/Icons/Hylian_Icons_UnitFlags.xml</File>
@@ -132,7 +132,7 @@
 	</LocalizedText>
 	<Files>			
 		<File>Hylian.dep</File>
-		<File>Data/Hylian_Buildings.xml</File>
+		<!--<File>Data/Hylian_Buildings.xml</File>-->
 		<File>Data/Hylian_Config.xml</File>
 		<File>Data/Hylian_Config_Text.xml</File>
 		<File>Data/Hylian_Civilizations.xml</File>
@@ -149,7 +149,7 @@
         <File>InGame/Hylain_InGame.xml</File>
 
 		<File>Data/Icons/Hylian_Icons_Leaders.xml</File>
-		<File>Data/Icons/Hylian_Icons_Buildings.xml</File>
+		<!--<File>Data/Icons/Hylian_Icons_Buildings.xml</File>-->
 		<File>Data/Icons/Hylian_Icons_Civilizations.xml</File>
 		<File>Data/Icons/Hylian_Icons_Units.xml</File>
 		<File>Data/Icons/Hylian_Icons_UnitFlags.xml</File>

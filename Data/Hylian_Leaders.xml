@@ -203,21 +203,4 @@
 		<Row ModifierId="HYLIAN_BONUS_VS_EMBARKED_COAST" Context="Preview" Text="LOC_HYLIAN_BONUS_VS_EMBARKED_DESCRIPTION"/>
 		<Row ModifierId="HYLIAN_BONUS_VS_EMBARKED_OCEAN" Context="Preview" Text="LOC_HYLIAN_BONUS_VS_EMBARKED_DESCRIPTION"/>
 	</ModifierStrings>
-	
-	<!--<AiListTypes>
-		<Row ListType="WataCivics"/>
-		<Row ListType="WataTechs"/>
-		<Row ListType="WataWonders"/>
-	</AiListTypes>
-	<AiLists>
-		<Row ListType="WataWonders" LeaderType="TRAIT_LEADER_VIPERS_DEN" System="Buildings"/>
-		<Row ListType="WataTechs" LeaderType="TRAIT_LEADER_VIPERS_DEN" System="Technologies"/>
-	</AiLists>
-	<AiFavoredItems>
-		<Row ListType="WataWonders" Item="BUILDING_BOLSHOI_THEATRE"/>
-		<Row ListType="WataWonders" Item="BUILDING_CHICHEN_ITZA"/>
-		<Row ListType="WataTechs" Item="TECH_MACHINERY"/>
-		<Row ListType="WataTechs" Item="TECH_IRON_WORKING"/>
-	</AiFavoredItems>-->
-
 </GameInfo>
