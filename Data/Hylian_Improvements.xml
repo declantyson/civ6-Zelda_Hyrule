@@ -22,14 +22,13 @@
     </Improvements>
 
     <Improvement_Adjacencies>
-        <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" YieldChangeId="FAIRY_FOUNTAIN_CULTURE_MOUNTAIN"/>
+        <!--<Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" YieldChangeId="FAIRY_FOUNTAIN_CULTURE_MOUNTAIN"/>-->
     </Improvement_Adjacencies>
 
     <Improvement_ValidFeatures>
         <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" FeatureType="FEATURE_FOREST"/>
         <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" FeatureType="FEATURE_JUNGLE"/>
         <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" FeatureType="FEATURE_FLOODPLAINS"/>
-        <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" FeatureType="FEATURE_RIVER"/>
         <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" FeatureType="FEATURE_MARSH"/>
         <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" FeatureType="FEATURE_OASIS"/>
     </Improvement_ValidFeatures>
@@ -56,7 +55,7 @@
     </Improvement_YieldChanges>
 
     <Adjacency_YieldChanges>
-        <Row ID="FAIRY_FOUNTAIN_CULTURE_MOUNTAIN" Description="Improve culture yield by 1 when next to mountain" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_MOUNTAIN"/>
+        <!--<Row ID="FAIRY_FOUNTAIN_CULTURE_MOUNTAIN" Description="Improve culture yield by 1 when next to mountain" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_MOUNTAIN"/>-->
     </Adjacency_YieldChanges>
 
     <UnitAbilities>
@@ -99,7 +98,7 @@
 
     <RequirementArguments>
         <Row>
-            <RequirementId>REQUIRES_PLOT_HAS_FAIRYFOUNTAIN</RequirementId>
+            <RequirementId>REQUIRES_PLOT_HAS_FAIRY_FOUNTAIN</RequirementId>
             <Name>ImprovementType</Name>
             <Value>IMPROVEMENT_FAIRY_FOUNTAIN</Value>
         </Row>
