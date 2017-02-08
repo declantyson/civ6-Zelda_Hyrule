@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::ArtDefSet>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>239</build>
+		<revision>409</revision>
+	</m_Version>
+	<m_TemplateName text="LeaderFallback"/>
+	<m_RootCollections>
+		<Element>
+			<m_CollectionName text="Leaders"/>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Animations"/>
+						<Element>
+							<m_Fields>
+								<m_Values>
+                                      <!-- Disable fallback image. -->
+                                      <Element class="AssetObjects::BLPEntryValue">
+                                        <m_EntryName text=""/>
+                                        <m_XLPClass text="Leader"/>
+                                        <m_XLPPath text=""/>
+                                        <m_BLPPackage text=""/>
+                                        <m_LibraryName text="Leader"/>
+                                        <m_ParamName text="Leader_BLP_Entry"/>
+                                      </Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="DEFAULT"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="LEADER_ZELDA"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+		</Element>
+	</m_RootCollections>
+</AssetObjects::ArtDefSet>
+
