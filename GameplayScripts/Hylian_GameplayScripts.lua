@@ -1,29 +1,21 @@
 -----------------------------------------------------------------------------------------
---	FILE:	 Hylian_InGame.lua
---  Gedemon (2017)
+--	FILE:	 Hylian_GameplayScripts.lua
+--  decster584 (2017)
 -----------------------------------------------------------------------------------------
 
 
 -----------------------------------------------------------------------------------------
--- Hide LeaderHead
+-- Add Link on era change
 -----------------------------------------------------------------------------------------
 
-function HideLeaderHead()
-	ContextPtr:LookUpControl("/InGame/DiplomacyActionView/LeaderAnchor"):SetHide(true)
-end
-
-function OnEnterGame()
-	ContextPtr:LookUpControl("/InGame/DiplomacyActionView/LeaderAnchor"):RegisterWhenShown(HideLeaderHead)
-end
-
-function FreeHeroOfTime(playerId, EraId)
-	local pPlayer = Players[playerId];
+function EraChanged(playerId, EraId)
+	local pPlayer = Players[playerId]
+	local capitalCity = pPlayer:GetCities():GetCapitalCity()
 
 	if pPlayer:GetCivilizationType() == "CIVILIZATION_HYLIAN" then
 		-- pPlayer:AddFreeUnit(GameInfo.Units["UNIT_PROPHET"].ID, UNITAI_PROPHET)
-		pPlayer:GetUnits():Create()
+		pPlayer:GetUnits():Create(GameInfo.Units["UNIT_HERO_OF_TIME"], capitalCity:GetX(), capitalCity:GetY())
 	end
 end
 
-Events.PlayerEraChanged.Add(FreeHeroOfTime);
-Events.LoadScreenClose.Add(OnEnterGame)
+Events.PlayerEraChanged.Add(EraChanged)

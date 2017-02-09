@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="1p2jmpoo-d84m-0007-z123-98712345c8d3" version="00026">
+<Mod id="1p2jmpoo-d84m-0007-z123-98712345c8d3" version="00028">
 	<Properties>
 		<Name>LOC_MOD_TITLE</Name>
 		<Teaser>LOC_MOD_TEASER</Teaser>
@@ -9,19 +9,30 @@
 	</Properties>
 	<Components>
 		<ImportFiles id="HYLIAN_IMPORT">
-	            <Items>
-	                <File>Art/dom_blank.dds</File>
-	                <File>Art/Loading.dds</File>
-	            </Items>
-	        </ImportFiles>
-		<UserInterface>		
+			<Items>
+				<File>Art/dom_blank.dds</File>
+				<File>Art/Zelda_Loading_Background.dds</File>
+				<File>Art/Zelda_Diplomacy_Background.dds</File>
+			</Items>
+		</ImportFiles>
+		<UserInterface>
 			<Properties>
 				<Context>InGame</Context>
 			</Properties>
 			<Items>
+				<File>InGame/Hylian_InGame.lua</File>
 				<File>InGame/Hylian_InGame.xml</File>
 			</Items>
 		</UserInterface>
+		<GameplayScripts>
+			<Properties>
+				<Context>GameplayScripts</Context>
+			</Properties>
+			<Items>
+				<File>GameplayScripts/Hylian_GameplayScripts.lua</File>
+				<File>GameplayScripts/Hylian_GameplayScripts.xml</File>
+			</Items>
+		</GameplayScripts>
 		<UpdateDatabase id="HYLIAN_COMPONENT">
 			<Items>
                 <File>Data/Hylian_LoadingInfo.xml</File>
@@ -116,7 +127,7 @@
 	</Settings>
 	<LocalizedText>
 		<Text id="LOC_MOD_TITLE">
-			<en_US>The Kingdom of Hyrule 0.0.0.26</en_US>
+			<en_US>The Kingdom of Hyrule 0.0.0.28</en_US>
 		</Text>
 		<Text id="LOC_MOD_TEASER">
 			<en_US>Play as Princess Zelda and take command of the Kingdom of Hyrule</en_US>
@@ -148,6 +159,9 @@
 
         <File>InGame/Hylian_InGame.lua</File>
         <File>InGame/Hylain_InGame.xml</File>
+		<File>GameplayScripts/Hylian_GameplayScripts.lua</File>
+		<File>GameplayScripts/Hylain_GameplayScripts.xml</File>
+
 
 		<File>Data/Icons/Hylian_Icons_Leaders.xml</File>
 		<File>Data/Icons/Hylian_Icons_Improvements.xml</File>
