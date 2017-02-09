@@ -18,7 +18,7 @@
     </TypeTags>
 
     <Improvements>
-        <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" Name="LOC_IMPROVEMENT_FAIRY_FOUNTAIN_NAME" Description="LOC_IMPROVEMENT_FAIRY_FOUNTAIN_DESCRIPTION" Icon="ICON_IMPROVEMENT_CHATEAU" PlunderType="PLUNDER_CULTURE" PlunderAmount="25" Buildable="true" Housing="0" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_FAIRY_FOUNTAIN"/>
+        <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" Name="LOC_IMPROVEMENT_FAIRY_FOUNTAIN_NAME" Description="LOC_IMPROVEMENT_FAIRY_FOUNTAIN_DESCRIPTION" Icon="ICON_IMPROVEMENT_FAIRY_FOUNTAIN" PlunderType="PLUNDER_CULTURE" PlunderAmount="25" Buildable="true" Housing="0" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_FAIRY_FOUNTAIN"/>
     </Improvements>
 
     <Improvement_Adjacencies>
@@ -67,12 +67,12 @@
     </UnitAbilityModifiers>
 
     <Modifiers>
-        <Row ModifierId="FAIRY_FOUNTAIN_BONUS_HEAL" ModifierType="MODIFIER_PLAYER_UNIT_ADJUST_HEAL_PER_TURN" RunOnce="0" Permanent="0" SubjectRequirementSetId="IMPROVEMENT_IS_FAIRY_FOUNTAIN" />
+        <Row ModifierId="FAIRY_FOUNTAIN_BONUS_HEAL" ModifierType="MODIFIER_PLAYER_UNIT_ADJUST_HEAL_PER_TURN" RunOnce="1" Permanent="1" SubjectRequirementSetId="IMPROVEMENT_IS_FAIRY_FOUNTAIN" />
     </Modifiers>
 
     <ModifierArguments>
         <Row ModifierId="FAIRY_FOUNTAIN_BONUS_HEAL" Name="Type" Value="ALL" />
-        <Row ModifierId="FAIRY_FOUNTAIN_BONUS_HEAL" Name="Amount" Value="20" />
+        <Row ModifierId="FAIRY_FOUNTAIN_BONUS_HEAL" Name="Amount" Value="200" />
     </ModifierArguments>
 
     <RequirementSets>
@@ -92,7 +92,7 @@
     <Requirements>
         <Row>
             <RequirementId>REQUIRES_PLOT_HAS_FAIRY_FOUNTAIN</RequirementId>
-            <RequirementType>REQUIRES_PLOT_IMPROVEMENT_TYPE_MATCHES</RequirementType>
+            <RequirementType>REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES</RequirementType>
         </Row>
     </Requirements>
 
