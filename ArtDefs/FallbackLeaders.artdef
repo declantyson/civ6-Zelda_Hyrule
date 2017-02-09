@@ -20,15 +20,25 @@
 						<Element>
 							<m_Fields>
 								<m_Values>
-                                      <!-- Disable fallback image. -->
-                                      <Element class="AssetObjects::BLPEntryValue">
-                                        <m_EntryName text=""/>
-                                        <m_XLPClass text="Leader"/>
-                                        <m_XLPPath text=""/>
-                                        <m_BLPPackage text=""/>
-                                        <m_LibraryName text="Leader"/>
-                                        <m_ParamName text="Leader_BLP_Entry"/>
-                                      </Element>
+                  <!-- Disable fallback image. -->
+                  <Element class="AssetObjects::BLPEntryValue">
+                    <m_EntryName text=""/>
+                    <m_XLPClass text="Leader"/>
+                    <m_XLPPath text=""/>
+                    <m_BLPPackage text=""/>
+                    <m_LibraryName text="Leader"/>
+                    <m_ParamName text="Leader_BLP_Entry"/>
+                  </Element>
+                  <!--
+									<Element class="AssetObjects::BLPEntryValue">
+										<m_EntryName text="FALLBACK_NEUTRAL_QIN"/>
+										<m_XLPClass text="LeaderFallback"/>
+										<m_XLPPath text="LeaderFallbackImages.xlp"/>
+										<m_BLPPackage text="LeaderFallbackImages"/>
+										<m_LibraryName text="LeaderFallback"/>
+										<m_ParamName text="BLP Entry"/>
+                    -->
+									</Element>
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>

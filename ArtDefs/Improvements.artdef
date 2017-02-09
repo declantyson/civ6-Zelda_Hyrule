@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::ArtDefSet>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>235</build>
+		<revision>981</revision>
+	</m_Version>
+	<m_TemplateName text="Improvements"/>
+	<m_RootCollections>
+		<Element>
+			<m_CollectionName text="Improvement"/>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Audio"/>
+					</Element>
+					<Element>
+						<m_CollectionName text="StrategicView"/>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects::ArtDefReferenceValue">
+										<m_ElementName text="Stepwell_Pillaged"/>
+										<m_RootCollectionName text="Improvements"/>
+										<m_ArtDefPath text="StrategicView.artdef"/>
+										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_TemplateName text="StrategicView"/>
+										<m_ParamName text="XrefName"/>
+									</Element>
+									<Element class="AssetObjects::ArtDefReferenceValue">
+										<m_ElementName text="Pillaged"/>
+										<m_RootCollectionName text="BuildStates"/>
+										<m_ArtDefPath text="Improvements.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Improvements"/>
+										<m_ParamName text="State"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="StrategicView002"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects::ArtDefReferenceValue">
+										<m_ElementName text="Stepwell"/>
+										<m_RootCollectionName text="Improvements"/>
+										<m_ArtDefPath text="StrategicView.artdef"/>
+										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_TemplateName text="StrategicView"/>
+										<m_ParamName text="XrefName"/>
+									</Element>
+									<Element class="AssetObjects::ArtDefReferenceValue">
+										<m_ElementName text="Completed"/>
+										<m_RootCollectionName text="BuildStates"/>
+										<m_ArtDefPath text="Improvements.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Improvements"/>
+										<m_ParamName text="State"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="StrategicView001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="Landmark"/>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects::ArtDefReferenceValue">
+										<m_ElementName text="LM_Stepwell"/>
+										<m_RootCollectionName text="Landmarks"/>
+										<m_ArtDefPath text="Landmarks.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Landmarks"/>
+										<m_ParamName text="Xref"/>
+									</Element>
+									<Element class="AssetObjects::BoolValue">
+										<m_bValue>true</m_bValue>
+										<m_ParamName text="SuppressResource"/>
+									</Element>
+									<Element class="AssetObjects::ArtDefReferenceValue">
+										<m_ElementName text="ANYTHING"/>
+										<m_RootCollectionName text=""/>
+										<m_ArtDefPath text=""/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text=""/>
+										<m_ParamName text="WhenAdjacentTo"/>
+									</Element>
+									<Element class="AssetObjects::ArtDefReferenceValue">
+										<m_ElementName text="NONE"/>
+										<m_RootCollectionName text=""/>
+										<m_ArtDefPath text=""/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text=""/>
+										<m_ParamName text="Fence"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Landmark1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="Clutter"/>
+					</Element>
+					<Element>
+						<m_CollectionName text="Lighting"/>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects::RGBValue">
+										<m_r>131.000000</m_r>
+										<m_g>108.000000</m_g>
+										<m_b>68.000000</m_b>
+										<m_ParamName text="BounceColor"/>
+									</Element>
+									<Element class="AssetObjects::FloatValue">
+										<m_fValue>0.650351</m_fValue>
+										<m_ParamName text="BounceAlpha"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Lighting001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="Activity"/>
+					</Element>
+					<Element>
+						<m_CollectionName text="GreatWall"/>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="IMPROVEMENT_FAIRY_FOUNTAIN"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+		</Element>
+	</m_RootCollections>
+</AssetObjects::ArtDefSet>
+
