@@ -27,7 +27,7 @@
       </Row>
       <Row Tag="LOC_TRAIT_LEADER_GODDESS_HARP_DESCRIPTION" Language="en_US">
           <!--<Text>Gain [ICON_GreatMusician] Great Musician points 200% faster.</Text>-->
-          <Text>At writing, gain +4 [ICON_GreatMusician] Great Musician points per turn.</Text>
+          <Text>At Writing, gain +4 [ICON_GreatMusician] Great Musician points per turn.</Text>
       </Row>
 
     <!-- Improvements -->

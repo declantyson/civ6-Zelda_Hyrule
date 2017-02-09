@@ -27,7 +27,7 @@
     </Row>
     <Row Tag="LOC_TRAIT_LEADER_GODDESS_HARP_DESCRIPTION" Language="en_US">
         <!--<Text>Gain [ICON_GreatMusician] Great Musician points 200% faster.</Text>-->
-        <Text>At writing, gain +4 [ICON_GreatMusician] Great Musician points per turn.</Text>
+        <Text>At Writing, gain +4 [ICON_GreatMusician] Great Musician points per turn.</Text>
     </Row>
 
 
@@ -48,7 +48,7 @@
     </Row>
 
     <Row Tag="LOC_ZELDA_DOM_TEXT" Language="en_US">
-          <Text>This is but one of the legends of which the people speak...[NEWLINE]Long ago, there existed a kingdom where a golden power lay hidden. It was a prosperous land blessed with green forests, tall mountains, and peace.[NEWLINE]But one day, a man of great evil found the golden power and took it for himself. With its strength at his command, he spread darkness across the kingdom. But then, when all hope had died, and the hour of doom seemed at hand...[NEWLINE]...a young boy clothed in green appeared as if from nowhere. Wielding the blade of evil's bane, he sealed the dark one away and gave the land light.</Text>
+          <Text>This is but one of the legends of which the people speak... Long ago, there existed a kingdom where a golden power lay hidden. It was a prosperous land blessed with green forests, tall mountains, and peace. But one day, a man of great evil found the golden power and took it for himself. With its strength at his command, he spread darkness across the kingdom. But then, when all hope had died, and the hour of doom seemed at hand, a young boy clothed in green appeared as if from nowhere. Wielding the blade of evil's bane, he sealed the dark one away and gave the land light.[NEWLINE][NEWLINE]What became of that kingdom? None remain who know.</Text>
     </Row>
 
    <Row Tag="LOC_LOADING_INFO_LEADER_ZELDA" Language="en_US">
