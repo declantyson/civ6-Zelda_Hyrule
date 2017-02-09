@@ -1,3 +1,0 @@
-1) DOM text too long
-2) Fairy Fountain healing not working
-3) Diplo screen not working (low priority)
