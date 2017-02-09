@@ -21,11 +21,27 @@
 	</TraitModifiers>
 
 	<Modifiers>
-		<Row ModifierId="TRAIT_HYLIAN_BONUS_GREAT_MUSICIAN_POINTS" ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS_PERCENT" RunOnce="1" Permanent="1" />
+		<Row ModifierId="TRAIT_HYLIAN_BONUS_GREAT_MUSICIAN_POINTS" ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS" RunOnce="1" Permanent="1" SubjectRequirementSetId="REQUIREMENTS_HAS_WRITING_TECHNOLOGY"/>
 	</Modifiers>
 
 	<ModifierArguments>
 		<Row ModifierId="TRAIT_HYLIAN_BONUS_GREAT_MUSICIAN_POINTS" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_MUSICIAN" />
-		<Row ModifierId="TRAIT_HYLIAN_BONUS_GREAT_MUSICIAN_POINTS" Name="Amount" Value="200" />
+		<Row ModifierId="TRAIT_HYLIAN_BONUS_GREAT_MUSICIAN_POINTS" Name="Amount" Value="4" />
 	</ModifierArguments>
+
+	<RequirementSets>
+		<Row RequirementSetId="REQUIREMENTS_HAS_WRITING_TECHNOLOGY" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQUIREMENTS_HAS_WRITING_TECHNOLOGY" RequirementId="REQUIRES_PLAYER_HAS_WRITING_TECHNOLOGY" />
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row RequirementId="REQUIRES_PLAYER_HAS_WRITING_TECHNOLOGY" RequirementType="REQUIRES_PLAYER_HAS_TECHNOLOGY"/>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row RequirementId="REQUIRES_PLAYER_HAS_WRITING_TECHNOLOGY" Name="TechnologyType" Type="ARGTYPE_IDENTITY" Value="TECH_WRITING" />
+	</RequirementArguments>
 </GameInfo>

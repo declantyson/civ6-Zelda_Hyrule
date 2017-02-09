@@ -26,7 +26,8 @@
           <Text>Goddess's Harp</Text>
       </Row>
       <Row Tag="LOC_TRAIT_LEADER_GODDESS_HARP_DESCRIPTION" Language="en_US">
-          <Text>+2 [ICON_GreatMusician] Great Musician points per turn.</Text>
+          <!--<Text>Gain [ICON_GreatMusician] Great Musician points 200% faster.</Text>-->
+          <Text>At writing, gain +4 [ICON_GreatMusician] Great Musician points per turn.</Text>
       </Row>
 
     <!-- Improvements -->
@@ -34,7 +35,7 @@
       <Text>Fairy Fountain</Text>
     </Row>
     <Row Tag="LOC_IMPROVEMENT_FAIRY_FOUNTAIN_DESCRIPTION" Language="en_US">
-        <Text>Provides +1 [ICON_Culture] culture, and units on this tile heal +20 per turn.</Text>
+        <Text>Provides +1 [ICON_Culture] culture, and units on this tile completely heal after standing on it for a full turn.</Text>
     </Row>
 
   <!-- Units -->
