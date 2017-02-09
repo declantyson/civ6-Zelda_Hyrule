@@ -74,17 +74,17 @@
 				<File>Art/Icons/Hylian_Atlas36.dds</File>
 
 				<!-- UnitFlag Icons -->
-				<File>Art/Icons/Argo22.dds</File>
-				<File>Art/Icons/Argo32.dds</File>
-				<File>Art/Icons/Argo50.dds</File>
-				<File>Art/Icons/Argo80.dds</File>
+				<File>Art/Icons/HeroOfTime22.dds</File>
+				<File>Art/Icons/HeroOfTime32.dds</File>
+				<File>Art/Icons/HeroOfTime50.dds</File>
+				<File>Art/Icons/HeroOfTime80.dds</File>
 
 				<!-- Unit Icons -->
-				<File>Art/Icons/argo2_Units32.dds</File>
-				<File>Art/Icons/argo2_Units38.dds</File>
-				<File>Art/Icons/argo2_Units50.dds</File>
-				<File>Art/Icons/argo2_Units80.dds</File>
-				<File>Art/Icons/argo2_Units256.dds</File>
+				<File>Art/Icons/Link32.dds</File>
+				<File>Art/Icons/Link38.dds</File>
+				<File>Art/Icons/Link50.dds</File>
+				<File>Art/Icons/Link80.dds</File>
+				<File>Art/Icons/Link256.dds</File>
 
 				<!-- Improvement Icons -->
 				<File>Art/Icons/Fairy_Fountain32.dds</File>
@@ -177,15 +177,15 @@
 		<File>Art/Icons/Hylian_Atlas48.dds</File>
 		<File>Art/Icons/Hylian_Atlas45.dds</File>
 		<File>Art/Icons/Hylian_Atlas36.dds</File>
-		<File>Art/Icons/Argo22.dds</File>
-		<File>Art/Icons/Argo32.dds</File>
-		<File>Art/Icons/Argo50.dds</File>
-		<File>Art/Icons/Argo80.dds</File>
-		<File>Art/Icons/argo2_Units32.dds</File>
-		<File>Art/Icons/argo2_Units38.dds</File>
-		<File>Art/Icons/argo2_Units50.dds</File>
-		<File>Art/Icons/argo2_Units80.dds</File>
-		<File>Art/Icons/argo2_Units256.dds</File>
+		<File>Art/Icons/HeroOfTime22.dds</File>
+		<File>Art/Icons/HeroOfTime32.dds</File>
+		<File>Art/Icons/HeroOfTime50.dds</File>
+		<File>Art/Icons/HeroOfTime80.dds</File>
+		<File>Art/Icons/Link32.dds</File>
+		<File>Art/Icons/Link38.dds</File>
+		<File>Art/Icons/Link50.dds</File>
+		<File>Art/Icons/Link80.dds</File>
+		<File>Art/Icons/Link256.dds</File>
 		<File>Art/Icons/Fairy_Fountain32.dds</File>
 		<File>Art/Icons/Fairy_Fountain38.dds</File>
 		<File>Art/Icons/Fairy_Fountain50.dds</File>

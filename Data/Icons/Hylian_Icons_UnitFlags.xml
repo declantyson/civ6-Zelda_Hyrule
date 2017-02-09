@@ -2,14 +2,14 @@
 
 <GameInfo>	
 	<IconTextureAtlases>
-		<Row Name="ICON_HYLIAN_ATLAS_UNIT_FLAG_SYMBOLS_WHITE" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="Argo22.dds"/>
-		<Row Name="ICON_HYLIAN_ATLAS_UNIT_FLAG_SYMBOLS_WHITE" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Argo32.dds"/>
-		<Row Name="ICON_HYLIAN_ATLAS_UNIT_FLAG_SYMBOLS_BLACK" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Argo32.dds"/>
-		<Row Name="ICON_HYLIAN_ATLAS_UNIT_FLAG_SYMBOLS_WHITE" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Argo50.dds"/>
-		<Row Name="ICON_HYLIAN_ATLAS_UNIT_FLAG_SYMBOLS_WHITE" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="Argo80.dds"/>
+		<Row Name="ICON_HYLIAN_ATLAS_UNIT_FLAG_SYMBOLS_WHITE" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="HeroOfTime22.dds"/>
+		<Row Name="ICON_HYLIAN_ATLAS_UNIT_FLAG_SYMBOLS_WHITE" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="HeroOfTime32.dds"/>
+		<Row Name="ICON_HYLIAN_ATLAS_UNIT_FLAG_SYMBOLS_BLACK" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="HeroOfTime32.dds"/>
+		<Row Name="ICON_HYLIAN_ATLAS_UNIT_FLAG_SYMBOLS_WHITE" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="HeroOfTime50.dds"/>
+		<Row Name="ICON_HYLIAN_ATLAS_UNIT_FLAG_SYMBOLS_WHITE" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="HeroOfTime80.dds"/>
 	</IconTextureAtlases>
 	<IconDefinitions>	
-		<Row Name="ICON_UNIT_ARGO" Index="0" Atlas="ICON_HYLIAN_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"/>
-		<Row Name="ICON_UNIT_ARGO" Index="0" Atlas="ICON_HYLIAN_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"/>
+		<Row Name="ICON_UNIT_HERO_OF_TIME" Index="0" Atlas="ICON_HYLIAN_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"/>
+		<Row Name="ICON_UNIT_HERO_OF_TIME" Index="0" Atlas="ICON_HYLIAN_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"/>
 	</IconDefinitions>
 </GameInfo>
