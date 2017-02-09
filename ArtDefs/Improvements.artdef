@@ -24,7 +24,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects::ArtDefReferenceValue">
-										<m_ElementName text="Stepwell_Pillaged"/>
+										<m_ElementName text="Pasture_Pillaged"/>
 										<m_RootCollectionName text="Improvements"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
 										<m_CollectionIsLocked>false</m_CollectionIsLocked>
@@ -49,7 +49,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects::ArtDefReferenceValue">
-										<m_ElementName text="Stepwell"/>
+										<m_ElementName text="Pasture"/>
 										<m_RootCollectionName text="Improvements"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
 										<m_CollectionIsLocked>false</m_CollectionIsLocked>
@@ -77,7 +77,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects::ArtDefReferenceValue">
-										<m_ElementName text="LM_Stepwell"/>
+										<m_ElementName text="LM_Pasture"/>
 										<m_RootCollectionName text="Landmarks"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>

@@ -30,12 +30,6 @@
         <Text>At writing, gain +4 [ICON_GreatMusician] Great Musician points per turn.</Text>
     </Row>
 
-    <Row Tag="LOC_HYLIAN_NAVAL_BONUS_VS_BARB_SHIPS_DESCRIPTION" Language="en_US">
-      <Text>+10 vs. Barbarian ships</Text>
-    </Row>
-    <Row Tag="LOC_HYLIAN_BONUS_VS_EMBARKED_DESCRIPTION" Language="en_US">
-      <Text>+20 vs. Embarked units</Text>
-    </Row>
 
     <!-- Improvements -->
     <Row Tag="LOC_IMPROVEMENT_FAIRY_FOUNTAIN_NAME" Language="en_US">
@@ -46,66 +40,13 @@
     </Row>
 
     <!-- Units -->
-    <Row Tag="LOC_UNIT_ARGO_NAME" Language="en_US">
-      <Text>Argo</Text>
+    <Row Tag="LOC_UNIT_HERO_OF_TIME_NAME" Language="en_US">
+      <Text>Hero of Time</Text>
     </Row>
-    <Row Tag="LOC_UNIT_ARGO_DESCRIPTION" Language="en_US">
-      <Text>Ancient era naval scouting unit that can freely enter opponent territory. Can only operate in Coastal waters until Cartography is researched.</Text>
-    </Row>
-    <Row Tag="LOC_PROMOTION_CLASS_HYLIAN_NAVAL_RECON_NAME" Language="en_US">
-      <Text>Naval Scout</Text>
-    </Row>
-    
-
-    <!-- Promotions -->
-    <Row Tag="LOC_PROMOTION_HYLIAN_ANTIPIRACY_NAME" Language="en_US">
-      <Text>Anti-Piracy</Text>
-    </Row>
-    <Row Tag="LOC_PROMOTION_HYLIAN_ANTIPIRACY_DESCRIPTION" Language="en_US">
-      <Text>+7 [ICON_Strength] Combat vs. Barbarians</Text>
+    <Row Tag="LOC_UNIT_HERO_OF_TIME_DESCRIPTION" Language="en_US">
+      <Text>Can be purchased with faith. Powerful Swordsman replacement. Gain one free at the beginning of each new era.</Text>
     </Row>
 
-    <Row Tag="LOC_PROMOTION_HYLIAN_SAFE_HARBOR_NAME" Language="en_US">
-      <Text>Safe Harbor</Text>
-    </Row>
-    <Row Tag="LOC_PROMOTION_HYLIAN_SAFE_HARBOR_DESCRIPTION" Language="en_US">
-      <Text>Heal outside of friendly territory</Text>
-    </Row>
-    
-    <Row Tag="LOC_PROMOTION_HYLIAN_REINFORCED_ADVANCE_NAME" Language="en_US">
-      <Text>Reinforced Advance</Text>
-    </Row>
-    <Row Tag="LOC_PROMOTION_HYLIAN_REINFORCED_ADVANCE_DESCRIPTION" Language="en_US">
-      <Text>+7 [ICON_Strength] Combat Strength when defending vs. city attacks</Text>
-    </Row>
-    
-    <Row Tag="LOC_PROMOTION_HYLIAN_OCEAN_HARVEST_NAME" Language="en_US">
-      <Text>Ocean Harvest</Text>
-    </Row>
-    <Row Tag="LOC_PROMOTION_HYLIAN_OCEAN_HARVEST_DESCRIPTION" Language="en_US">
-      <Text>Pillaging costs only 1 [ICON_Movement] Movement point</Text>
-    </Row>
-    
-    <Row Tag="LOC_PROMOTION_HYLIAN_TACKING_NAME" Language="en_US">
-      <Text>Tacking</Text>
-    </Row>
-    <Row Tag="LOC_PROMOTION_HYLIAN_TACKING_DESCRIPTION" Language="en_US">
-      <Text>+7 [ICON_Strength] Combat Strength when defending</Text>
-    </Row>
-    
-    <Row Tag="LOC_PROMOTION_HYLIAN_SILENT_SAILS_NAME" Language="en_US">
-      <Text>Silent Sales</Text>
-    </Row>
-    <Row Tag="LOC_PROMOTION_HYLIAN_SILENT_SAILS_DESCRIPTION" Language="en_US">
-      <Text>Only adjacent enemy units can reveal this unit</Text>
-    </Row>
-    
-    <Row Tag="LOC_PROMOTION_HYLIAN_HYLIAN_OARSMEN_NAME" Language="en_US">
-      <Text>Hylian Oarsmen</Text>
-    </Row>
-    <Row Tag="LOC_PROMOTION_HYLIAN_HYLIAN_OARSMEN_DESCRIPTION" Language="en_US">
-      <Text>+1 [ICON_Movement] Movement</Text>
-    </Row>
     <Row Tag="LOC_ZELDA_DOM_TEXT" Language="en_US">
           <Text>This is but one of the legends of which the people speak...[NEWLINE]Long ago, there existed a kingdom where a golden power lay hidden. It was a prosperous land blessed with green forests, tall mountains, and peace.[NEWLINE]But one day, a man of great evil found the golden power and took it for himself. With its strength at his command, he spread darkness across the kingdom. But then, when all hope had died, and the hour of doom seemed at hand...[NEWLINE]...a young boy clothed in green appeared as if from nowhere. Wielding the blade of evil's bane, he sealed the dark one away and gave the land light.</Text>
     </Row>

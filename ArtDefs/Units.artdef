@@ -9,14 +9,12 @@
 	<m_TemplateName text="Units"/>
 	<m_RootCollections>
 		<Element>
-			<m_CollectionName text="Units"/>			
-			
-
+			<m_CollectionName text="Units"/>
 			<Element>
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects::ArtDefReferenceValue">
-							<m_ElementName text="Galley"/>
+							<m_ElementName text="Swordsman"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
 							<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -24,7 +22,7 @@
 							<m_ParamName text="Formation"/>
 						</Element>
 						<Element class="AssetObjects::ArtDefReferenceValue">
-							<m_ElementName text="Galley"/>
+							<m_ElementName text="Swordsman"/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
 							<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -100,7 +98,7 @@
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects::ArtDefReferenceValue">
-										<m_ElementName text="Galley"/>
+										<m_ElementName text="Swordsman"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -120,18 +118,18 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects::StringValue">
-										<m_Value text="Argo"/>
+										<m_Value text="Hero of Time"/>
 										<m_ParamName text="XrefName"/>
 									</Element>
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="ARGO"/>
+							<m_Name text="HERO_OF_TIME"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
-				<m_Name text="UNIT_ARGO"/>
+				<m_Name text="UNIT_HERO_OF_TIME"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 		</Element>

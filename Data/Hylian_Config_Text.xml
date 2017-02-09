@@ -39,11 +39,11 @@
     </Row>
 
   <!-- Units -->
-  <Row Tag="LOC_UNIT_ARGO_NAME" Language="en_US">
-    <Text>Argo</Text>
+  <Row Tag="LOC_UNIT_HERO_OF_TIME_NAME" Language="en_US">
+    <Text>Hero of Time</Text>
   </Row>
-  <Row Tag="LOC_UNIT_ARGO_DESCRIPTION" Language="en_US">
-    <Text>Ancient era naval scouting unit that can freely enter opponent territory. Can only operate on Coastal waters until Cartography is researched.</Text>
+  <Row Tag="LOC_UNIT_HERO_OF_TIME_DESCRIPTION" Language="en_US">
+    <Text>Can be purchased with faith. Powerful Swordsman replacement. Gain one free at the beginning of each new era.</Text>
   </Row>
   
   </LocalizedText>
