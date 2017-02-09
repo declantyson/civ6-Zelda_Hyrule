@@ -21,13 +21,13 @@
     <Row Tag="LOC_TRAIT_CIVILIZATION_SACRED_STONES_DESCRIPTION" Language="en_US">
       <Text>Precious metal resources (Jade, Gypsum, Diamonds, Silver, Pearls) grant +3 [ICON_Faith].</Text>
     </Row>
-  
-    <Row Tag="LOC_TRAIT_LEADER_KINGS_RHYTON_NAME" Language="en_US">
-      <Text>The King's Rhyton</Text>
-    </Row>
-    <Row Tag="LOC_TRAIT_LEADER_KINGS_RHYTON_DESCRIPTION" Language="en_US">
-      <Text>Naval combat units gain +20 [ICON_Strength] Combat vs. all embarked units, and +10 [ICON_Strength] vs. Barbarian naval units.</Text>
-    </Row>
+
+      <Row Tag="LOC_TRAIT_LEADER_GODDESS_HARP_NAME" Language="en_US">
+          <Text>Goddess's Harp</Text>
+      </Row>
+      <Row Tag="LOC_TRAIT_LEADER_GODDESS_HARP_DESCRIPTION" Language="en_US">
+          <Text>+2 [ICON_GreatMusician] Great Musician points per turn.</Text>
+      </Row>
 
     <!-- Improvements -->
     <Row Tag="LOC_IMPROVEMENT_FAIRY_FOUNTAIN_NAME" Language="en_US">

@@ -67,7 +67,7 @@
     </UnitAbilityModifiers>
 
     <Modifiers>
-        <Row ModifierId="FAIRY_FOUNTAIN_BONUS_HEAL" ModifierType="MODIFIER_PLAYER_UNIT_ADJUST_HEAL_PER_TURN" RunOnce="1" Permanent="1" SubjectRequirementSetId="IMPROVEMENT_IS_FAIRY_FOUNTAIN" />
+        <Row ModifierId="FAIRY_FOUNTAIN_BONUS_HEAL" ModifierType="MODIFIER_PLAYER_UNIT_ADJUST_HEAL_PER_TURN" RunOnce="0" Permanent="1" SubjectRequirementSetId="IMPROVEMENT_IS_FAIRY_FOUNTAIN" />
     </Modifiers>
 
     <ModifierArguments>

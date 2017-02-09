@@ -2,205 +2,30 @@
 <GameInfo>
 	<Types>
 		<Row Type="LEADER_ZELDA" Kind="KIND_LEADER"/>
-		<Row Type="TRAIT_LEADER_KINGS_RHYTON" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_GODDESS_HARP" Kind="KIND_TRAIT"/>
 	</Types>
 	<Leaders>
 		<Row LeaderType="LEADER_ZELDA" Name="LOC_LEADER_ZELDA_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
 	</Leaders>
 	<LeaderTraits>
-		<Row LeaderType="LEADER_ZELDA" TraitType="TRAIT_LEADER_KINGS_RHYTON"/>
+		<Row LeaderType="LEADER_ZELDA" TraitType="TRAIT_LEADER_GODDESS_HARP"/>
 	</LeaderTraits>
 	<HistoricalAgendas>
 		<Row LeaderType="LEADER_ZELDA" AgendaType="AGENDA_DEVOUT"/>
 	</HistoricalAgendas>
 	<Traits>
-		<Row TraitType="TRAIT_LEADER_KINGS_RHYTON" Name="LOC_TRAIT_LEADER_KINGS_RHYTON_NAME" Description="LOC_TRAIT_LEADER_KINGS_RHYTON_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_GODDESS_HARP" Name="LOC_TRAIT_LEADER_GODDESS_HARP_NAME" Description="LOC_TRAIT_LEADER_GODDESS_HARP_DESCRIPTION"/>
 	</Traits>
 	<TraitModifiers>
-		<Row TraitType="TRAIT_LEADER_KINGS_RHYTON" ModifierId="TRAIT_HYLIAN_BONUS_VS_EMBARKED_COAST"/>
-		<Row TraitType="TRAIT_LEADER_KINGS_RHYTON" ModifierId="TRAIT_HYLIAN_BONUS_VS_EMBARKED_OCEAN"/>
-		<Row TraitType="TRAIT_LEADER_KINGS_RHYTON" ModifierId="TRAIT_HYLIAN_ANTIPIRACY"/>
+		<Row TraitType="TRAIT_LEADER_GODDESS_HARP" ModifierId="TRAIT_HYLIAN_BONUS_GREAT_MUSICIAN_POINTS"/>
 	</TraitModifiers>
 
 	<Modifiers>
-	<!-- Bonus vs. Embarked -->
-		<!-- Coast -->
-		<Row>
-			<ModifierId>TRAIT_HYLIAN_BONUS_VS_EMBARKED_COAST</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
-			<SubjectRequirementSetId>REQUIREMENTS_HYLIAN_COMBAT_SHIPS_ONLY</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>HYLIAN_BONUS_VS_EMBARKED_COAST</ModifierId>
-			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
-			<!-- REQUIREMENTS_UNIT_LAND_DOMAIN and on coast -->
-			<SubjectRequirementSetId>HYLIAN_ENEMY_EMBARKED_ON_COAST</SubjectRequirementSetId>
-		</Row>
-		<!-- Ocean -->
-		<Row>
-			<ModifierId>TRAIT_HYLIAN_BONUS_VS_EMBARKED_OCEAN</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
-			<SubjectRequirementSetId>REQUIREMENTS_HYLIAN_COMBAT_SHIPS_ONLY</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>HYLIAN_BONUS_VS_EMBARKED_OCEAN</ModifierId>
-			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
-			<!-- REQUIREMENTS_UNIT_LAND_DOMAIN and on ocean -->
-			<SubjectRequirementSetId>HYLIAN_ENEMY_EMBARKED_ON_OCEAN</SubjectRequirementSetId>
-		</Row>
-
-	<!-- Bonus vs. Barbarian ships -->
-		<Row>
-			<ModifierId>TRAIT_HYLIAN_ANTIPIRACY</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
-			<SubjectRequirementSetId>REQUIREMENTS_HYLIAN_COMBAT_SHIPS_ONLY</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>HYLIAN_NAVAL_BONUS_VS_BARB_SHIPS</ModifierId>
-			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
-			<SubjectRequirementSetId>HYLIAN_ENEMY_IS_NAVAL_BARB</SubjectRequirementSetId>
-		</Row>
+		<Row ModifierId="TRAIT_HYLIAN_BONUS_GREAT_MUSICIAN_POINTS" ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS_PERCENT" RunOnce="1" Permanent="1" />
 	</Modifiers>
 
 	<ModifierArguments>
-	<!-- Bonus vs. Embarked -->
-		<!-- Coast -->
-		<Row>
-			<ModifierId>TRAIT_HYLIAN_BONUS_VS_EMBARKED_COAST</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>HYLIAN_BONUS_VS_EMBARKED_COAST</Value>
-		</Row>
-		<Row>
-			<ModifierId>HYLIAN_BONUS_VS_EMBARKED_COAST</ModifierId>
-			<Name>Amount</Name>
-			<Value>20</Value>
-		</Row>
-		<!-- Ocean -->
-		<Row>
-			<ModifierId>TRAIT_HYLIAN_BONUS_VS_EMBARKED_OCEAN</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>HYLIAN_BONUS_VS_EMBARKED_OCEAN</Value>
-		</Row>
-		<Row>
-			<ModifierId>HYLIAN_BONUS_VS_EMBARKED_OCEAN</ModifierId>
-			<Name>Amount</Name>
-			<Value>20</Value>
-		</Row>
-	<!-- Bonus vs. Barbarian ships -->
-		<Row>
-			<ModifierId>TRAIT_HYLIAN_ANTIPIRACY</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>HYLIAN_NAVAL_BONUS_VS_BARB_SHIPS</Value>
-		</Row>
-		<Row>
-			<ModifierId>HYLIAN_NAVAL_BONUS_VS_BARB_SHIPS</ModifierId>
-			<Name>Amount</Name>
-			<Value>10</Value>
-		</Row>
+		<Row ModifierId="TRAIT_HYLIAN_BONUS_GREAT_MUSICIAN_POINTS" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_MUSICIAN" />
+		<Row ModifierId="TRAIT_HYLIAN_BONUS_GREAT_MUSICIAN_POINTS" Name="Amount" Value="200" />
 	</ModifierArguments>
-
-	<RequirementSets>
-		<Row>
-			<RequirementSetId>REQUIREMENTS_HYLIAN_COMBAT_SHIPS_ONLY</RequirementSetId>
-			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
-		</Row>
-		<Row>
-			<RequirementSetId>HYLIAN_ENEMY_EMBARKED_ON_COAST</RequirementSetId>
-			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
-		</Row>
-		<Row>
-			<RequirementSetId>HYLIAN_ENEMY_EMBARKED_ON_OCEAN</RequirementSetId>
-			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
-		</Row>
-		<Row>
-			<RequirementSetId>HYLIAN_ENEMY_IS_NAVAL_BARB</RequirementSetId>
-			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
-		</Row>
-	</RequirementSets>
-
-	<RequirementSetRequirements>
-
-		<Row>
-			<RequirementSetId>REQUIREMENTS_HYLIAN_COMBAT_SHIPS_ONLY</RequirementSetId>
-			<RequirementId>REQUIRES_UNIT_SEA_DOMAIN</RequirementId>
-		</Row>
-		<!-- Exclude UU Argo (custom class: "naval scout") -->
-		<Row>
-			<RequirementSetId>REQUIREMENTS_HYLIAN_COMBAT_SHIPS_ONLY</RequirementSetId>
-			<RequirementId>REQUIRES_NON_NAVAL_SCOUT</RequirementId>
-		</Row>
-
-		<Row>
-			<RequirementSetId>HYLIAN_ENEMY_EMBARKED_ON_COAST</RequirementSetId>
-			<RequirementId>REQUIRES_HYLIAN_OPPONENT_UNIT_IS_LAND</RequirementId>
-		</Row>
-		<Row>
-			<RequirementSetId>HYLIAN_ENEMY_EMBARKED_ON_COAST</RequirementSetId>
-			<RequirementId>REQUIRES_TERRAIN_COAST</RequirementId>
-		</Row>
-
-		<Row>
-			<RequirementSetId>HYLIAN_ENEMY_EMBARKED_ON_OCEAN</RequirementSetId>
-			<RequirementId>REQUIRES_HYLIAN_OPPONENT_UNIT_IS_LAND</RequirementId>
-		</Row>
-		<Row>
-			<RequirementSetId>HYLIAN_ENEMY_EMBARKED_ON_OCEAN</RequirementSetId>
-			<RequirementId>REQUIRES_TERRAIN_OCEAN</RequirementId>
-		</Row>
-
-		<Row>
-			<RequirementSetId>HYLIAN_ENEMY_IS_NAVAL_BARB</RequirementSetId>
-			<RequirementId>REQUIRES_HYLIAN_OPPONENT_UNIT_IS_NAVAL</RequirementId>
-		</Row>
-		<Row>
-			<RequirementSetId>HYLIAN_ENEMY_IS_NAVAL_BARB</RequirementSetId>
-			<RequirementId>REQUIRES_HYLIAN_OPPONENT_UNIT_IS_BARB</RequirementId>
-		</Row>
-	</RequirementSetRequirements>
-
-	<Requirements>
-		<Row>
-			<RequirementId>REQUIRES_NON_NAVAL_SCOUT</RequirementId>
-			<RequirementType>REQUIREMENT_UNIT_TAG_MATCHES</RequirementType>
-			<Inverse>1</Inverse>
-		</Row>
-		<Row>
-			<RequirementId>REQUIRES_HYLIAN_OPPONENT_UNIT_IS_LAND</RequirementId>
-			<RequirementType>REQUIREMENT_OPPONENT_UNIT_DOMAIN_MATCHES</RequirementType>
-		</Row>
-		<Row>
-			<RequirementId>REQUIRES_HYLIAN_OPPONENT_UNIT_IS_NAVAL</RequirementId>
-			<RequirementType>REQUIREMENT_OPPONENT_UNIT_DOMAIN_MATCHES</RequirementType>
-		</Row>
-		<Row>
-			<RequirementId>REQUIRES_HYLIAN_OPPONENT_UNIT_IS_BARB</RequirementId>
-			<RequirementType>REQUIREMENT_OPPONENT_IS_BARBARIAN</RequirementType>
-		</Row>
-	</Requirements>
-
-	<RequirementArguments>
-		<Row>
-			<RequirementId>REQUIRES_NON_NAVAL_SCOUT</RequirementId>
-			<Name>Tag</Name>
-			<Value>CLASS_NAVAL_SCOUT</Value>
-		</Row>
-		
-		<Row>
-			<RequirementId>REQUIRES_HYLIAN_OPPONENT_UNIT_IS_LAND</RequirementId>
-			<Name>UnitDomain</Name>
-			<Value>DOMAIN_LAND</Value>
-		</Row>
-		<Row>
-			<RequirementId>REQUIRES_HYLIAN_OPPONENT_UNIT_IS_NAVAL</RequirementId>
-			<Name>UnitDomain</Name>
-			<Value>DOMAIN_SEA</Value>
-		</Row>
-	</RequirementArguments>
-
-
-	<ModifierStrings>
-		<Row ModifierId="HYLIAN_NAVAL_BONUS_VS_BARB_SHIPS" Context="Preview" Text="LOC_HYLIAN_NAVAL_BONUS_VS_BARB_SHIPS_DESCRIPTION"/>
-		<Row ModifierId="HYLIAN_BONUS_VS_EMBARKED_COAST" Context="Preview" Text="LOC_HYLIAN_BONUS_VS_EMBARKED_DESCRIPTION"/>
-		<Row ModifierId="HYLIAN_BONUS_VS_EMBARKED_OCEAN" Context="Preview" Text="LOC_HYLIAN_BONUS_VS_EMBARKED_DESCRIPTION"/>
-	</ModifierStrings>
 </GameInfo>
