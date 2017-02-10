@@ -77,7 +77,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects::ArtDefReferenceValue">
-										<m_ElementName text="LM_Pasture"/>
+										<m_ElementName text="LM_PASTURE"/>
 										<m_RootCollectionName text="Landmarks"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>

@@ -244,10 +244,10 @@
 		<Row CivilizationType="CIVILIZATION_HYLIAN" TerrainType="TERRAIN_COAST" Tier="5"/>
 	</StartBiasTerrains>
 	<StartBiasResources>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" ResourceType="RESOURCE_JADE" Tier="3"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" ResourceType="RESOURCE_GYPSUM" Tier="3"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" ResourceType="RESOURCE_DIAMONDS" Tier="3"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" ResourceType="RESOURCE_SILVER" Tier="3"/>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" ResourceType="RESOURCE_PEARLS" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" ResourceType="RESOURCE_JADE" Tier="2"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" ResourceType="RESOURCE_GYPSUM" Tier="2"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" ResourceType="RESOURCE_DIAMONDS" Tier="2"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" ResourceType="RESOURCE_SILVER" Tier="2"/>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" ResourceType="RESOURCE_PEARLS" Tier="2"/>
 	</StartBiasResources>
 </GameInfo>
