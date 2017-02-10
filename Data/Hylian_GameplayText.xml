@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<GameData>
+	<BaseGameText>
+		<!-- Civilopedia -->
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZELDA_TITLE" Language="en_US">
+			<Text>Princess Zelda</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZELDA_SUBTITLE" Language="en_US">
+			<Text>The wise princess</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZELDA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Throughout Hyrule's history there have been an untold number of princesses with the name Zelda. Typically they have all had some significant part to play in defending the realm from the power of evildoers, either by command or often even leading armies into battle herself. The name Zelda has been long associated with the wisest people in all the land.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZELDA_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>A kind and benevolent royal, the princess is unafraid to interact with the common people, often forming long-lasting relationships with Sheikah and her royal guard that prove important in moving the realm forward. As such, she is seen as a keen diplomat.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZELDA_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>Zelda holds the Triforce of Wisdom, a piece of the legendary Triforce thatis said to grant wishes to those who hold all three pieces. She protects it in secret so that it does not fall into the wrong hands.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZELDA_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text>.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HYLIAN_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The Hylian race is the majority civilization in Hyrule. They believe themselves to be put in Hyrule by the Goddesses themselves and as such are a very religious and proud people. They tell tales of the world being forged by Din, Farore and Nayru, and tales of the legendary Triforce.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HYLIAN_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>Hyrule has frequently been under assault by evildoers, most frequently and notably the immortal, evil theif-king Ganon. Using the power bestowed upon to them by the Godesses, and the efforts of Princess Zelda and her royal guard, including a boy garbed in green, they have often - although not always - managed to repel these invasions.</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVINFO_HYLIAN_LOCATION">
+			<Text>Hyrule</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_HYLIAN_SIZE">
+			<Text>est 360 square km</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_HYLIAN_POPULATION">
+			<Text>approx. 3 million</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_HYLIAN_CAPITAL">
+			<Text>Hyrule Castle</Text>
+		</Row>
+
+		<!-- Citizens -->
+
+		<Row Tag="LOC_CITIZEN_HYLIAN_MALE_1">
+			<Text>Link</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HYLIAN_MALE_2">
+			<Text>Daphnes Nohansen Hyrule</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HYLIAN_MALE_3">
+			<Text>Groose</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HYLIAN_MALE_4">
+			<Text>Kafei</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HYLIAN_MALE_5">
+			<Text>Talon</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HYLIAN_MALE_6">
+			<Text>Tingle</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HYLIAN_MALE_7">
+			<Text>Beedle</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HYLIAN_MALE_8">
+			<Text>Zunari</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HYLIAN_MALE_9">
+			<Text>Niko</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HYLIAN_MALE_10">
+			<Text>Alfonzo</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HYLIAN_FEMALE_1">
+			<Text>Zelda</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HYLIAN_FEMALE_2">
+			<Text>Marin</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HYLIAN_FEMALE_3">
+			<Text>Tetra</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HYLIAN_FEMALE_4">
+			<Text>Anju</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HYLIAN_FEMALE_5">
+			<Text>Romani</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HYLIAN_FEMALE_6">
+			<Text>Malon</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HYLIAN_FEMALE_7">
+			<Text>Marin</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HYLIAN_FEMALE_8">
+			<Text>Din</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HYLIAN_FEMALE_9">
+			<Text>Nayru</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HYLIAN_FEMALE_10">
+			<Text>Farore</Text>
+		</Row>
+
+		<Row Tag="LOC_CITIZEN_HYLIAN_MODERN_MALE_1">
+			<Text>Link</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HYLIAN_MODERN_MALE_2">
+			<Text>Daphnes Nohansen Hyrule</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HYLIAN_MODERN_MALE_3">
+			<Text>Groose</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HYLIAN_MODERN_MALE_4">
+			<Text>Kafei</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HYLIAN_MODERN_MALE_5">
+			<Text>Talon</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HYLIAN_MODERN_MALE_6">
+			<Text>Tingle</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HYLIAN_MODERN_MALE_7">
+			<Text>Beedle</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HYLIAN_MODERN_MALE_8">
+			<Text>Zunari</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HYLIAN_MODERN_MALE_9">
+			<Text>Niko</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HYLIAN_MODERN_MALE_10">
+			<Text>Alfonzo</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HYLIAN_MODERN_FEMALE_1">
+			<Text>Zelda</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HYLIAN_MODERN_FEMALE_2">
+			<Text>Marin</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HYLIAN_MODERN_FEMALE_3">
+			<Text>Tetra</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HYLIAN_MODERN_FEMALE_4">
+			<Text>Anju</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HYLIAN_MODERN_FEMALE_5">
+			<Text>Romani</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HYLIAN_MODERN_FEMALE_6">
+			<Text>Malon</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HYLIAN_MODERN_FEMALE_7">
+			<Text>Marin</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HYLIAN_MODERN_FEMALE_8">
+			<Text>Din</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HYLIAN_MODERN_FEMALE_9">
+			<Text>Nayru</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HYLIAN_MODERN_FEMALE_10">
+			<Text>Farore</Text>
+		</Row>
+
+		<!-- Diplomacy -->
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ZELDA_ANY">
+			<Text>Your empire is powerful, beautiful and pure. We accept.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ZELDA_ANY">
+			<Text>Sorry, but no. Another time.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_ZELDA_ANY">
+			<Text>We would love to declare our friendship to the rest of the realm.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_ZELDA_ANY">
+			<Text>Excellent.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_ZELDA_ANY">
+			<Text>Oh... OK.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_ZELDA_ANY">
+			<Text>I will protect Hyrule to my dying breath, as will my royal guard and loyal subjects. You will regret this.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_ZELDA_ANY">
+			<Text>The road to prosperity is paved with hurdles. You are but one of those hurdles.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_ZELDA_ANY">
+			<Text>We have received your trade delegation, and your gifts as well. They will be treated as guests of honor.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ZELDA_ANY">
+			<Text>Sorry, but we must decline.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_ZELDA_ANY">
+			<Text>I have sent a trade delegation to you. I hope you receive them well.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_ZELDA_ANY">
+			<Text>That was unwise.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_ZELDA_ANY">
+			<Text>I believe Ganon has sent you to test us. He shall not win. (Denounces You).</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_ZELDA_ANY">
+			<Text>Greetings and welcome to Hyrule. I am Zelda, princess and holder of the Triforce of Wisdom.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_ZELDA_ANY">
+			<Text>How would you like to visit our lavish castle? We would be honoured to receive you.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_ZELDA_ANY">
+			<Text>Excellent.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_ZELDA_ANY">
+			<Text>Let us exchange information about our capitals, so that we may forge a relationship that will last generations.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_ZELDA_ANY">
+			<Text>A pleasure.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_ZELDA_ANY">
+			<Text>We are pleased at your devotion to the Goddesses.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_ZELDA_REASON_ANY">
+			<Text>(You have strong [ICON_Faith] Faith output)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_ZELDA_ANY">
+			<Text>Everyday, I pray for your soul, that you find the wisdom of the Goddesses.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_ZELDA_REASON_ANY">
+			<Text>(You have weak Faith output.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_ZELDA_ANY">
+			<Text>Hyrule is a proud nation, and we believe you are too. Let us make an alliance together.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_ZELDA_ANY">
+			<Text>We are glad you have come to your senses.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_ZELDA_ANY">
+			<Text>I am afraid not.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_ZELDA_ANY">
+			<Text>We do not wish to fight. Let us make peace.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_ZELDA_ANY">
+			<Text>We welcome your people into Hyrule. Enjoy your travels through our beautiful country.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_ZELDA_ANY">
+			<Text>Sorry, but Hyrule is closed to outsiders.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_ZELDA_ANY">
+			<Text>Would you please allow us safe passage through your territory?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_ZELDA_ANY">
+			<Text>Please keep your dark forces away from our country.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_ZELDA_ANY">
+			<Text>I have failed Hyrule. A new age of darkness will begin. Link...! If you can hear me, save us!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_ZELDA_ANY">
+			<Text>That is disappointing.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_ZELDA_ANY">
+			<Text>Thank you.</Text>
+		</Row>
+	</BaseGameText>
+</GameData>

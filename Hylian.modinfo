@@ -48,6 +48,7 @@
 		<LocalizedText id="HYLIAN_TEXT">
 			<Items>
 				<File>Data/Hylian_Text.xml</File>
+				<File>Data/Hylian_GameplayText.xml</File>
 			</Items>
 		</LocalizedText>
 		
@@ -121,7 +122,7 @@
 		</Custom>
 		<LocalizedText id="HYLIAN_SETTING_TEXT">
 			<Items>
-				<File>Data/Hylian_Config_Text.xml</File>
+				<File>Data/Hylian_ConfigText.xml</File>
 			</Items>
 		</LocalizedText>
 	</Settings>
@@ -144,12 +145,13 @@
 	</LocalizedText>
 	<Files>			
 		<File>Hylian.dep</File>
-	    <File>Data/Hylian_Improvements.xml</File>
 		<File>Data/Hylian_Config.xml</File>
-		<File>Data/Hylian_Config_Text.xml</File>
+		<File>Data/Hylian_ConfigText.xml</File>
 		<File>Data/Hylian_Civilizations.xml</File>
 		<File>Data/Hylian_Colours.xml</File>
+		<File>Data/Hylian_GameplayText.xml</File>
 		<File>Data/Hylian_Gossip.xml</File>
+		<File>Data/Hylian_Improvements.xml</File>
 		<File>Data/Hylian_Leaders.xml</File>
 		<File>Data/Hylian_PlayerColours.xml</File>
 		<File>Data/Hylian_Text.xml</File>
@@ -161,7 +163,6 @@
         <File>InGame/Hylain_InGame.xml</File>
 		<File>GameplayScripts/Hylian_GameplayScripts.lua</File>
 		<File>GameplayScripts/Hylain_GameplayScripts.xml</File>
-
 
 		<File>Data/Icons/Hylian_Icons_Leaders.xml</File>
 		<File>Data/Icons/Hylian_Icons_Improvements.xml</File>

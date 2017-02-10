@@ -16,12 +16,21 @@
             <ArtDefDependencyPaths>
                 <Element text="Leaders.artdef"/>
             </ArtDefDependencyPaths>
+            <LibraryDependencies>
+                <Element text="Leader"/>
+                <Element text="LeaderLighting"/>
+            </LibraryDependencies>
+            <LoadsLibraries>true</LoadsLibraries>
         </Element>
         <Element>
-            <ConsumerName text="FallbackLeaders"/>
+            <ConsumerName text="LeaderFallback"/>
             <ArtDefDependencyPaths>
                 <Element text="FallbackLeaders.artdef"/>
             </ArtDefDependencyPaths>
+            <LibraryDependencies>
+                <Element text="LeaderFallback"/>
+            </LibraryDependencies>
+            <LoadsLibraries>true</LoadsLibraries>
         </Element>
         <Element>
             <ConsumerName text="Improvements"/>

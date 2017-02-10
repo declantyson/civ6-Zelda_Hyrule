@@ -26,7 +26,7 @@
           <Text>Goddess's Harp</Text>
       </Row>
       <Row Tag="LOC_TRAIT_LEADER_GODDESS_HARP_DESCRIPTION" Language="en_US">
-          <Text>Gain a free +2 [ICON_GreatMusician] Great Musician points per turn.</Text>
+          <Text>Gain +2 free [ICON_GreatMusician] Great Musician points per turn.</Text>
       </Row>
 
     <!-- Improvements -->
