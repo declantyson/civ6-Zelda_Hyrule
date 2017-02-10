@@ -10,11 +10,12 @@
 
 function EraChanged(playerId, EraId)
 	local pPlayer = Players[playerId]
+	local playerConfig = PlayerConfigurations[playerId]
 	local capitalCity = pPlayer:GetCities():GetCapitalCity()
 
-	if pPlayer:GetCivilizationType() == "CIVILIZATION_HYLIAN" then
-		-- pPlayer:AddFreeUnit(GameInfo.Units["UNIT_PROPHET"].ID, UNITAI_PROPHET)
-		pPlayer:GetUnits():Create(GameInfo.Units["UNIT_HERO_OF_TIME"], capitalCity:GetX(), capitalCity:GetY())
+	if playerConfig:GetCivilizationTypeName() == "CIVILIZATION_HYLIAN" then
+--		pPlayer:GetUnits():Create("UNIT_HERO_OF_TIME", capitalCity:GetX(), capitalCity:GetY())
+		pPlayer:GetUnits():Create("UNIT_SWORDSMAN", capitalCity:GetX(), capitalCity:GetY())
 	end
 end
 
