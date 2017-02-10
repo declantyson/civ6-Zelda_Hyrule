@@ -26,6 +26,6 @@
 
 	<ModifierArguments>
 		<Row ModifierId="TRAIT_HYLIAN_BONUS_GREAT_MUSICIAN_POINTS" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_MUSICIAN" />
-		<Row ModifierId="TRAIT_HYLIAN_BONUS_GREAT_MUSICIAN_POINTS" Name="Amount" Value="4" />
+		<Row ModifierId="TRAIT_HYLIAN_BONUS_GREAT_MUSICIAN_POINTS" Name="Amount" Value="2" />
 	</ModifierArguments>
 </GameInfo>
