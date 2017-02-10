@@ -12,15 +12,13 @@ Adds the Kingdom of Hyrule, led by Princess Zelda, to Civilization VI.
 4. ~~Lol Link's kinda OP~~
 5. ~~Fairy Fountain DDS re-export~~
 6. ~~Goddess's Harp not working~~
-7. Replace Swordsman with Link
+7. ~~Replace Swordsman with Link~~
 8. ~~Add Iron requirements for Link~~
 9. Diplo flavour text not working
-
-### Mid-term
-
-1. Add Link every time a new era starts
-2. ~~Artdefs for Fairy Fountains~~
-3. Diplo screen not working
+10. Add Link every time a new era starts
+11. ~~Artdefs for Fairy Fountains~~
+12. Diplo screen not working
+13. Gypsum requires Quarry, not Mine
  
 ### Long-term
 
