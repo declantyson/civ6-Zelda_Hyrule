@@ -20,7 +20,7 @@
 	<Units>
 		<Row UnitType="UNIT_HERO_OF_TIME"
 			 BaseMoves="3"
-			 Cost="500"
+			 Cost="750"
 			 AdvisorType="ADVISOR_CONQUEST"
 			 BaseSightRange="3"
 			 ZoneOfControl="true"
@@ -31,11 +31,11 @@
 			 PurchaseYield="YIELD_FAITH"
 			 MustPurchase="true"
 			 PromotionClass="PROMOTION_CLASS_MELEE"
-			 Maintenance="4"
-			 Combat="80"
+			 Maintenance="8"
+			 Combat="65"
 			 PrereqTech="TECH_IRON_WORKING"
 			 InitialLevel="1"
-			 MandatoryObsoleteTech="TECH_FUTURE_TECH"
+			 MandatoryObsoleteTech="TECH_NUCLEAR_FUSION"
 			 TraitType="TRAIT_CIVILIZATION_UNIT_HERO_OF_TIME"/>
 	</Units>
 
