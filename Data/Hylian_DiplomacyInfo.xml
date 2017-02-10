@@ -2,6 +2,6 @@
 <GameInfo>
     <DiplomacyInfo>
         <!--New-->
-        <Row Type="LEADER_ZELDA" BackgroundImage="Zelda_Diplomacy_Background.dds"/>
+        <Row Type="LEADER_ZELDA" BackgroundImage="Zelda_Loading_Background.dds"/>
     </DiplomacyInfo>
 </GameInfo>

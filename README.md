@@ -17,12 +17,13 @@ Adds the Kingdom of Hyrule, led by Princess Zelda, to Civilization VI.
 9. Diplo flavour text not working
 10. ~~Add Link every time a new era starts~~
 11. ~~Artdefs for Fairy Fountains~~
-12. Diplo screen not working
-13. Gypsum requires Quarry, not Mine
+12. ~~Diplo screen not working~~
+13. ~~Gypsum requires Quarry, not Mine~~
  
 ### Long-term
 
 1. Models
+2. Music
 
 ## Thanks
 

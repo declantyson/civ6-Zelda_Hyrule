@@ -119,7 +119,7 @@
 		<!-- Gypsum -->
 		<Row>
 			<RequirementSetId>PLOT_HAS_HARVESTED_GYPSUM</RequirementSetId>
-			<RequirementId>REQUIRES_PLOT_HAS_MINE</RequirementId>
+			<RequirementId>REQUIRES_PLOT_HAS_QUARRY</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>PLOT_HAS_HARVESTED_GYPSUM</RequirementSetId>
