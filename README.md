@@ -8,10 +8,10 @@ Adds the Kingdom of Hyrule, led by Princess Zelda, to Civilization VI.
 
 1. ~~DOM text too long~~
 2. ~~Fairy Fountain healing not working~~
-3. Diplomatic flavour text
-4. Lol Link's kinda OP
+3. ~~Diplomatic flavour text~~
+4. ~~Lol Link's kinda OP~~
 5. Fairy Fountain DDS re-export
-6. Goddess's Harp not working
+6. ~~Goddess's Harp not working~~
 
 ### Mid-term
 
