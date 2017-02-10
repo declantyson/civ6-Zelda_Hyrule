@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::ArtDefSet>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>240</build>
+		<revision>129</revision>
+	</m_Version>
+	<m_TemplateName text="Civilizations"/>
+	<m_RootCollections>
+		<Element>
+			<m_CollectionName text="Civilization"/>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Audio"/>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="CIVILIZATION_ZELDA"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+		</Element>
+	</m_RootCollections>
+</AssetObjects::ArtDefSet>
+

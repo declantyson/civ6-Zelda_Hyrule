@@ -41,7 +41,7 @@
 	</Units>
 
 	<UnitReplaces>
-		<Row UnitType="UNIT_HERO_OF_TIME" ReplacesUnitType="UNIT_SWORDSMAN" />
+		<Row CivUniqueUnitType="UNIT_HERO_OF_TIME" ReplacesUnitType="UNIT_SWORDSMAN" />
 	</UnitReplaces>
 
 	<UnitAiInfos>

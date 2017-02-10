@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::ArtDefSet>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>240</build>
+		<revision>129</revision>
+	</m_Version>
+	<m_TemplateName text="Cultures"/>
+	<m_RootCollections>
+		<Element>
+			<m_CollectionName text="Culture"/>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects::CollectionValue">
+							<m_eObjectType>INVALID</m_eObjectType>
+							<m_eValueType>ARTDEF_REF</m_eValueType>
+							<m_Values>
+								<Element class="AssetObjects::ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_HYLIAN"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations001"/>
+								</Element>
+							</m_Values>
+							<m_ParamName text="Civilizations"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="Colonial"/>
+				<m_AppendMergedParameterCollections>true</m_AppendMergedParameterCollections>
+			</Element>
+		</Element>
+		<Element>
+			<m_CollectionName text="UnitCulture"/>
+		</Element>
+	</m_RootCollections>
+</AssetObjects::ArtDefSet>
+

@@ -5,38 +5,55 @@
         <id text="0g9oosda-d849-9001-o931-04851j41p0o"/>
     </ID>
     <SystemDependencies>
-        <Element>
-            <ConsumerName text="Units"/>
-            <ArtDefDependencyPaths>
-                <Element text="Units.artdef"/>
-            </ArtDefDependencyPaths>
-        </Element>
-        <Element>
-            <ConsumerName text="Leaders"/>
-            <ArtDefDependencyPaths>
-                <Element text="Leaders.artdef"/>
-            </ArtDefDependencyPaths>
-            <LibraryDependencies>
-                <Element text="Leader"/>
-                <Element text="LeaderLighting"/>
-            </LibraryDependencies>
-            <LoadsLibraries>true</LoadsLibraries>
-        </Element>
-        <Element>
-            <ConsumerName text="LeaderFallback"/>
-            <ArtDefDependencyPaths>
-                <Element text="FallbackLeaders.artdef"/>
-            </ArtDefDependencyPaths>
-            <LibraryDependencies>
-                <Element text="LeaderFallback"/>
-            </LibraryDependencies>
-            <LoadsLibraries>true</LoadsLibraries>
-        </Element>
-        <Element>
-            <ConsumerName text="Improvements"/>
-            <ArtDefDependencyPaths>
-                <Element text="Improvements.artdef"/>
-            </ArtDefDependencyPaths>
-        </Element>
+      <Element>
+          <ConsumerName text="Units"/>
+          <ArtDefDependencyPaths>
+              <Element text="Units.artdef"/>
+          </ArtDefDependencyPaths>
+      </Element>
+      <Element>
+        <ConsumerName text="Civilizations"/>
+        <ArtDefDependencyPaths>
+          <Element text="Civilizations.artdef"/>
+        </ArtDefDependencyPaths>
+        <LibraryDependencies/>
+        <LoadsLibraries>false</LoadsLibraries>
+      </Element>
+      <Element>
+        <ConsumerName text="Cultures"/>
+        <ArtDefDependencyPaths>
+          <Element text="Civilizations.artdef"/>
+          <Element text="Cultures.artdef"/>
+        </ArtDefDependencyPaths>
+        <LibraryDependencies/>
+        <LoadsLibraries>false</LoadsLibraries>
+      </Element>
+      <Element>
+        <ConsumerName text="Leaders"/>
+        <ArtDefDependencyPaths>
+          <Element text="Leaders.artdef"/>
+        </ArtDefDependencyPaths>
+        <LibraryDependencies>
+          <Element text="Leader"/>
+          <Element text="LeaderLighting"/>
+        </LibraryDependencies>
+        <LoadsLibraries>true</LoadsLibraries>
+      </Element>
+      <Element>
+        <ConsumerName text="LeaderFallback"/>
+        <ArtDefDependencyPaths>
+          <Element text="FallbackLeaders.artdef"/>
+        </ArtDefDependencyPaths>
+        <LibraryDependencies>
+          <Element text="LeaderFallback"/>
+        </LibraryDependencies>
+        <LoadsLibraries>true</LoadsLibraries>
+      </Element>
+      <Element>
+        <ConsumerName text="Improvements"/>
+        <ArtDefDependencyPaths>
+          <Element text="Improvements.artdef"/>
+        </ArtDefDependencyPaths>
+      </Element>
     </SystemDependencies>
 </AssetObjects::GameDependencyData>

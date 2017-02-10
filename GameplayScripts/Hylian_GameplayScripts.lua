@@ -15,7 +15,7 @@ function EraChanged(playerId, EraId)
 
 	if playerConfig:GetCivilizationTypeName() == "CIVILIZATION_HYLIAN" then
 --		pPlayer:GetUnits():Create("UNIT_HERO_OF_TIME", capitalCity:GetX(), capitalCity:GetY())
-		pPlayer:GetUnits():Create("UNIT_SWORDSMAN", capitalCity:GetX(), capitalCity:GetY())
+		pPlayer:GetUnits():Create(GameInfo.Units.UNIT_HERO_OF_TIME.ID, capitalCity:GetX(), capitalCity:GetY())
 	end
 end
 
