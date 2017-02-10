@@ -32,12 +32,17 @@
 			 MustPurchase="true"
 			 PromotionClass="PROMOTION_CLASS_MELEE"
 			 Maintenance="8"
-			 Combat="65"
+			 Combat="60"
+			 StrategicResource="RESOURCE_IRON"
 			 PrereqTech="TECH_IRON_WORKING"
 			 InitialLevel="1"
-			 MandatoryObsoleteTech="TECH_NUCLEAR_FUSION"
+			 MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS"
 			 TraitType="TRAIT_CIVILIZATION_UNIT_HERO_OF_TIME"/>
 	</Units>
+
+	<UnitReplaces>
+		<Row UnitType="UNIT_HERO_OF_TIME" ReplacesUnitType="UNIT_SWORDSMAN" />
+	</UnitReplaces>
 
 	<UnitAiInfos>
 		<Row UnitType="UNIT_HERO_OF_TIME" AiType="UNITAI_COMBAT"/>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <AssetObjects::GameDependencyData>
     <ID>
-        <name text="Pech"/>
-        <id text="3d7ebcea-c156-4875-b752-53160d45c9d0"/>
+        <name text="Hyrule"/>
+        <id text="0g9oosda-d849-9001-o931-04851j41p0o"/>
     </ID>
     <SystemDependencies>
         <Element>
@@ -12,15 +12,21 @@
             </ArtDefDependencyPaths>
         </Element>
         <Element>
-            <ConsumerName text="Buildings"/>
+            <ConsumerName text="Leaders"/>
             <ArtDefDependencyPaths>
-                <Element text="Buildings.artdef"/>
+                <Element text="Leaders.artdef"/>
             </ArtDefDependencyPaths>
         </Element>
         <Element>
-            <ConsumerName text="Landmarks"/>
+            <ConsumerName text="FallbackLeaders"/>
             <ArtDefDependencyPaths>
-                <Element text="Landmarks.artdef"/>
+                <Element text="FallbackLeaders.artdef"/>
+            </ArtDefDependencyPaths>
+        </Element>
+        <Element>
+            <ConsumerName text="Improvements"/>
+            <ArtDefDependencyPaths>
+                <Element text="Improvements.artdef"/>
             </ArtDefDependencyPaths>
         </Element>
     </SystemDependencies>

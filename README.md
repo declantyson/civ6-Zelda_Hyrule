@@ -12,6 +12,8 @@ Adds the Kingdom of Hyrule, led by Princess Zelda, to Civilization VI.
 4. ~~Lol Link's kinda OP~~
 5. Fairy Fountain DDS re-export
 6. ~~Goddess's Harp not working~~
+7. Replace Swordsman with Link
+8. Add Iron requirements for Link
 
 ### Mid-term
 
