@@ -1,6 +1,16 @@
 # The Kingdom of Hyrule
 
-Adds the Kingdom of Hyrule, led by Princess Zelda, to Civilization VI.
+Adds the Kingdom of Hyrule, led by Princess Zelda, to Civilization VI. Hyrule is a religion and early domination-focused Civ based around the Hero of Time and defending the homeland.
+
+## Uniques
+
+**Leader Ability: Goddess's Harp:** Zelda gains +2 Great Musician Points per turn.
+
+**Civilization Ability: Sacred Stones:** Precious metal and stone sources (Jade, Silver, Pearls, Gypsum and Diamonds) provide +3 Faith per turn when improved.
+ 
+**Unique Improvement: Fairy Fountain:** Provides +1 Culture and units standing on the tile for a full turn get completely healed.
+
+**Unique Unit: Hero of Time:** Powerful Swordsman replacement with 60 base attack. Costs 6 GPT. You receive one for free at the beginning of every new era. Cannot be built, but can be purchased with a large amount of Faith.
 
 ## TODOs
 
