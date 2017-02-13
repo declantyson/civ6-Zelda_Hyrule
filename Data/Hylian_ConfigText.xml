@@ -37,13 +37,21 @@
         <Text>Provides +1 [ICON_Culture] culture, and units on this tile completely heal after standing on it for a full turn.</Text>
     </Row>
 
-  <!-- Units -->
-  <Row Tag="LOC_UNIT_HERO_OF_TIME_NAME" Language="en_US">
-    <Text>Hero of Time</Text>
-  </Row>
-  <Row Tag="LOC_UNIT_HERO_OF_TIME_DESCRIPTION" Language="en_US">
-    <Text>Can be purchased with faith. Powerful Swordsman replacement. Gain one free at the beginning of each new era.</Text>
-  </Row>
+    <!-- Units -->
+    <Row Tag="LOC_UNIT_HERO_OF_TIME_NAME" Language="en_US">
+        <Text>Hero of Time</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_OF_TIME_DESCRIPTION" Language="en_US">
+        <Text>Can be purchased with faith. Powerful Swordsman replacement. Gain one free at the beginning of each new era.</Text>
+    </Row>
+
+    <!-- Buildings -->
+    <Row Tag="LOC_BUILDING_TEMPLE_OF_TIME_NAME" Language="en_US">
+        <Text>Temple of Time</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_TEMPLE_OF_TIME_DESCRIPTION" Language="en_US">
+        <Text>Temple replacement that can be built after reaching the Astrology Civic. Holds 2 [ICON_GreatWork_Music] Great Work of Music slots.</Text>
+    </Row>
   
   </LocalizedText>
 </GameData>
