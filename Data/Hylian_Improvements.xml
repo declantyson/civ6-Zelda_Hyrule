@@ -22,7 +22,7 @@
     </Improvements>
 
     <Improvement_Adjacencies>
-        <!--<Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" YieldChangeId="FAIRY_FOUNTAIN_CULTURE_MOUNTAIN"/>-->
+        <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" YieldChangeId="FAIRY_FOUNTAIN_CULTURE_WOODS"/>
     </Improvement_Adjacencies>
 
     <Improvement_ValidFeatures>
@@ -55,7 +55,7 @@
     </Improvement_YieldChanges>
 
     <Adjacency_YieldChanges>
-        <!--<Row ID="FAIRY_FOUNTAIN_CULTURE_MOUNTAIN" Description="Improve culture yield by 1 when next to mountain" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_MOUNTAIN"/>-->
+        <Row ID="FAIRY_FOUNTAIN_CULTURE_WOODS" Description="Improve culture yield by 1 when built on or adjacent to woods" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentFeature="FEATURE_FOREST"/>
     </Adjacency_YieldChanges>
 
     <UnitAbilities>
@@ -76,31 +76,18 @@
     </ModifierArguments>
 
     <RequirementSets>
-        <Row>
-            <RequirementSetId>IMPROVEMENT_IS_FAIRY_FOUNTAIN</RequirementSetId>
-            <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
-        </Row>
+        <Row RequirementSetId="IMPROVEMENT_IS_FAIRY_FOUNTAIN" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
     </RequirementSets>
 
     <RequirementSetRequirements>
-        <Row>
-            <RequirementSetId>IMPROVEMENT_IS_FAIRY_FOUNTAIN</RequirementSetId>
-            <RequirementId>REQUIRES_PLOT_HAS_FAIRY_FOUNTAIN</RequirementId>
-        </Row>
+        <Row RequirementSetId ="IMPROVEMENT_IS_FAIRY_FOUNTAIN" RequirementId="REQUIRES_PLOT_HAS_FAIRY_FOUNTAIN"/>
     </RequirementSetRequirements>
 
     <Requirements>
-        <Row>
-            <RequirementId>REQUIRES_PLOT_HAS_FAIRY_FOUNTAIN</RequirementId>
-            <RequirementType>REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES</RequirementType>
-        </Row>
+        <Row RequirementId="REQUIRES_PLOT_HAS_FAIRY_FOUNTAIN" RequirementType="REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES"/>
     </Requirements>
 
     <RequirementArguments>
-        <Row>
-            <RequirementId>REQUIRES_PLOT_HAS_FAIRY_FOUNTAIN</RequirementId>
-            <Name>ImprovementType</Name>
-            <Value>IMPROVEMENT_FAIRY_FOUNTAIN</Value>
-        </Row>
+        <Row RequirementId="REQUIRES_PLOT_HAS_FAIRY_FOUNTAIN" Name="ImprovementType" Value="IMPROVEMENT_FAIRY_FOUNTAIN"/>
     </RequirementArguments>
 </GameInfo>
