@@ -4,31 +4,31 @@
 	<BaseGameText>
 		<!-- Civilopedia -->
 
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZELDA_TITLE" Language="en_US">
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZELDA_TITLE" >
 			<Text>Princess Zelda</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZELDA_SUBTITLE" Language="en_US">
-			<Text>The wise princess</Text>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZELDA_SUBTITLE" >
+			<Text>The wise princess</Text>§
 		</Row>
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZELDA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZELDA_CHAPTER_HISTORY_PARA_1" >
 			<Text>Throughout Hyrule's history there have been an untold number of princesses with the name Zelda. Typically they have all had some significant part to play in defending the realm from the power of evildoers, either by command or often even leading armies into battle herself. The name Zelda has been long associated with the wisest people in all the land.</Text>
 		</Row>
 
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZELDA_CHAPTER_HISTORY_PARA_2" Language="en_US">
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZELDA_CHAPTER_HISTORY_PARA_2" >
 			<Text>A kind and benevolent royal, the princess is unafraid to interact with the common people, often forming long-lasting relationships with Sheikah and her royal guard that prove important in moving the realm forward. As such, she is seen as a keen diplomat.</Text>
 		</Row>
 
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZELDA_CHAPTER_HISTORY_PARA_3" Language="en_US">
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZELDA_CHAPTER_HISTORY_PARA_3" >
 			<Text>Zelda holds the Triforce of Wisdom, a piece of the legendary Triforce thatis said to grant wishes to those who hold all three pieces. She protects it in secret so that it does not fall into the wrong hands.</Text>
 		</Row>
 
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZELDA_CHAPTER_HISTORY_PARA_4" Language="en_US">
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZELDA_CHAPTER_HISTORY_PARA_4" >
 			<Text>.</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HYLIAN_CHAPTER_HISTORY_PARA_1" Language="en_US">
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HYLIAN_CHAPTER_HISTORY_PARA_1" >
 			<Text>The Hylian race is the majority civilization in Hyrule. They believe themselves to be put in Hyrule by the Goddesses themselves and as such are a very religious and proud people. They tell tales of the world being forged by Din, Farore and Nayru, and tales of the legendary Triforce.</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HYLIAN_CHAPTER_HISTORY_PARA_2" Language="en_US">
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HYLIAN_CHAPTER_HISTORY_PARA_2" >
 			<Text>Hyrule has frequently been under assault by evildoers, most frequently and notably the immortal, evil theif-king Ganon. Using the power bestowed upon to them by the Godesses, and the efforts of Princess Zelda and her royal guard, including a boy garbed in green, they have often - although not always - managed to repel these invasions.</Text>
 		</Row>
 

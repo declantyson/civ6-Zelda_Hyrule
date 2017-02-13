@@ -28,10 +28,14 @@ Adds the Kingdom of Hyrule, led by Princess Zelda, to Civilization VI. Hyrule is
 10. ~~Add Link every time a new era starts~~
 11. ~~Artdefs for Fairy Fountains~~
 12. ~~Diplo screen not working~~
-13. ~~Gypsum requires Quarry, not Mine~~
-14. Hero of Time Promotion Tree
-15. Temple of Time UB containing Great Work slots
-16. Fairy Fountain additional +1 Culture when built on woods
+13. ~~Gypsum requires Quarry, not Mine~~ 
+14. Temple of Time UB containing Great Work slots
+15. Fairy Fountain additional +1 Culture when built on woods
+
+## Mid-term
+
+1. Custom agenda
+2. Hero of Time Promotion Tree
  
 ### Long-term
 
