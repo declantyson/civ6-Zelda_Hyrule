@@ -17,7 +17,7 @@
         <Row BuildingType="BUILDING_TEMPLE_OF_TIME"
              Name="LOC_BUILDING_TEMPLE_OF_TIME_NAME"
              Description="LOC_BUILDING_TEMPLE_OF_TIME_DESCRIPTION"
-             PrereqCivic="CIVIC_ASTROLOGY"
+             PrereqTech="TECH_ASTROLOGY"
              PrereqDistrict="DISTRICT_HOLY_SITE"
              PurchaseYield="YIELD_GOLD"
              Cost="105" Maintenance="3"
