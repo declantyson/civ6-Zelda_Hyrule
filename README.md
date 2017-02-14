@@ -24,7 +24,7 @@ Adds the Kingdom of Hyrule, led by Princess Zelda, to Civilization VI. Hyrule is
 6. ~~Goddess's Harp not working~~
 7. ~~Replace Swordsman with Link~~
 8. ~~Add Iron requirements for Link~~
-9. Diplo flavour text not working
+9. ~~Diplo flavour text not working~~
 10. ~~Add Link every time a new era starts~~
 11. ~~Artdefs for Fairy Fountains~~
 12. ~~Diplo screen not working~~
