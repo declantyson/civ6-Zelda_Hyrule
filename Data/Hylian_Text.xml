@@ -45,6 +45,15 @@
       <Text>Can be purchased with faith. Powerful Swordsman replacement. Gain one free at the beginning of each new era.</Text>
     </Row>
 
+
+    <!-- Buildings -->
+    <Row Tag="LOC_BUILDING_TEMPLE_OF_TIME_NAME" Language="en_US">
+      <Text>Temple of Time</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_TEMPLE_OF_TIME_DESCRIPTION" Language="en_US">
+      <Text>Temple replacement that can be built after reaching the Astrology Civic. Holds 2 [ICON_GreatWork_Music] Great Work of Music slots.</Text>
+    </Row>
+
     <Row Tag="LOC_ZELDA_DOM_TEXT" Language="en_US">
           <Text>This is but one of the legends of which the people speak... Long ago, there existed a kingdom where a golden power lay hidden. It was a prosperous land blessed with green forests, tall mountains, and peace. But one day, a man of great evil found the golden power and took it for himself. With its strength at his command, he spread darkness across the kingdom. But then, when all hope had died, and the hour of doom seemed at hand, a young boy clothed in green appeared as if from nowhere. Wielding the blade of evil's bane, he sealed the dark one away and gave the land light.[NEWLINE][NEWLINE]What became of that kingdom? None remain who know.</Text>
     </Row>
