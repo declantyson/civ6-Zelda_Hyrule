@@ -34,8 +34,9 @@
         <Row BuildingType="BUILDING_TEMPLE_OF_TIME" YieldType="YIELD_FAITH" YieldChange="4"/>
     </Building_YieldChanges>
 
-    <Building_GreatPersonPoints>
-        <Row BuildingType="BUILDING_TEMPLE_OF_TIME" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" YieldChange="1"/>
+    <Building_GreatPersonPoints>gRep
+        <Row BuildingType="BUILDING_TEMPLE_OF_TIME" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
+        <Row BuildingType="BUILDING_TEMPLE_OF_TIME" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="1"/>
     </Building_GreatPersonPoints>
 
     <Building_GreatWorks>

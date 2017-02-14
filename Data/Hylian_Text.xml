@@ -51,7 +51,7 @@
       <Text>Temple of Time</Text>
     </Row>
     <Row Tag="LOC_BUILDING_TEMPLE_OF_TIME_DESCRIPTION" Language="en_US">
-      <Text>Temple replacement that can be built after reaching the Astrology Civic. Holds 2 [ICON_GreatWork_Music] Great Work of Music slots.</Text>
+      <Text>Temple replacement that can be built after reaching the Astrology Tech. Holds 2 [ICON_GreatWork_Music] Great Work of Music slots, and +1 [ICON_GreatMusician] Great Musician points per turn.</Text>
     </Row>
 
     <Row Tag="LOC_ZELDA_DOM_TEXT" Language="en_US">
