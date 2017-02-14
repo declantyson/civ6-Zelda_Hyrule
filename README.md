@@ -36,6 +36,7 @@ Adds the Kingdom of Hyrule, led by Princess Zelda, to Civilization VI. Hyrule is
 
 1. Custom agenda
 2. Hero of Time Promotion Tree
+3. Bug report: other leaders disappear when animations off
  
 ### Long-term
 
