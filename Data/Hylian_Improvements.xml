@@ -66,9 +66,13 @@
         <Row UnitAbilityType="ABILITY_IMPROVEMENT_FAIRY_FOUNTAIN_HEAL" ModifierId="FAIRY_FOUNTAIN_BONUS_HEAL"/>
     </UnitAbilityModifiers>
 
+    <ImprovementModifiers>
+        <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" ModifierId="FAIRY_FOUNTAIN_FOREST_BONUS_YIELD"/>
+    </ImprovementModifiers>
+
     <Modifiers>
         <Row ModifierId="FAIRY_FOUNTAIN_BONUS_HEAL" ModifierType="MODIFIER_PLAYER_UNIT_ADJUST_HEAL_PER_TURN" RunOnce="0" Permanent="1" SubjectRequirementSetId="IMPROVEMENT_IS_FAIRY_FOUNTAIN" />
-        <Row ModifierId="FAIRY_FOUNTAIN_FOREST_BONUS_YIELD" ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD" RunOnce="0" Permanent="1" SubjectRequirementSetId="IMPROVEMENT_IS_FAIRY_FOUNTAIN_ON_FOREST" />
+        <Row ModifierId="FAIRY_FOUNTAIN_FOREST_BONUS_YIELD" ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD" RunOnce="1" Permanent="0" SubjectRequirementSetId="IMPROVEMENT_IS_FAIRY_FOUNTAIN_ON_FOREST" />
     </Modifiers>
 
     <ModifierArguments>
@@ -76,7 +80,7 @@
         <Row ModifierId="FAIRY_FOUNTAIN_BONUS_HEAL" Name="Amount" Value="200" />
 
         <Row ModifierId="FAIRY_FOUNTAIN_FOREST_BONUS_YIELD" Name="YieldType" Value="YIELD_CULTURE" />
-        <Row ModifierId="FAIRY_FOUNTAIN_FOREST_BONUS_YIELD" Name="Amount" Value="2" />
+        <Row ModifierId="FAIRY_FOUNTAIN_FOREST_BONUS_YIELD" Name="Amount" Value="1" />
     </ModifierArguments>
 
     <RequirementSets>
