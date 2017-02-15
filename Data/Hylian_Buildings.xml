@@ -40,7 +40,7 @@
     </Building_GreatPersonPoints>
 
     <Building_GreatWorks>
-        <Row BuildingType="BUILDING_TEMPLE_OF_TIME" GreatWorkSlotsType="GREATWORKSLOT_RELIC" NumSlots="1" />
-        <Row BuildingType="BUILDING_TEMPLE_OF_TIME" GreatWorkSlotsType="GREATWORKSLOT_MUSIC" NumSlots="2" />
+        <Row BuildingType="BUILDING_TEMPLE_OF_TIME" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="1" />
+        <Row BuildingType="BUILDING_TEMPLE_OF_TIME" GreatWorkSlotType="GREATWORKSLOT_MUSIC" NumSlots="2" />
     </Building_GreatWorks>
 </GameInfo>
