@@ -34,7 +34,7 @@
       <Text>Fairy Fountain</Text>
     </Row>
     <Row Tag="LOC_IMPROVEMENT_FAIRY_FOUNTAIN_DESCRIPTION" Language="en_US">
-        <Text>Provides +1 [ICON_Culture] culture, and units on this tile completely heal after standing on it for a full turn.</Text>
+        <Text>Provides +1 [ICON_Culture] culture, and units on this tile completely heal after standing on it for a full turn. Improve culture yield by 1 when built adjacent to woods. Can only be built by the Hero of Time.</Text>
     </Row>
 
     <!-- Units -->
@@ -42,7 +42,7 @@
         <Text>Hero of Time</Text>
     </Row>
     <Row Tag="LOC_UNIT_HERO_OF_TIME_DESCRIPTION" Language="en_US">
-        <Text>Can be purchased with faith. Powerful Swordsman replacement. Gain one free at the beginning of each new era.</Text>
+        <Text>Can be purchased with a large amount of faith. Powerful Swordsman replacement. Gain one free at the beginning of each new era.</Text>
     </Row>
 
     <!-- Buildings -->
@@ -50,7 +50,7 @@
         <Text>Temple of Time</Text>
     </Row>
     <Row Tag="LOC_BUILDING_TEMPLE_OF_TIME_DESCRIPTION" Language="en_US">
-        <Text>Temple replacement that can be built after reaching the Astrology Tech. Holds 2 [ICON_GreatWork_Music] Great Work of Music slots, and +1 [ICON_GreatMusician] Great Musician points per turn.</Text>
+        <Text>Unique Temple replacement. Holds 2 [ICON_GreatWork_Music] Great Work of Music slots, and +1 [ICON_GreatMusician] Great Musician points per turn.</Text>
     </Row>
 
   </LocalizedText>
