@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="1p2jmpoo-d84m-0007-z123-98712345c8d3" version="0110">
+<Mod id="1p2jmpoo-d84m-0007-z123-98712345c8d3" version="0200">
 	<Properties>
 		<Name>LOC_MOD_TITLE</Name>
 		<Teaser>LOC_MOD_TEASER</Teaser>
@@ -38,6 +38,7 @@
 		                <File>Data/Hylian_LoadingInfo.xml</File>
 				<File>Data/Hylian_DiplomacyInfo.xml</File>
 				<File>Data/Hylian_Improvements.xml</File>
+				<File>Data/Hylian_Buildings.xml</File>
 				<File>Data/Hylian_Civilizations.xml</File>
 				<File>Data/Hylian_Colours.xml</File>
 				<File>Data/Hylian_Gossip.xml</File>
@@ -52,7 +53,7 @@
 				<File>Data/Hylian_GameplayText.xml</File>
 			</Items>
 		</LocalizedText>
-		
+
 		<ModArt id="HYLIAN_MODART">
             <Items>
                 <File>Hylian.dep</File>
@@ -96,6 +97,14 @@
 				<File>Art/Icons/Fairy_Fountain128.dds</File>
 				<File>Art/Icons/Fairy_Fountain256.dds</File>
 
+				<!-- Building Icons -->
+				<File>Art/Icons/Temple_Of_Time32.dds</File>
+				<File>Art/Icons/Temple_Of_Time38.dds</File>
+				<File>Art/Icons/Temple_Of_Time50.dds</File>
+				<File>Art/Icons/Temple_Of_Time80.dds</File>
+				<File>Art/Icons/Temple_Of_Time128.dds</File>
+				<File>Art/Icons/Temple_Of_Time256.dds</File>
+
 				<!-- Leader Icons -->
 				<File>Art/Icons/Zelda256.dds</File>
 				<File>Art/Icons/Zelda80.dds</File>
@@ -107,6 +116,7 @@
 		<Icons id="HYLIAN_ICONS">
             <Items>
                 <File>Data/Icons/Hylian_Icons_Improvements.xml</File>
+                <File>Data/Icons/Hylian_Icons_Buildings.xml</File>
 				<File>Data/Icons/Hylian_Icons_Civilizations.xml</File>
 				<File>Data/Icons/Hylian_Icons_Leaders.xml</File>
 				<File>Data/Icons/Hylian_Icons_UnitFlags.xml</File>
@@ -129,7 +139,7 @@
 	</Settings>
 	<LocalizedText>
 		<Text id="LOC_MOD_TITLE">
-			<en_US>The Kingdom of Hyrule 0.1.1.0</en_US>
+			<en_US>The Kingdom of Hyrule 0.2.0.0</en_US>
 		</Text>
 		<Text id="LOC_MOD_TEASER">
 			<en_US>Play as Princess Zelda and take command of the Kingdom of Hyrule</en_US>
@@ -144,7 +154,7 @@
 		    slicelonger for unknowingly teaching me how to get started, Gedemon for basically every Civ6 modding resource under the sun
 		</Text>
 	</LocalizedText>
-	<Files>			
+	<Files>
 		<File>Hylian.dep</File>
 		<File>Data/Hylian_Config.xml</File>
 		<File>Data/Hylian_ConfigText.xml</File>
@@ -153,6 +163,7 @@
 		<File>Data/Hylian_GameplayText.xml</File>
 		<File>Data/Hylian_Gossip.xml</File>
 		<File>Data/Hylian_Improvements.xml</File>
+		<File>Data/Hylian_Buildings.xml</File>
 		<File>Data/Hylian_Leaders.xml</File>
 		<File>Data/Hylian_PlayerColours.xml</File>
 		<File>Data/Hylian_Text.xml</File>
@@ -167,11 +178,12 @@
 
 		<File>Data/Icons/Hylian_Icons_Leaders.xml</File>
 		<File>Data/Icons/Hylian_Icons_Improvements.xml</File>
+		<File>Data/Icons/Hylian_Icons_Buildings.xml</File>
 		<File>Data/Icons/Hylian_Icons_Civilizations.xml</File>
 		<File>Data/Icons/Hylian_Icons_Units.xml</File>
 		<File>Data/Icons/Hylian_Icons_UnitFlags.xml</File>
 		<File>Data/Icons/Hylian_Icons_UnitPortraits.xml</File>
-		
+
 		<File>Art/Icons/Hylian_Atlas256.dds</File>
 		<File>Art/Icons/Hylian_Atlas80.dds</File>
 		<File>Art/Icons/Hylian_Atlas64.dds</File>
@@ -194,6 +206,12 @@
 		<File>Art/Icons/Fairy_Fountain80.dds</File>
 		<File>Art/Icons/Fairy_Fountain128.dds</File>
 		<File>Art/Icons/Fairy_Fountain256.dds</File>
+		<File>Art/Icons/Temple_Of_Time32.dds</File>
+		<File>Art/Icons/Temple_Of_Time38.dds</File>
+		<File>Art/Icons/Temple_Of_Time50.dds</File>
+		<File>Art/Icons/Temple_Of_Time80.dds</File>
+		<File>Art/Icons/Temple_Of_Time128.dds</File>
+		<File>Art/Icons/Temple_Of_Time256.dds</File>
 		<File>Art/Icons/Zelda256.dds</File>
 		<File>Art/Icons/Zelda80.dds</File>
 		<File>Art/Icons/Zelda64.dds</File>

@@ -17,7 +17,7 @@
         <Row BuildingType="BUILDING_TEMPLE_OF_TIME"
              Name="LOC_BUILDING_TEMPLE_OF_TIME_NAME"
              Description="LOC_BUILDING_TEMPLE_OF_TIME_DESCRIPTION"
-             PrereqCivic="CIVIC_ASTROLOGY"
+             PrereqCivic="CIVIC_THEOLOGY"
              PrereqDistrict="DISTRICT_HOLY_SITE"
              PurchaseYield="YIELD_GOLD"
              Cost="105" Maintenance="3"
@@ -34,12 +34,13 @@
         <Row BuildingType="BUILDING_TEMPLE_OF_TIME" YieldType="YIELD_FAITH" YieldChange="4"/>
     </Building_YieldChanges>
 
-    <Building_GreatPersonPoints>
-        <Row BuildingType="BUILDING_TEMPLE_OF_TIME" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" YieldChange="1"/>
+    <Building_GreatPersonPoints>gRep
+        <Row BuildingType="BUILDING_TEMPLE_OF_TIME" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
+        <Row BuildingType="BUILDING_TEMPLE_OF_TIME" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="1"/>
     </Building_GreatPersonPoints>
 
     <Building_GreatWorks>
-        <Row BuildingType="BUILDING_TEMPLE_OF_TIME" GreatWorkSlotsType="GREATWORKSLOT_RELIC" NumSlots="1" />
-        <Row BuildingType="BUILDING_TEMPLE_OF_TIME" GreatWorkSlotsType="GREATWORKSLOT_MUSIC" NumSlots="2" />
+        <Row BuildingType="BUILDING_TEMPLE_OF_TIME" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="1" />
+        <Row BuildingType="BUILDING_TEMPLE_OF_TIME" GreatWorkSlotType="GREATWORKSLOT_MUSIC" NumSlots="2" />
     </Building_GreatWorks>
 </GameInfo>

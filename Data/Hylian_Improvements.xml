@@ -18,12 +18,16 @@
     </TypeTags>
 
     <Improvements>
-        <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" Name="LOC_IMPROVEMENT_FAIRY_FOUNTAIN_NAME" Description="LOC_IMPROVEMENT_FAIRY_FOUNTAIN_DESCRIPTION" Icon="ICON_IMPROVEMENT_FAIRY_FOUNTAIN" PlunderType="PLUNDER_CULTURE" PlunderAmount="25" Buildable="true" Housing="0" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_FAIRY_FOUNTAIN"/>
+        <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN"
+             Name="LOC_IMPROVEMENT_FAIRY_FOUNTAIN_NAME"
+             Description="LOC_IMPROVEMENT_FAIRY_FOUNTAIN_DESCRIPTION"
+             Icon="ICON_IMPROVEMENT_FAIRY_FOUNTAIN"
+             PlunderType="PLUNDER_CULTURE"
+             PlunderAmount="25"
+             Buildable="true"
+             Housing="0"
+             TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_FAIRY_FOUNTAIN"/>
     </Improvements>
-
-    <Improvement_Adjacencies>
-        <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" YieldChangeId="FAIRY_FOUNTAIN_CULTURE_WOODS"/>
-    </Improvement_Adjacencies>
 
     <Improvement_ValidFeatures>
         <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" FeatureType="FEATURE_FOREST"/>
@@ -47,15 +51,19 @@
     </Improvement_ValidTerrains>
 
     <Improvement_ValidBuildUnits>
-        <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" UnitType="UNIT_BUILDER"/>
+        <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" UnitType="UNIT_HERO_OF_TIME"/>
     </Improvement_ValidBuildUnits>
 
     <Improvement_YieldChanges>
         <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" YieldType="YIELD_CULTURE" YieldChange="1"/>
     </Improvement_YieldChanges>
 
+    <Improvement_Adjacencies>
+        <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" YieldChangeId="FAIRY_FOUNTAIN_CULTURE_WOODS"/>
+    </Improvement_Adjacencies>
+
     <Adjacency_YieldChanges>
-        <Row ID="FAIRY_FOUNTAIN_CULTURE_WOODS" Description="Improve culture yield by 1 when built on or adjacent to woods" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentFeature="FEATURE_FOREST"/>
+        <Row ID="FAIRY_FOUNTAIN_CULTURE_WOODS" Description="Additional +1 Culture when built on or adjacent to woods." YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="0" AdjacentFeature="FEATURE_FOREST"/>
     </Adjacency_YieldChanges>
 
     <UnitAbilities>
@@ -66,28 +74,42 @@
         <Row UnitAbilityType="ABILITY_IMPROVEMENT_FAIRY_FOUNTAIN_HEAL" ModifierId="FAIRY_FOUNTAIN_BONUS_HEAL"/>
     </UnitAbilityModifiers>
 
+    <ImprovementModifiers>
+        <Row ImprovementType="IMPROVEMENT_FAIRY_FOUNTAIN" ModifierId="FAIRY_FOUNTAIN_FOREST_BONUS_YIELD"/>
+    </ImprovementModifiers>
+
     <Modifiers>
-        <Row ModifierId="FAIRY_FOUNTAIN_BONUS_HEAL" ModifierType="MODIFIER_PLAYER_UNIT_ADJUST_HEAL_PER_TURN" RunOnce="0" Permanent="1" SubjectRequirementSetId="IMPROVEMENT_IS_FAIRY_FOUNTAIN" />
+        <Row ModifierId="FAIRY_FOUNTAIN_BONUS_HEAL" ModifierType="MODIFIER_PLAYER_UNIT_ADJUST_HEAL_PER_TURN"  SubjectRequirementSetId="IMPROVEMENT_IS_FAIRY_FOUNTAIN" />
+        <Row ModifierId="FAIRY_FOUNTAIN_FOREST_BONUS_YIELD" ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD" RunOnce="true" SubjectRequirementSetId="IMPROVEMENT_IS_FAIRY_FOUNTAIN_ON_FOREST" />
     </Modifiers>
 
     <ModifierArguments>
         <Row ModifierId="FAIRY_FOUNTAIN_BONUS_HEAL" Name="Type" Value="ALL" />
         <Row ModifierId="FAIRY_FOUNTAIN_BONUS_HEAL" Name="Amount" Value="200" />
+
+        <Row ModifierId="FAIRY_FOUNTAIN_FOREST_BONUS_YIELD" Name="YieldType" Value="YIELD_CULTURE" />
+        <Row ModifierId="FAIRY_FOUNTAIN_FOREST_BONUS_YIELD" Name="Amount" Value="1" />
     </ModifierArguments>
 
     <RequirementSets>
         <Row RequirementSetId="IMPROVEMENT_IS_FAIRY_FOUNTAIN" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+        <Row RequirementSetId="IMPROVEMENT_IS_FAIRY_FOUNTAIN_ON_FOREST" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
     </RequirementSets>
 
     <RequirementSetRequirements>
-        <Row RequirementSetId ="IMPROVEMENT_IS_FAIRY_FOUNTAIN" RequirementId="REQUIRES_PLOT_HAS_FAIRY_FOUNTAIN"/>
+        <Row RequirementSetId="IMPROVEMENT_IS_FAIRY_FOUNTAIN" RequirementId="REQUIRES_PLOT_HAS_FAIRY_FOUNTAIN"/>
+
+        <Row RequirementSetId="IMPROVEMENT_IS_FAIRY_FOUNTAIN_ON_FOREST" RequirementId="REQUIRES_PLOT_HAS_FAIRY_FOUNTAIN"/>
+        <Row RequirementSetId="IMPROVEMENT_IS_FAIRY_FOUNTAIN_ON_FOREST" RequirementId="REQUIRES_PLOT_HAS_FOREST"/>
     </RequirementSetRequirements>
 
     <Requirements>
         <Row RequirementId="REQUIRES_PLOT_HAS_FAIRY_FOUNTAIN" RequirementType="REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES"/>
+        <Row RequirementId="REQUIRES_PLOT_HAS_FOREST" RequirementType="REQUIREMENT_PLOT_FEATURE_TYPE_MATCHES"/>
     </Requirements>
 
     <RequirementArguments>
         <Row RequirementId="REQUIRES_PLOT_HAS_FAIRY_FOUNTAIN" Name="ImprovementType" Value="IMPROVEMENT_FAIRY_FOUNTAIN"/>
+        <Row RequirementId="REQUIRES_PLOT_HAS_FOREST" Name="FeatureType" Value="FEATURE_FOREST"/>
     </RequirementArguments>
 </GameInfo>
