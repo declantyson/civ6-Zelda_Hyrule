@@ -31,7 +31,7 @@ Adds the Kingdom of Hyrule, led by Princess Zelda, to Civilization VI. Hyrule is
 13. ~~Gypsum requires Quarry, not Mine~~ 
 14. ~~Temple of Time UB containing Great Work slots~~
 15. ~~Fairy Fountain additional +1 Culture when built on woods~~
-16. Temple of Time icons
+16. ~~Temple of Time icons~~ 
 17. ~~Only Hero of Time can build fairy Fountains~~
 
 ## Mid-term
