@@ -17,6 +17,10 @@
 		<Row CivilizationType="CIVILIZATION_HYLIAN" TraitType="TRAIT_CIVILIZATION_UNIT_HERO_OF_TIME"/>
 	</CivilizationTraits>
 
+	<Unit_BuildingPrereqs>
+		<Row Unit="UNIT_APOSTLE" PrereqBuilding="BUILDING_TEMPLE_OF_TIME" NumSupported="-1"/>
+	</Unit_BuildingPrereqs>
+
 	<Units>
 		<Row UnitType="UNIT_HERO_OF_TIME"
 			 BaseMoves="3"
