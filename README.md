@@ -37,6 +37,7 @@ Adds the Kingdom of Hyrule, led by Princess Zelda, to Civilization VI. Hyrule is
 17. ~~Only Hero of Time can build fairy Fountains~~
 18. Fix ToT artdef that causes Holy Site bug after load/save
 19. Add icons to leader selection screen
+20. Hero of Time doesn't heal
 
 ### Mid-term
 
