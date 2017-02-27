@@ -55,5 +55,11 @@
           <Element text="Improvements.artdef"/>
         </ArtDefDependencyPaths>
       </Element>
+      <Element>
+        <ConsumerName text="Buildings"/>
+        <ArtDefDependencyPaths>
+          <Element text="Buildings.artdef"/>
+        </ArtDefDependencyPaths>
+      </Element>
     </SystemDependencies>
 </AssetObjects::GameDependencyData>
