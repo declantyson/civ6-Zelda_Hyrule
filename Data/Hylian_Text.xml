@@ -63,5 +63,13 @@
       <Text>O, wise Princess Zelda, throughout the ages you have defied evil and bore the burdens of your ancestors without complaint or struggle. Your wisdom has been passed down to you by the Gods, and those same Gods have entrusted you with your nation's fate. Will you accept, Princess Zelda? Will you allow Hyrule to become a civilization that stands the test of time?</Text>
     </Row>
 
+    <!-- Promotion tree -->
+    <Row Tag="LOC_PROMOTION_HERO_OF_TIME_HOVER_BOOTS_NAME" Language="en_US">
+        <Text>Hover Boots</Text>
+    </Row>
+      <Row Tag="LOC_PROMOTION_HERO_OF_TIME_HOVER_BOOTS_NAME" Language="en_US">
+        <Text>Unit suffers no movement penalty when crossing rivers.</Text>
+    </Row>
+
   </LocalizedText>
 </GameData>

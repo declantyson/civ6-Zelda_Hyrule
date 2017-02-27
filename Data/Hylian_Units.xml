@@ -34,7 +34,7 @@
 			 Description="LOC_UNIT_HERO_OF_TIME_DESCRIPTION"
 			 PurchaseYield="YIELD_FAITH"
 			 MustPurchase="true"
-			 PromotionClass="PROMOTION_CLASS_MELEE"
+			 PromotionClass="PROMOTION_CLASS_HERO_OF_TIME"
 			 Maintenance="8"
 			 Combat="55"
 			 BuildCharges="3"
@@ -55,5 +55,30 @@
 		<Row UnitType="UNIT_HERO_OF_TIME" AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_HERO_OF_TIME" AiType="UNITTYPE_LAND_COMBAT"/>
 	</UnitAiInfos>
+
+	<UnitPromotionClasses>
+		<Row PromotionClassType="PROMOTION_CLASS_HERO_OF_TIME" Name="LOC_PROMOTION_CLASS_HERO_OF_TIME_NAME"/>
+	</UnitPromotionClasses>
+
+	<UnitPromotions>
+		<!--Naval Recon-->
+		<Row UnitPromotionType="PROMOTION_HERO_OF_TIME_HOVER_BOOTS" Name="LOC_PROMOTION_HERO_OF_TIME_HOVER_BOOTS_NAME" Description="LOC_PROMOTION_HERO_OF_TIME_HOVER_BOOTS_DESCRIPTION" Level="1" Column="1" Specialization="" PromotionClass="PROMOTION_CLASS_HERO_OF_TIME"/>
+	</UnitPromotions>
+
+	<UnitPromotionPrereqs>
+
+	</UnitPromotionPrereqs>
+
+	<UnitPromotionModifiers>
+		<Row UnitPromotionType="PROMOTION_HERO_OF_TIME_HOVER_BOOTS" ModifierId="PROMOTION_HERO_OF_TIME_HOVER_BOOTS_BONUS"/>
+	</UnitPromotionModifiers>
+
+	<Modifiers>
+		<Row ModifierId="PROMOTION_HERO_OF_TIME_HOVER_BOOTS_BONUS" ModifierType="MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_RIVERS"/>
+	</Modifiers>
+
+	<ModifierArguments>
+
+	</ModifierArguments>
 
 </GameInfo>
