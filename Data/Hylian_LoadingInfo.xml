@@ -2,7 +2,7 @@
 <GameInfo>
   <LoadingInfo>
 		<!-- BackgroundImage = top left / ForegroundImage = right -->
-		<Row LeaderType="LEADER_ZELDA" ForegroundImage="dom_blank.dds" BackgroundImage="Zelda_Loading_Background.dds" EraText="LOC_ZELDA_DOM_TEXT" PlayDawnOfManAudio="0"/>
+		<Row LeaderType="LEADER_ZELDA" ForegroundImage="Zelda_Foreground.dds" BackgroundImage="Zelda_Loading_Background.dds" EraText="LOC_ZELDA_DOM_TEXT" PlayDawnOfManAudio="0"/>
 	</LoadingInfo>
 </GameInfo>
 
