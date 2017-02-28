@@ -18,32 +18,13 @@ Adds the Kingdom of Hyrule, led by Princess Zelda, to Civilization VI. Hyrule is
 
 ### Short-term
 
-1. ~~DOM text too long~~
-2. ~~Fairy Fountain healing not working~~
-3. ~~Diplomatic flavour text~~
-4. ~~Lol Link's kinda OP~~
-5. ~~Fairy Fountain DDS re-export~~
-6. ~~Goddess's Harp not working~~
-7. ~~Replace Swordsman with Link~~
-8. ~~Add Iron requirements for Link~~
-9. ~~Diplo flavour text not working~~
-10. ~~Add Link every time a new era starts~~
-11. ~~Artdefs for Fairy Fountains~~
-12. ~~Diplo screen not working~~
-13. ~~Gypsum requires Quarry, not Mine~~ 
-14. ~~Temple of Time UB containing Great Work slots~~
-15. ~~Fairy Fountain additional +1 Culture when built on woods~~
-16. ~~Temple of Time icons~~ 
-17. ~~Only Hero of Time can build fairy Fountains~~
-18. Fix ToT artdef that causes Holy Site bug after load/save
-19. Add icons to leader selection screen
-20. Hero of Time doesn't heal
-
-### Mid-term
-
-1. Custom agenda
-2. Hero of Time Promotion Tree
-3. Bug report: other leaders disappear when animations off
+1. Bug report: Fix ToT artdef that causes Holy Site bug after load/save
+2. Add icons to leader selection screen
+3. Bug report: Hero of Time doesn't heal
+4. Custom agenda
+5. Hero of Time Promotion Tree
+6. Bug report: other leaders disappear when animations off
+7. Bug report: Game crashes when declaring surprise war against Zelda
  
 ### Long-term
 
