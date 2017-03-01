@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::XLP>
+    <m_Version>
+        <major>4</major>
+        <minor>0</minor>
+        <build>253</build>
+        <revision>293</revision>
+    </m_Version>
+    <m_ClassName text="UITexture"/>
+    <m_PackageName text="Leader_Zelda"/>
+    <m_Entries>
+        <Element>
+            <m_EntryID text="ART_LEADER_ZELDA"/>
+            <m_ObjectName text="ART_LEADER_ZELDA"/>
+        </Element>
+    </m_Entries>
+    <m_AllowedPlatforms>
+        <Element>WINDOWS</Element>
+        <Element>LINUX</Element>
+        <Element>MACOS</Element>
+    </m_AllowedPlatforms>
+</AssetObjects::XLP>
+

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::XLP>
+    <m_Version>
+        <major>4</major>
+        <minor>0</minor>
+        <build>253</build>
+        <revision>293</revision>
+    </m_Version>
+    <m_ClassName text="UITexture"/>
+    <m_PackageName text="Icons"/>
+    <m_Entries>
+        <Element>
+            <m_EntryID text="Zelda256"/>
+            <m_ObjectName text="Zelda256"/>
+        </Element>
+        <Element>
+            <m_EntryID text="Zelda80"/>
+            <m_ObjectName text="Zelda80"/>
+        </Element>
+        <Element>
+            <m_EntryID text="Zelda64"/>
+            <m_ObjectName text="Zelda64"/>
+        </Element>
+        <Element>
+            <m_EntryID text="Zelda55"/>
+            <m_ObjectName text="Zelda55"/>
+        </Element>
+        <Element>
+            <m_EntryID text="Zelda50"/>
+            <m_ObjectName text="Zelda50"/>
+        </Element>
+        <Element>
+            <m_EntryID text="Zelda45"/>
+            <m_ObjectName text="Zelda45"/>
+        </Element>
+        <Element>
+            <m_EntryID text="Zelda32"/>
+            <m_ObjectName text="Zelda32"/>
+        </Element>
+        <Element>
+            <m_EntryID text="Hylian_Atlas256"/>
+            <m_ObjectName text="Hylian_Atlas256"/>
+        </Element>
+        <Element>
+            <m_EntryID text="Hylian_Atlas80"/>
+            <m_ObjectName text="Hylian_Atlas80"/>
+        </Element>
+        <Element>
+            <m_EntryID text="Hylian_Atlas64"/>
+            <m_ObjectName text="Hylian_Atlas64"/>
+        </Element>
+        <Element>
+            <m_EntryID text="Hylian_Atlas50"/>
+            <m_ObjectName text="Hylian_Atlas50"/>
+        </Element>
+        <Element>
+            <m_EntryID text="Hylian_Atlas48"/>
+            <m_ObjectName text="Hylian_Atlas48"/>
+        </Element>
+        <Element>
+            <m_EntryID text="Hylian_Atlas45"/>
+            <m_ObjectName text="Hylian_Atlas45"/>
+        </Element>
+        <Element>
+            <m_EntryID text="Hylian_Atlas44"/>
+            <m_ObjectName text="Hylian_Atlas44"/>
+        </Element>
+        <Element>
+            <m_EntryID text="Hylian_Atlas36"/>
+            <m_ObjectName text="Hylian_Atlas36"/>
+        </Element>
+        <Element>
+            <m_EntryID text="Hylian_Atlas30"/>
+            <m_ObjectName text="Hylian_Atlas30"/>
+        </Element>
+        <Element>
+            <m_EntryID text="Hylian_Atlas22"/>
+            <m_ObjectName text="Hylian_Atlas22"/>
+        </Element>
+        <Element>
+            <m_EntryID text="Link256"/>
+            <m_ObjectName text="Link256"/>
+        </Element>
+        <Element>
+            <m_EntryID text="Link80"/>
+            <m_ObjectName text="Link80"/>
+        </Element>
+        <Element>
+            <m_EntryID text="Link50"/>
+            <m_ObjectName text="Link50"/>
+        </Element>
+        <Element>
+            <m_EntryID text="Link38"/>
+            <m_ObjectName text="Link38"/>
+        </Element>
+        <Element>
+            <m_EntryID text="Link32"/>
+            <m_ObjectName text="Link32"/>
+        </Element>
+        <Element>
+            <m_EntryID text="HeroOfTime256"/>
+            <m_ObjectName text="HeroOfTime256"/>
+        </Element>
+        <Element>
+            <m_EntryID text="HeroOfTime80"/>
+            <m_ObjectName text="HeroOfTime80"/>
+        </Element>
+        <Element>
+            <m_EntryID text="HeroOfTime50"/>
+            <m_ObjectName text="HeroOfTime50"/>
+        </Element>
+        <Element>
+            <m_EntryID text="HeroOfTime32"/>
+            <m_ObjectName text="HeroOfTime32"/>
+        </Element>
+        <Element>
+            <m_EntryID text="HeroOfTime22"/>
+            <m_ObjectName text="HeroOfTime22"/>
+        </Element>
+        <Element>
+            <m_EntryID text="Fairy_Fountain256"/>
+            <m_ObjectName text="Fairy_Fountain256"/>
+        </Element>
+        <Element>
+            <m_EntryID text="Fairy_Fountain128"/>
+            <m_ObjectName text="Fairy_Fountain128"/>
+        </Element>
+        <Element>
+            <m_EntryID text="Fairy_Fountain80"/>
+            <m_ObjectName text="Fairy_Fountain80"/>
+        </Element>
+        <Element>
+            <m_EntryID text="Fairy_Fountain50"/>
+            <m_ObjectName text="Fairy_Fountain50"/>
+        </Element>
+        <Element>
+            <m_EntryID text="Fairy_Fountain38"/>
+            <m_ObjectName text="Fairy_Fountain38"/>
+        </Element>
+        <Element>
+            <m_EntryID text="Fairy_Fountain32"/>
+            <m_ObjectName text="Fairy_Fountain32"/>
+        </Element>
+        <Element>
+            <m_EntryID text="Temple_Of_Time256"/>
+            <m_ObjectName text="Temple_Of_Time256"/>
+        </Element>
+        <Element>
+            <m_EntryID text="Temple_Of_Time128"/>
+            <m_ObjectName text="Temple_Of_Time128"/>
+        </Element>
+        <Element>
+            <m_EntryID text="Temple_Of_Time80"/>
+            <m_ObjectName text="Temple_Of_Time80"/>
+        </Element>
+        <Element>
+            <m_EntryID text="Temple_Of_Time50"/>
+            <m_ObjectName text="Temple_Of_Time50"/>
+        </Element>
+        <Element>
+            <m_EntryID text="Temple_Of_Time38"/>
+            <m_ObjectName text="Temple_Of_Time38"/>
+        </Element>
+        <Element>
+            <m_EntryID text="Temple_Of_Time32"/>
+            <m_ObjectName text="Temple_Of_Time32"/>
+        </Element>
+    </m_Entries>
+    <m_AllowedPlatforms>
+        <Element>WINDOWS</Element>
+        <Element>LINUX</Element>
+        <Element>MACOS</Element>
+        <Element>IOS</Element>
+    </m_AllowedPlatforms>
+</AssetObjects::XLP>

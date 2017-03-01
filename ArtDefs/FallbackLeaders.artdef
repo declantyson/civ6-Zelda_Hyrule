@@ -3,13 +3,14 @@
 	<m_Version>
 		<major>4</major>
 		<minor>0</minor>
-		<build>239</build>
-		<revision>409</revision>
+		<build>253</build>
+		<revision>293</revision>
 	</m_Version>
 	<m_TemplateName text="LeaderFallback"/>
 	<m_RootCollections>
 		<Element>
 			<m_CollectionName text="Leaders"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 			<Element>
 				<m_Fields>
 					<m_Values/>
@@ -17,27 +18,17 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Animations"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
-                  <!-- Disable fallback image. -->
-                  <Element class="AssetObjects::BLPEntryValue">
-                    <m_EntryName text=""/>
-                    <m_XLPClass text="Leader"/>
-                    <m_XLPPath text=""/>
-                    <m_BLPPackage text=""/>
-                    <m_LibraryName text="Leader"/>
-                    <m_ParamName text="Leader_BLP_Entry"/>
-                  </Element>
-                  <!--
 									<Element class="AssetObjects::BLPEntryValue">
-										<m_EntryName text="FALLBACK_NEUTRAL_QIN"/>
+										<m_EntryName text="FALLBACK_NEUTRAL_ZELDA"/>
 										<m_XLPClass text="LeaderFallback"/>
-										<m_XLPPath text="LeaderFallbackImages.xlp"/>
-										<m_BLPPackage text="LeaderFallbackImages"/>
+										<m_XLPPath text="LeaderFallbacks.xlp"/>
+										<m_BLPPackage text="LeaderFallbacks"/>
 										<m_LibraryName text="LeaderFallback"/>
 										<m_ParamName text="BLP Entry"/>
-                    -->
 									</Element>
 								</m_Values>
 							</m_Fields>
@@ -53,4 +44,3 @@
 		</Element>
 	</m_RootCollections>
 </AssetObjects::ArtDefSet>
-

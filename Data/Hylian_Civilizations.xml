@@ -5,16 +5,6 @@
 		<Row Type="TRAIT_CIVILIZATION_SACRED_STONES" Kind="KIND_TRAIT" />
 		<Row Type="TRAIT_CIVILIZATION_IMPROVEMENT_FAIRY_FOUNTAIN" Kind="KIND_TRAIT" />
 	</Types>
-	<Players>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" 
-			 LeaderType="LEADER_ZELDA" 
-			 CivilizationName="LOC_CIVILIZATION_HYLIAN_NAME" 
-			 CivilizationIcon="ICON_CIVILIZATION_HYLIAN" 
-			 LeaderName="LOC_LEADER_ZELDA_NAME" 
-			 LeaderIcon="ICON_LEADER_ZELDA"
-			 LeaderAbilityIcon="ICON_LEADER_ZELDA" 
-			 PortraitBackground="LEADER_ZELDA_BACKGROUND"/>
-	</Players>
 	<Civilizations>
 		<Row CivilizationType="CIVILIZATION_HYLIAN" Name="LOC_CIVILIZATION_HYLIAN_NAME" Description="LOC_CIVILIZATION_HYLIAN_DESCRIPTION" Adjective="LOC_CIVILIZATION_HYLIAN_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="3" Ethnicity="ETHNICITY_EURO"/>
 	</Civilizations>

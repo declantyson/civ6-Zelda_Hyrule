@@ -1,7 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <GameInfo>
 	<Players>
-		<Row Domain="StandardPlayers" CivilizationType="CIVILIZATION_HYLIAN" LeaderType="LEADER_ZELDA" CivilizationName="LOC_CIVILIZATION_HYLIAN_NAME" CivilizationIcon="ICON_CIVILIZATION_HYLIAN" LeaderName="LOC_LEADER_ZELDA_NAME" LeaderIcon="ICON_LEADER_ZELDA" CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_SACRED_STONES_NAME" CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_SACRED_STONES_DESCRIPTION" CivilizationAbilityIcon="ICON_CIVILIZATION_HYLIAN" LeaderAbilityName="LOC_TRAIT_LEADER_GODDESS_HARP_NAME" LeaderAbilityDescription="LOC_TRAIT_LEADER_GODDESS_HARP_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_ZELDA"/>
+		<Row Domain="StandardPlayers"
+			 CivilizationType="CIVILIZATION_HYLIAN"
+			 LeaderType="LEADER_ZELDA"
+			 CivilizationName="LOC_CIVILIZATION_HYLIAN_NAME"
+			 CivilizationIcon="ICON_CIVILIZATION_HYLIAN"
+			 LeaderName="LOC_LEADER_ZELDA_NAME"
+			 LeaderIcon="ICON_LEADER_ZELDA"
+			 CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_SACRED_STONES_NAME"
+			 CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_SACRED_STONES_DESCRIPTION"
+			 CivilizationAbilityIcon="ICON_CIVILIZATION_HYLIAN"
+			 LeaderAbilityName="LOC_TRAIT_LEADER_GODDESS_HARP_NAME"
+			 LeaderAbilityDescription="LOC_TRAIT_LEADER_GODDESS_HARP_DESCRIPTION"
+			 LeaderAbilityIcon="ICON_LEADER_ZELDA"
+			 PortraitBackground="LEADER_ZELDA_BACKGROUND"/>
 	</Players>
 	<PlayerItems>
 		<Row CivilizationType="CIVILIZATION_HYLIAN" LeaderType="LEADER_ZELDA" Type="IMPROVEMENT_FAIRY_FOUNTAIN" Icon="ICON_IMPROVEMENT_FAIRY_FOUNTAIN" Name="LOC_IMPROVEMENT_FAIRY_FOUNTAIN_NAME" Description="LOC_IMPROVEMENT_FAIRY_FOUNTAIN_DESCRIPTION" SortIndex="20" />
